@@ -1,0 +1,2720 @@
+{
+ "updated": "2026-10-28",
+ "countries": {
+  "US": "United States · FDA",
+  "SG": "Singapore · HSA",
+  "AU": "Australia · TGA"
+ },
+ "notes": {
+  "AU": "TGA's website blocks automated collection. Australian rows will be added once a permitted data route is set up."
+ },
+ "drugs": [
+  {
+   "id": "adrabetadex",
+   "inn": "adrabetadex",
+   "brands": [],
+   "sponsors": [
+    "Beren Therapeutics"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Under review",
+     "submitted": null,
+     "decision": null,
+     "expected": "2026-11-17",
+     "type": "NDA · PDUFA target date",
+     "indication": null,
+     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/november",
+     "sourceName": "Third-party PDUFA calendar (Assyro)",
+     "confidence": "thirdparty",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "aficamten",
+   "inn": "aficamten",
+   "brands": [],
+   "sponsors": [
+    "Cytokinetics"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Under review",
+     "submitted": null,
+     "decision": null,
+     "expected": "2026-11-14",
+     "type": "NDA · PDUFA target date",
+     "indication": "Obstructive hypertrophic cardiomyopathy",
+     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/november",
+     "sourceName": "Third-party PDUFA calendar (Assyro)",
+     "confidence": "thirdparty",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "aflibercept",
+   "inn": "aflibercept",
+   "brands": [
+    "EYDENZELT",
+    "YESAFILI"
+   ],
+   "sponsors": [
+    "Celltrion Healthcare Singapore",
+    "Cedar Pharmaceuticals"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09-29",
+     "expected": null,
+     "type": "New drug application (NDA-2) · biosimilar",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    },
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08-17",
+     "expected": null,
+     "type": "New drug application (NDA-2) · biosimilar",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "anifrolumab",
+   "inn": "anifrolumab",
+   "brands": [
+    "SAPHNELO"
+   ],
+   "sponsors": [
+    "AstraZeneca Singapore"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09-02",
+     "expected": null,
+     "type": "New drug application, first strength (NDA-1)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "anitocabtagene-autoleucel",
+   "inn": "anitocabtagene autoleucel",
+   "brands": [],
+   "sponsors": [
+    "Arcellx / Gilead"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Under review",
+     "submitted": null,
+     "decision": null,
+     "expected": "2026-12-23",
+     "type": "BLA · PDUFA target date",
+     "indication": null,
+     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/december",
+     "sourceName": "Third-party PDUFA calendar (Assyro)",
+     "confidence": "thirdparty",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "apitegromab",
+   "inn": "apitegromab",
+   "brands": [
+    "Isembyld"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09-11",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Spinal muscular atrophy (age 2+) on SMN2-targeted treatment",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "atacicept",
+   "inn": "atacicept",
+   "brands": [
+    "Trutakna"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-07-07",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Proteinuria in primary IgA nephropathy at risk of progression",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "aztreonam-and-avibactam",
+   "inn": "aztreonam and avibactam",
+   "brands": [
+    "EMBLAVEO"
+   ],
+   "sponsors": [
+    "Pfizer Private"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-01-15",
+     "expected": null,
+     "type": "New drug application (NDA-2) · ASEAN Joint Review",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "baxdrostat",
+   "inn": "baxdrostat",
+   "brands": [
+    "Baxfendy"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-05-15",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Hypertension, with other antihypertensives",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "bbp-418",
+   "inn": "bbp-418",
+   "brands": [],
+   "sponsors": [
+    "BridgeBio Pharma"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Under review",
+     "submitted": null,
+     "decision": null,
+     "expected": "2026-11-27",
+     "type": "NDA · PDUFA target date",
+     "indication": "Limb-girdle muscular dystrophy",
+     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/november",
+     "sourceName": "Third-party PDUFA calendar (Assyro)",
+     "confidence": "thirdparty",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "belantamab-mafodotin",
+   "inn": "belantamab mafodotin",
+   "brands": [
+    "BLENREP"
+   ],
+   "sponsors": [
+    "GlaxoSmithKline"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-07-21",
+     "expected": null,
+     "type": "New drug application, first strength (NDA-1)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "benzydamine-/-lidocaine-/-dichlorobenzyl-alcohol",
+   "inn": "benzydamine / lidocaine / dichlorobenzyl alcohol",
+   "brands": [
+    "DIFFLAM PLUS"
+   ],
+   "sponsors": [
+    "Inova Pharmaceuticals (Singapore)"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-03-23",
+     "expected": null,
+     "type": "New drug application (NDA-2)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "bepirovirsen",
+   "inn": "bepirovirsen",
+   "brands": [
+    "Hibsago"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-10-20",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Chronic hepatitis B virus infection in certain adults without cirrhosis, with existing antiviral therapy",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "bevacizumab",
+   "inn": "bevacizumab",
+   "brands": [
+    "Lytenava"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-07-24",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Neovascular (wet) age-related macular degeneration",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "bezuclastinib",
+   "inn": "bezuclastinib",
+   "brands": [],
+   "sponsors": [
+    "Cogent Biosciences"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Under review",
+     "submitted": null,
+     "decision": null,
+     "expected": "2026-11-30",
+     "type": "NDA · PDUFA target date · with sunitinib; a second bezuclastinib date of 30 Dec is also listed",
+     "indication": null,
+     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/november",
+     "sourceName": "Third-party PDUFA calendar (Assyro)",
+     "confidence": "thirdparty",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "brepocitinib",
+   "inn": "brepocitinib",
+   "brands": [
+    "Lisraya"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08-27",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Dermatomyositis in adults",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "bulevirtide",
+   "inn": "bulevirtide",
+   "brands": [
+    "Hepcludex"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-05-22",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Chronic hepatitis delta virus infection",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "camizestrant",
+   "inn": "camizestrant",
+   "brands": [
+    "Etcamah"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09-04",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "HR+/HER2- advanced breast cancer with ESR1 mutation during AI + CDK4/6i therapy",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "cefepime-and-zidebactam",
+   "inn": "cefepime and zidebactam",
+   "brands": [
+    "Zaynich"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-05-29",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Complicated urinary tract infections incl. pyelonephritis",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "centanafadine",
+   "inn": "centanafadine",
+   "brands": [
+    "Simtriyo"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-07-24",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Attention-deficit hyperactivity disorder",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "cipepofol",
+   "inn": "cipepofol",
+   "brands": [
+    "Cypsedo"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-05-29",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Induction of general anesthesia in adults",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "clesrovimab",
+   "inn": "clesrovimab",
+   "brands": [
+    "ENFLONSIA"
+   ],
+   "sponsors": [
+    "MSD Pharma (Singapore)"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-02-12",
+     "expected": null,
+     "type": "New drug application, first strength (NDA-1) · Access route",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "copper-histidinate",
+   "inn": "copper histidinate",
+   "brands": [
+    "Zycubo"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-01-12",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Menkes disease",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "d-plex100",
+   "inn": "d-plex100",
+   "brands": [],
+   "sponsors": [
+    "PolyPid"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Under review",
+     "submitted": null,
+     "decision": null,
+     "expected": "2026-11-28",
+     "type": "NDA · PDUFA target date",
+     "indication": "Prevention of surgical site infection",
+     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/november",
+     "sourceName": "Third-party PDUFA calendar (Assyro)",
+     "confidence": "thirdparty",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "dalteparin",
+   "inn": "dalteparin",
+   "brands": [
+    "FRAGMIN pre-filled syringe"
+   ],
+   "sponsors": [
+    "Pfizer Private"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-01-13",
+     "expected": null,
+     "type": "New drug application (NDA-2)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "daraxonrasib",
+   "inn": "daraxonrasib",
+   "brands": [
+    "Rasonque"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08-26",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Metastatic pancreatic cancer",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "denosumab",
+   "inn": "denosumab",
+   "brands": [
+    "FORTISSO / OSIFOR",
+    "EVFRAXY / VEVZUO",
+    "JUBBONTI / WYOST"
+   ],
+   "sponsors": [
+    "Lotus International",
+    "Cedar Pharmaceuticals",
+    "Sandoz Singapore"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-07-21",
+     "expected": null,
+     "type": "New drug application (NDA-2) · biosimilar",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    },
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-06-23",
+     "expected": null,
+     "type": "New drug application (NDA-2) · biosimilar",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    },
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-01-15",
+     "expected": null,
+     "type": "New drug application (NDA-2) · biosimilar",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "deramiocel",
+   "inn": "deramiocel",
+   "brands": [],
+   "sponsors": [
+    "Capricor Therapeutics"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Under review",
+     "submitted": null,
+     "decision": null,
+     "expected": "2026-11-22",
+     "type": "BLA · PDUFA target date",
+     "indication": "Duchenne muscular dystrophy",
+     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/november",
+     "sourceName": "Third-party PDUFA calendar (Assyro)",
+     "confidence": "thirdparty",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "dexmedetomidine-(igalmi)",
+   "inn": "dexmedetomidine (igalmi)",
+   "brands": [],
+   "sponsors": [
+    "BioXcel Therapeutics"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Under review",
+     "submitted": null,
+     "decision": null,
+     "expected": "2026-11-14",
+     "type": "NDA · PDUFA target date · new indication for an approved drug",
+     "indication": "Acute treatment of agitation",
+     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/november",
+     "sourceName": "Third-party PDUFA calendar (Assyro)",
+     "confidence": "thirdparty",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "diazepam",
+   "inn": "diazepam",
+   "brands": [
+    "VALTOCO"
+   ],
+   "sponsors": [
+    "Rxilient Medical"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-01-14",
+     "expected": null,
+     "type": "New drug application (NDA-2)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "difamilast",
+   "inn": "difamilast",
+   "brands": [
+    "Adquey"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-02-12",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Mild to moderate atopic dermatitis",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "doravirine-and-islatravir",
+   "inn": "doravirine and islatravir",
+   "brands": [
+    "Idvynso"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-04-20",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "HIV-1 switch regimen in virologically suppressed adults",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "enlicitide-decanoate",
+   "inn": "enlicitide decanoate",
+   "brands": [
+    "Lipfendra"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-07-15",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Reduction of LDL cholesterol",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "ensitrelvir",
+   "inn": "ensitrelvir",
+   "brands": [
+    "Xocova"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-05-29",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "COVID-19 post-exposure prophylaxis",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "floretyrosine-f-18",
+   "inn": "floretyrosine f 18",
+   "brands": [
+    "Pixclara"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09-11",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "PET imaging to differentiate recurrent glioma from treatment-related change",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "florquinitau-f-18",
+   "inn": "florquinitau f 18",
+   "brands": [
+    "Tauklarify"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08-13",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Tau PET imaging in adults evaluated for Alzheimer disease",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "flurbiprofen",
+   "inn": "flurbiprofen",
+   "brands": [
+    "STREPSILS MAX PRO"
+   ],
+   "sponsors": [
+    "Reckitt Benckiser (Singapore)"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-03-24",
+     "expected": null,
+     "type": "New drug application (NDA-2)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "gadoquatrane",
+   "inn": "gadoquatrane",
+   "brands": [
+    "Ambelvist",
+    "AMBELVIST"
+   ],
+   "sponsors": [
+    "Bayer (South East Asia)"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-06-12",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "MRI contrast for lesions with abnormal vascularity",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    },
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09-04",
+     "expected": null,
+     "type": "New drug application, first strength (NDA-1)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "garetosmab",
+   "inn": "garetosmab",
+   "brands": [
+    "Pasatru"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08-19",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Heterotopic ossification and flare-ups in fibrodysplasia ossificans progressiva",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "gedatolisib",
+   "inn": "gedatolisib",
+   "brands": [
+    "Revtorpyk"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-07-14",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "HR+/HER2- PIK3CA wild-type advanced breast cancer after endocrine therapy (with fulvestrant)",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "giredestrant",
+   "inn": "giredestrant",
+   "brands": [],
+   "sponsors": [
+    "Genentech (Roche)",
+    "Roche"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Under review",
+     "submitted": null,
+     "decision": null,
+     "expected": "2026-11-30",
+     "type": "NDA · PDUFA target date",
+     "indication": "Breast cancer, adjuvant setting",
+     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/november",
+     "sourceName": "Third-party PDUFA calendar (Assyro)",
+     "confidence": "thirdparty",
+     "checked": "2026-10-28"
+    },
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Under review",
+     "submitted": null,
+     "decision": null,
+     "expected": "2026-12-18",
+     "type": "NDA · PDUFA target date · with everolimus",
+     "indication": null,
+     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/december",
+     "sourceName": "Third-party PDUFA calendar (Assyro)",
+     "confidence": "thirdparty",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "human-normal-immunoglobulin",
+   "inn": "human normal immunoglobulin",
+   "brands": [
+    "PANZYGA"
+   ],
+   "sponsors": [
+    "Wellchem Pharmaceuticals"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-07-08",
+     "expected": null,
+     "type": "New drug application (NDA-2)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "iberdomide",
+   "inn": "iberdomide",
+   "brands": [
+    "Zenbexus"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08-13",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Multiple myeloma after at least one prior line (with daratumumab/hyaluronidase and dexamethasone)",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "icatibant",
+   "inn": "icatibant",
+   "brands": [
+    "FIRAZYR pre-filled syringe"
+   ],
+   "sponsors": [
+    "Takeda Pharmaceuticals (Asia Pacific)"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-04-15",
+     "expected": null,
+     "type": "New drug application, first strength (NDA-1)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "icotrokinra",
+   "inn": "icotrokinra",
+   "brands": [
+    "Icotyde"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-03-17",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Moderate-to-severe plaque psoriasis (age 12+, 40 kg+)",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "imlifidase",
+   "inn": "imlifidase",
+   "brands": [],
+   "sponsors": [
+    "Hansa Biopharma"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Under review",
+     "submitted": null,
+     "decision": null,
+     "expected": "2026-12-19",
+     "type": "BLA · PDUFA target date",
+     "indication": "Desensitization (details not stated)",
+     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/december",
+     "sourceName": "Third-party PDUFA calendar (Assyro)",
+     "confidence": "thirdparty",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "imsidolimab",
+   "inn": "imsidolimab",
+   "brands": [],
+   "sponsors": [
+    "Vanda / AnaptysBio"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Under review",
+     "submitted": null,
+     "decision": null,
+     "expected": "2026-12-12",
+     "type": "BLA · PDUFA target date",
+     "indication": null,
+     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/december",
+     "sourceName": "Third-party PDUFA calendar (Assyro)",
+     "confidence": "thirdparty",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "indocyanine-green",
+   "inn": "indocyanine green",
+   "brands": [
+    "VERDYE"
+   ],
+   "sponsors": [
+    "Transmedic"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-04-27",
+     "expected": null,
+     "type": "New drug application, first strength (NDA-1)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "influenza-vaccine",
+   "inn": "influenza vaccine",
+   "brands": [
+    "FLUARIX"
+   ],
+   "sponsors": [
+    "GlaxoSmithKline"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-02-13",
+     "expected": null,
+     "type": "New drug application (NDA-2)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "influenza-vaccine-(split-virion,-high-dose)",
+   "inn": "influenza vaccine (split virion, high dose)",
+   "brands": [
+    "FLUZONE HIGH-DOSE"
+   ],
+   "sponsors": [
+    "Sanofi-Aventis Singapore"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08-13",
+     "expected": null,
+     "type": "New drug application (NDA-2)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "insulin-efsitora-alfa",
+   "inn": "insulin efsitora alfa",
+   "brands": [
+    "Onswik"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09-23",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Glycemic control in adults with type 2 diabetes",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "insulin-icodec",
+   "inn": "insulin icodec",
+   "brands": [
+    "Awiqli",
+    "AWIQLI FlexTouch"
+   ],
+   "sponsors": [
+    "Novo Nordisk Pharma (Singapore)"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-03-26",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Glycemic control in adults with type 2 diabetes",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    },
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08-20",
+     "expected": null,
+     "type": "New drug application, first strength (NDA-1)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "ivonescimab",
+   "inn": "ivonescimab",
+   "brands": [],
+   "sponsors": [
+    "Summit Therapeutics"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Under review",
+     "submitted": null,
+     "decision": null,
+     "expected": "2026-11-14",
+     "type": "BLA · PDUFA target date · with chemotherapy",
+     "indication": null,
+     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/november",
+     "sourceName": "Third-party PDUFA calendar (Assyro)",
+     "confidence": "thirdparty",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "ivosidenib",
+   "inn": "ivosidenib",
+   "brands": [
+    "TIBSOVO"
+   ],
+   "sponsors": [
+    "Servier (S)"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-03-16",
+     "expected": null,
+     "type": "New drug application, first strength (NDA-1)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "lanadelumab",
+   "inn": "lanadelumab",
+   "brands": [
+    "TAKHZYRO pre-filled syringe"
+   ],
+   "sponsors": [
+    "Takeda Pharmaceuticals (Asia Pacific)"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-04-01",
+     "expected": null,
+     "type": "New drug application, first strength (NDA-1)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "leuprorelin",
+   "inn": "leuprorelin",
+   "brands": [
+    "CAMCEVI"
+   ],
+   "sponsors": [
+    "Gensci Singapore"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-07-08",
+     "expected": null,
+     "type": "New drug application (NDA-2)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "linerixibat",
+   "inn": "linerixibat",
+   "brands": [
+    "Lynavoy"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-03-17",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Cholestatic pruritus in primary biliary cholangitis",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "lirafugratinib",
+   "inn": "lirafugratinib",
+   "brands": [
+    "Lyrfigtu"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09-23",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Previously treated FGFR2 fusion/rearrangement cholangiocarcinoma",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "lorundrostat",
+   "inn": "lorundrostat",
+   "brands": [],
+   "sponsors": [
+    "Mineralys Therapeutics"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Under review",
+     "submitted": null,
+     "decision": null,
+     "expected": "2026-12-22",
+     "type": "NDA · PDUFA target date",
+     "indication": "Hypertension in adults",
+     "source": "https://www.barchart.com/story/news/1752148/mineralys-therapeutics-reports-first-quarter-2026-financial-results-and-provides-corporate-update",
+     "sourceName": "Mineralys Q1 2026 update",
+     "confidence": "company",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "meloxicam-(mr-107a-02,-fast-acting)",
+   "inn": "meloxicam (mr-107a-02, fast-acting)",
+   "brands": [],
+   "sponsors": [
+    "Viatris"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Under review",
+     "submitted": null,
+     "decision": null,
+     "expected": "2026-12-27",
+     "type": "NDA · PDUFA target date",
+     "indication": null,
+     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/december",
+     "sourceName": "Third-party PDUFA calendar (Assyro)",
+     "confidence": "thirdparty",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "milsaperidone",
+   "inn": "milsaperidone",
+   "brands": [
+    "Bysanti"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-02-20",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Schizophrenia; manic or mixed episodes of bipolar I disorder",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "minoxidil",
+   "inn": "minoxidil",
+   "brands": [
+    "REGAINE FOR MEN EXTRA STRENGTH"
+   ],
+   "sponsors": [
+    "Johnson & Johnson Singapore"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08-21",
+     "expected": null,
+     "type": "New drug application (NDA-2)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "mirogabalin",
+   "inn": "mirogabalin",
+   "brands": [
+    "TARLIGE"
+   ],
+   "sponsors": [
+    "A. Menarini Singapore"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-07-06",
+     "expected": null,
+     "type": "New drug application, first strength (NDA-1)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "mitapivat",
+   "inn": "mitapivat",
+   "brands": [],
+   "sponsors": [
+    "Agios Pharmaceuticals"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Under review",
+     "submitted": null,
+     "decision": null,
+     "expected": "2026-11-01",
+     "type": "NDA · PDUFA target date · new indication for an approved drug",
+     "indication": "Sickle cell disease",
+     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/november",
+     "sourceName": "Third-party PDUFA calendar (Assyro)",
+     "confidence": "thirdparty",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "molgramostim",
+   "inn": "molgramostim",
+   "brands": [],
+   "sponsors": [
+    "Savara"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Under review",
+     "submitted": null,
+     "decision": null,
+     "expected": "2026-11-22",
+     "type": "BLA · PDUFA target date · review extended by 3 months",
+     "indication": "Autoimmune pulmonary alveolar proteinosis",
+     "source": "https://www.businesswire.com/news/home/20260415775650/en",
+     "sourceName": "Savara press release, 15 Apr 2026",
+     "confidence": "company",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "motixafortide",
+   "inn": "motixafortide",
+   "brands": [
+    "APHEXDA"
+   ],
+   "sponsors": [
+    "DCH Auriga Singapore"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-06-08",
+     "expected": null,
+     "type": "New drug application, first strength (NDA-1)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "navepegritide",
+   "inn": "navepegritide",
+   "brands": [
+    "Yuviwel"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-02-27",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Linear growth in achondroplasia (age 2+)",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "neladalkib",
+   "inn": "neladalkib",
+   "brands": [],
+   "sponsors": [
+    "Nuvalent"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Under review",
+     "submitted": null,
+     "decision": null,
+     "expected": "2026-11-27",
+     "type": "NDA · PDUFA target date",
+     "indication": "TKI-pretreated advanced ALK-positive NSCLC",
+     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/november",
+     "sourceName": "Third-party PDUFA calendar (Assyro)",
+     "confidence": "thirdparty",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "nirmatrelvir-and-ritonavir",
+   "inn": "nirmatrelvir and ritonavir",
+   "brands": [
+    "PAXLOVID"
+   ],
+   "sponsors": [
+    "Pfizer Private"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-01-07",
+     "expected": null,
+     "type": "New drug application (NDA-2)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "octreotide-(oclaiz-depot)",
+   "inn": "octreotide (oclaiz depot)",
+   "brands": [],
+   "sponsors": [
+    "Camurus"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Under review",
+     "submitted": null,
+     "decision": null,
+     "expected": "2026-12-18",
+     "type": "NDA · PDUFA target date",
+     "indication": null,
+     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/december",
+     "sourceName": "Third-party PDUFA calendar (Assyro)",
+     "confidence": "thirdparty",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "odevixibat",
+   "inn": "odevixibat",
+   "brands": [
+    "BYLVAY"
+   ],
+   "sponsors": [
+    "Ipsen Pharma Singapore"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09-15",
+     "expected": null,
+     "type": "New drug application, first strength (NDA-1)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "orforglipron",
+   "inn": "orforglipron",
+   "brands": [
+    "Foundayo"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-04-01",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Chronic weight management in adults with obesity or overweight plus comorbidity",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "oveporexton",
+   "inn": "oveporexton",
+   "brands": [
+    "Orzeyful"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08-05",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Narcolepsy type 1",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "pegfilgrastim",
+   "inn": "pegfilgrastim",
+   "brands": [
+    "ZIEXTENZO"
+   ],
+   "sponsors": [
+    "Sandoz Singapore"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08-04",
+     "expected": null,
+     "type": "New drug application (NDA-2) · biosimilar",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "pegzilarginase",
+   "inn": "pegzilarginase",
+   "brands": [
+    "Loargys"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-02-23",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Hyperarginemia in Arginase 1 deficiency",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "pirtobrutinib",
+   "inn": "pirtobrutinib",
+   "brands": [
+    "JAYPIRCA"
+   ],
+   "sponsors": [
+    "DKSH Singapore"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08-27",
+     "expected": null,
+     "type": "New drug application, first strength (NDA-1)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "pivekimab-sunirine",
+   "inn": "pivekimab sunirine",
+   "brands": [
+    "Decnupaz"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-05-27",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Blastic plasmacytoid dendritic cell neoplasm",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "pneumococcal-conjugate-vaccine-(21-valent)",
+   "inn": "pneumococcal conjugate vaccine (21-valent)",
+   "brands": [
+    "CAPVAXIVE"
+   ],
+   "sponsors": [
+    "MSD Pharma (Singapore)"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-02-20",
+     "expected": null,
+     "type": "New drug application, first strength (NDA-1)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "povetacicept",
+   "inn": "povetacicept",
+   "brands": [],
+   "sponsors": [
+    "Vertex Pharmaceuticals"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Under review",
+     "submitted": null,
+     "decision": null,
+     "expected": "2026-11-30",
+     "type": "BLA · PDUFA target date",
+     "indication": null,
+     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/november",
+     "sourceName": "Third-party PDUFA calendar (Assyro)",
+     "confidence": "thirdparty",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "pritelivir",
+   "inn": "pritelivir",
+   "brands": [
+    "Hovilpri"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-10-09",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Mucocutaneous herpes simplex lesions in immunocompromised adults not responding to other therapies",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "relacorilant",
+   "inn": "relacorilant",
+   "brands": [
+    "Lifyorli"
+   ],
+   "sponsors": [
+    "Corcept Therapeutics"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-03-25",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Platinum-resistant ovarian, fallopian tube or primary peritoneal cancer",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    },
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Under review",
+     "submitted": null,
+     "decision": null,
+     "expected": "2026-12-17",
+     "type": "NDA · PDUFA target date · drug already approved March 2026 for ovarian cancer",
+     "indication": null,
+     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/december",
+     "sourceName": "Third-party PDUFA calendar (Assyro)",
+     "confidence": "thirdparty",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "relutrigine",
+   "inn": "relutrigine",
+   "brands": [],
+   "sponsors": [
+    "Praxis Precision Medicines"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Under review",
+     "submitted": null,
+     "decision": null,
+     "expected": "2026-12-27",
+     "type": "NDA · PDUFA target date",
+     "indication": null,
+     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/december",
+     "sourceName": "Third-party PDUFA calendar (Assyro)",
+     "confidence": "thirdparty",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "risdiplam",
+   "inn": "risdiplam",
+   "brands": [
+    "EVRYSDI tablet"
+   ],
+   "sponsors": [
+    "Roche Singapore"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-03-16",
+     "expected": null,
+     "type": "New drug application (NDA-2)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "rsv-mrna-vaccine-(mrna-1345)",
+   "inn": "rsv mrna vaccine (mrna-1345)",
+   "brands": [
+    "MRESVIA"
+   ],
+   "sponsors": [
+    "Moderna Biotech Singapore"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-03-06",
+     "expected": null,
+     "type": "New drug application, first strength (NDA-1)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "rusfertide",
+   "inn": "rusfertide",
+   "brands": [
+    "Mimrylo"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08-28",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Erythrocytosis in adults with polycythemia vera",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "saroglitazar",
+   "inn": "saroglitazar",
+   "brands": [],
+   "sponsors": [
+    "Zydus Therapeutics"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Under review",
+     "submitted": null,
+     "decision": null,
+     "expected": "2026-11-27",
+     "type": "NDA · PDUFA target date",
+     "indication": "Primary biliary cholangitis",
+     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/november",
+     "sourceName": "Third-party PDUFA calendar (Assyro)",
+     "confidence": "thirdparty",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "selpercatinib",
+   "inn": "selpercatinib",
+   "brands": [
+    "TANSTRIVE"
+   ],
+   "sponsors": [
+    "DKSH Singapore"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-03-19",
+     "expected": null,
+     "type": "New drug application (NDA-2)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "sodium-dichloroacetate-(sl1009)",
+   "inn": "sodium dichloroacetate (sl1009)",
+   "brands": [],
+   "sponsors": [
+    "Saol Therapeutics"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Under review",
+     "submitted": null,
+     "decision": null,
+     "expected": "2026-12-30",
+     "type": "NDA · PDUFA target date",
+     "indication": null,
+     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/december",
+     "sourceName": "Third-party PDUFA calendar (Assyro)",
+     "confidence": "thirdparty",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "sonrotoclax",
+   "inn": "sonrotoclax",
+   "brands": [
+    "Beqalzi"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-05-13",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Relapsed/refractory mantle cell lymphoma after 2+ lines incl. a BTK inhibitor",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "tavapadon",
+   "inn": "tavapadon",
+   "brands": [
+    "Juvmo"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09-25",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Parkinson's disease in adults",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "tdap-vaccine",
+   "inn": "tdap vaccine",
+   "brands": [
+    "ADACEL"
+   ],
+   "sponsors": [
+    "Sanofi-Aventis Singapore"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-02-09",
+     "expected": null,
+     "type": "New drug application (NDA-2)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "tebipenem-pivoxil",
+   "inn": "tebipenem pivoxil",
+   "brands": [
+    "Utebzi"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-06-17",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Complicated urinary tract infections incl. pyelonephritis (limited oral options)",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "teprotumumab",
+   "inn": "teprotumumab",
+   "brands": [
+    "TEPEZZA"
+   ],
+   "sponsors": [
+    "Amgen Biotechnology Singapore"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-05-15",
+     "expected": null,
+     "type": "New drug application, first strength (NDA-1)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "tirabrutinib",
+   "inn": "tirabrutinib",
+   "brands": [],
+   "sponsors": [
+    "Deciphera Pharmaceuticals"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Under review",
+     "submitted": null,
+     "decision": null,
+     "expected": "2026-12-18",
+     "type": "NDA · PDUFA target date",
+     "indication": null,
+     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/december",
+     "sourceName": "Third-party PDUFA calendar (Assyro)",
+     "confidence": "thirdparty",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "tiratricol",
+   "inn": "tiratricol",
+   "brands": [
+    "Emcitate"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09-28",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Peripheral thyrotoxicosis in patients with MCT8 deficiency",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "tividenofusp-alfa",
+   "inn": "tividenofusp alfa",
+   "brands": [
+    "Avlayah"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-03-24",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Hunter syndrome (MPS II)",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "ustekinumab",
+   "inn": "ustekinumab",
+   "brands": [
+    "YESINTEK",
+    "ICHALIG",
+    "USTEFAV"
+   ],
+   "sponsors": [
+    "Cedar Pharmaceuticals",
+    "Sindor Healthcare",
+    "Hyphens Pharma"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-06-26",
+     "expected": null,
+     "type": "New drug application (NDA-2) · biosimilar",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    },
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-06-04",
+     "expected": null,
+     "type": "New drug application (NDA-2) · biosimilar",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    },
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-05-21",
+     "expected": null,
+     "type": "New drug application (NDA-2) · biosimilar",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "veligrotug",
+   "inn": "veligrotug",
+   "brands": [
+    "Lumvoa"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-06-26",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Thyroid eye disease",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "venglustat",
+   "inn": "venglustat",
+   "brands": [],
+   "sponsors": [
+    "Sanofi"
+   ],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Under review",
+     "submitted": null,
+     "decision": null,
+     "expected": "2026-11-25",
+     "type": "NDA · PDUFA target date",
+     "indication": "Type 3 Gaucher disease",
+     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/november",
+     "sourceName": "Third-party PDUFA calendar (Assyro)",
+     "confidence": "thirdparty",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "vepdegestrant",
+   "inn": "vepdegestrant",
+   "brands": [
+    "Veppanu"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-05-01",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "ER+/HER2- ESR1-mutated advanced breast cancer after endocrine therapy",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "vosoritide",
+   "inn": "vosoritide",
+   "brands": [
+    "VOXZOGO"
+   ],
+   "sponsors": [
+    "Novem Healthcare"
+   ],
+   "records": [
+    {
+     "country": "SG",
+     "regulator": "HSA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08-19",
+     "expected": null,
+     "type": "New drug application, first strength (NDA-1)",
+     "indication": null,
+     "source": "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/tools-and-resources/listing-of-approvals-and-post-registration-actions/listing-of-approvals/",
+     "sourceName": "HSA Listing of approvals",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "zidesamtinib",
+   "inn": "zidesamtinib",
+   "brands": [
+    "Jideytro"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-07-22",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "ROS1+ NSCLC after a ROS1 kinase inhibitor",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "zilganersen",
+   "inn": "zilganersen",
+   "brands": [
+    "Zanvastro"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09-03",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Alexander disease",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  },
+  {
+   "id": "zilurgisertib",
+   "inn": "zilurgisertib",
+   "brands": [
+    "Atebrioz"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "US",
+     "regulator": "FDA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09-25",
+     "expected": null,
+     "type": "Novel drug (CDER new molecular entity / new therapeutic biologic)",
+     "indication": "Heterotopic ossification in fibrodysplasia ossificans progressiva (age 12+)",
+     "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+     "sourceName": "FDA Novel Drug Approvals 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-28"
+    }
+   ]
+  }
+ ]
+}
