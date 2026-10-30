@@ -382,6 +382,31 @@
    ]
   },
   {
+   "id": "anbalcabtagene-autoleucel",
+   "inn": "anbalcabtagene autoleucel",
+   "brands": [
+    "Rimqarto"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "KR",
+     "regulator": "MFDS",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-04-29",
+     "expected": null,
+     "opinion": null,
+     "type": "Product approval · flagged as a new drug (신약) by MFDS · made in Korea · product code 202601287",
+     "indication": null,
+     "source": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&searchDivision=detail&itemSeq=202601287",
+     "sourceName": "MFDS Drug Safety Nara (nedrug): product approval record",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "anifrolumab",
    "inn": "anifrolumab",
    "brands": [
@@ -714,6 +739,31 @@
    ]
   },
   {
+   "id": "avacincaptad-pegol",
+   "inn": "avacincaptad pegol",
+   "brands": [
+    "Izervay"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "KR",
+     "regulator": "MFDS",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09-23",
+     "expected": null,
+     "opinion": null,
+     "type": "Product approval · flagged as a new drug (신약) by MFDS · imported · product code 202602897",
+     "indication": null,
+     "source": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&searchDivision=detail&itemSeq=202602897",
+     "sourceName": "MFDS Drug Safety Nara (nedrug): product approval record",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "axatilimab",
    "inn": "axatilimab",
    "brands": [
@@ -966,6 +1016,31 @@
      "confidence": "regulator",
      "submitted": null,
      "expected": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "bempedoic-acid",
+   "inn": "bempedoic acid",
+   "brands": [
+    "Nexletol"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "KR",
+     "regulator": "MFDS",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-10-14",
+     "expected": null,
+     "opinion": null,
+     "type": "Product approval · flagged as a new drug (신약) by MFDS · imported · product code 202603134",
+     "indication": null,
+     "source": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&searchDivision=detail&itemSeq=202603134",
+     "sourceName": "MFDS Drug Safety Nara (nedrug): product approval record",
+     "confidence": "regulator",
      "checked": "2026-10-30"
     }
    ]
@@ -1801,6 +1876,46 @@
      "sourceName": "TGA: Prescription medicines registrations (filtered: 2026, NCE/NBE, new combination; last updated 25 Sep 2026)",
      "confidence": "regulator",
      "checked": "2026-10-30"
+    },
+    {
+     "country": "KR",
+     "regulator": "MFDS",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-06-01",
+     "expected": null,
+     "opinion": null,
+     "type": "Product approval · flagged as a new drug (신약) by MFDS · imported · product code 202601589",
+     "indication": null,
+     "source": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&searchDivision=detail&itemSeq=202601589",
+     "sourceName": "MFDS Drug Safety Nara (nedrug): product approval record",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "concizumab",
+   "inn": "concizumab",
+   "brands": [
+    "Alhemo"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "KR",
+     "regulator": "MFDS",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-05-28",
+     "expected": null,
+     "opinion": null,
+     "type": "Product approval · flagged as a new drug (신약) by MFDS · imported · product code 202601548",
+     "indication": null,
+     "source": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&searchDivision=detail&itemSeq=202601548",
+     "sourceName": "MFDS Drug Safety Nara (nedrug): product approval record",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -2039,6 +2154,21 @@
      "indication": null,
      "source": "https://www.tga.gov.au/resources/prescription-medicines-under-evaluation",
      "sourceName": "TGA: Prescription medicines under evaluation (2026; last updated 21 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "KR",
+     "regulator": "MFDS",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-03-09",
+     "expected": null,
+     "opinion": null,
+     "type": "Product approval · flagged as a new drug (신약) by MFDS · imported · product code 202600700",
+     "indication": null,
+     "source": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&searchDivision=detail&itemSeq=202600700",
+     "sourceName": "MFDS Drug Safety Nara (nedrug): product approval record",
      "confidence": "regulator",
      "checked": "2026-10-30"
     }
@@ -2776,6 +2906,31 @@
    ]
   },
   {
+   "id": "efpeglenatide",
+   "inn": "efpeglenatide",
+   "brands": [
+    "EPPE"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "KR",
+     "regulator": "MFDS",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-10-07",
+     "expected": null,
+     "opinion": null,
+     "type": "Product approval · flagged as a new drug (신약) by MFDS · made in Korea · product code 202603056",
+     "indication": null,
+     "source": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&searchDivision=detail&itemSeq=202603056",
+     "sourceName": "MFDS Drug Safety Nara (nedrug): product approval record",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "enlicitide-decanoate",
    "inn": "enlicitide decanoate",
    "brands": [
@@ -2890,6 +3045,46 @@
      "sourceName": "TGA: Prescription medicines registrations (filtered: 2026, NCE/NBE, new combination; last updated 25 Sep 2026)",
      "confidence": "regulator",
      "checked": "2026-10-30"
+    },
+    {
+     "country": "KR",
+     "regulator": "MFDS",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-07-10",
+     "expected": null,
+     "opinion": null,
+     "type": "Product approval · flagged as a new drug (신약) by MFDS · imported · product code 202602007",
+     "indication": null,
+     "source": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&searchDivision=detail&itemSeq=202602007",
+     "sourceName": "MFDS Drug Safety Nara (nedrug): product approval record",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "eptinezumab",
+   "inn": "eptinezumab",
+   "brands": [
+    "Vyepti"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "KR",
+     "regulator": "MFDS",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-05-22",
+     "expected": null,
+     "opinion": null,
+     "type": "Product approval · flagged as a new drug (신약) by MFDS · imported · product code 202601500",
+     "indication": null,
+     "source": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&searchDivision=detail&itemSeq=202601500",
+     "sourceName": "MFDS Drug Safety Nara (nedrug): product approval record",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -2943,6 +3138,31 @@
      "confidence": "regulator",
      "submitted": null,
      "expected": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "etrasimod",
+   "inn": "etrasimod",
+   "brands": [
+    "Velsipity"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "KR",
+     "regulator": "MFDS",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-05-20",
+     "expected": null,
+     "opinion": null,
+     "type": "Product approval · flagged as a new drug (신약) by MFDS · imported · product code 202601477",
+     "indication": null,
+     "source": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&searchDivision=detail&itemSeq=202601477",
+     "sourceName": "MFDS Drug Safety Nara (nedrug): product approval record",
+     "confidence": "regulator",
      "checked": "2026-10-30"
     }
    ]
@@ -3085,6 +3305,31 @@
    ]
   },
   {
+   "id": "florastamin-18f",
+   "inn": "florastamin (18f)",
+   "brands": [
+    "Prostavue"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "KR",
+     "regulator": "MFDS",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-04-30",
+     "expected": null,
+     "opinion": null,
+     "type": "Product approval · flagged as a new drug (신약) by MFDS · made in Korea · product code 202601314",
+     "indication": null,
+     "source": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&searchDivision=detail&itemSeq=202601314",
+     "sourceName": "MFDS Drug Safety Nara (nedrug): product approval record",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "floretyrosine-f-18",
    "inn": "floretyrosine f 18",
    "brands": [
@@ -3188,7 +3433,9 @@
   {
    "id": "gadopiclenol",
    "inn": "gadopiclenol",
-   "brands": [],
+   "brands": [
+    "Elucirem"
+   ],
    "sponsors": [],
    "records": [
     {
@@ -3203,6 +3450,21 @@
      "indication": null,
      "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
      "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "KR",
+     "regulator": "MFDS",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-01-12",
+     "expected": null,
+     "opinion": null,
+     "type": "Product approval · flagged as a new drug (신약) by MFDS · imported · product code 202600109",
+     "indication": null,
+     "source": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&searchDivision=detail&itemSeq=202600109",
+     "sourceName": "MFDS Drug Safety Nara (nedrug): product approval record",
      "confidence": "regulator",
      "checked": "2026-10-30"
     }
@@ -4056,6 +4318,21 @@
      "expected": null,
      "opinion": null,
      "checked": "2026-10-30"
+    },
+    {
+     "country": "KR",
+     "regulator": "MFDS",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-02-13",
+     "expected": null,
+     "opinion": null,
+     "type": "Product approval · flagged as a new drug (신약) by MFDS · imported · product code 202600429",
+     "indication": null,
+     "source": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&searchDivision=detail&itemSeq=202600429",
+     "sourceName": "MFDS Drug Safety Nara (nedrug): product approval record",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -4627,6 +4904,31 @@
    ]
   },
   {
+   "id": "lemborexant",
+   "inn": "lemborexant",
+   "brands": [
+    "Dayvigo"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "KR",
+     "regulator": "MFDS",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-06-23",
+     "expected": null,
+     "opinion": null,
+     "type": "Product approval · flagged as a new drug (신약) by MFDS · imported · product code 202601780",
+     "indication": null,
+     "source": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&searchDivision=detail&itemSeq=202601780",
+     "sourceName": "MFDS Drug Safety Nara (nedrug): product approval record",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "lenacapavir",
    "inn": "lenacapavir",
    "brands": [
@@ -5122,6 +5424,31 @@
      "confidence": "regulator",
      "submitted": null,
      "expected": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "marstacimab",
+   "inn": "marstacimab",
+   "brands": [
+    "Hympavzi"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "KR",
+     "regulator": "MFDS",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-02-04",
+     "expected": null,
+     "opinion": null,
+     "type": "Product approval · flagged as a new drug (신약) by MFDS · imported · product code 202600324",
+     "indication": null,
+     "source": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&searchDivision=detail&itemSeq=202600324",
+     "sourceName": "MFDS Drug Safety Nara (nedrug): product approval record",
+     "confidence": "regulator",
      "checked": "2026-10-30"
     }
    ]
@@ -5729,6 +6056,21 @@
      "expected": null,
      "opinion": null,
      "checked": "2026-10-30"
+    },
+    {
+     "country": "KR",
+     "regulator": "MFDS",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-01-23",
+     "expected": null,
+     "opinion": null,
+     "type": "Product approval · flagged as a new drug (신약) by MFDS · imported · product code 202600210",
+     "indication": null,
+     "source": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&searchDivision=detail&itemSeq=202600210",
+     "sourceName": "MFDS Drug Safety Nara (nedrug): product approval record",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -6126,6 +6468,31 @@
      "expected": null,
      "opinion": null,
      "indication": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "oliceridine",
+   "inn": "oliceridine",
+   "brands": [
+    "Olinvyk"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "KR",
+     "regulator": "MFDS",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-03-24",
+     "expected": null,
+     "opinion": null,
+     "type": "Product approval · flagged as a new drug (신약) by MFDS · made in Korea · product code 202600832",
+     "indication": null,
+     "source": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&searchDivision=detail&itemSeq=202600832",
+     "sourceName": "MFDS Drug Safety Nara (nedrug): product approval record",
+     "confidence": "regulator",
      "checked": "2026-10-30"
     }
    ]
@@ -7035,6 +7402,31 @@
    ]
   },
   {
+   "id": "quizartinib",
+   "inn": "quizartinib",
+   "brands": [
+    "Vanflyta"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "KR",
+     "regulator": "MFDS",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-01-26",
+     "expected": null,
+     "opinion": null,
+     "type": "Product approval · flagged as a new drug (신약) by MFDS · imported · product code 202600219",
+     "indication": null,
+     "source": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&searchDivision=detail&itemSeq=202600219",
+     "sourceName": "MFDS Drug Safety Nara (nedrug): product approval record",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "rabies-vaccine-inactivated",
    "inn": "rabies vaccine (inactivated)",
    "brands": [
@@ -7212,9 +7604,36 @@
    ]
   },
   {
+   "id": "recoflavone",
+   "inn": "recoflavone",
+   "brands": [
+    "Latica"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "KR",
+     "regulator": "MFDS",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09-08",
+     "expected": null,
+     "opinion": null,
+     "type": "Product approval · flagged as a new drug (신약) by MFDS · made in Korea · product code 202602670",
+     "indication": null,
+     "source": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&searchDivision=detail&itemSeq=202602670",
+     "sourceName": "MFDS Drug Safety Nara (nedrug): product approval record",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "regadenoson",
    "inn": "regadenoson",
-   "brands": [],
+   "brands": [
+    "Rapiscan"
+   ],
    "sponsors": [
     "Isologic Innovative Radiopharmaceuticals Ltd."
    ],
@@ -7233,6 +7652,21 @@
      "decision": null,
      "expected": null,
      "opinion": null
+    },
+    {
+     "country": "KR",
+     "regulator": "MFDS",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-07-14",
+     "expected": null,
+     "opinion": null,
+     "type": "Product approval · flagged as a new drug (신약) by MFDS · imported · product code 202602043",
+     "indication": null,
+     "source": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&searchDivision=detail&itemSeq=202602043",
+     "sourceName": "MFDS Drug Safety Nara (nedrug): product approval record",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -7430,6 +7864,21 @@
      "indication": null,
      "source": "https://www.tga.gov.au/resources/prescription-medicines-registrations",
      "sourceName": "TGA: Prescription medicines registrations (filtered: 2026, NCE/NBE, new combination; last updated 25 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "KR",
+     "regulator": "MFDS",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-04-14",
+     "expected": null,
+     "opinion": null,
+     "type": "Product approval · flagged as a new drug (신약) by MFDS · imported · product code 202601085",
+     "indication": null,
+     "source": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&searchDivision=detail&itemSeq=202601085",
+     "sourceName": "MFDS Drug Safety Nara (nedrug): product approval record",
      "confidence": "regulator",
      "checked": "2026-10-30"
     }
@@ -7689,6 +8138,31 @@
      "sourceName": "HSA Listing of approvals",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "rsv-prefusion-f-vaccine-recombinant",
+   "inn": "rsv prefusion f vaccine (recombinant)",
+   "brands": [
+    "Abrysvo"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "KR",
+     "regulator": "MFDS",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08-13",
+     "expected": null,
+     "opinion": null,
+     "type": "Product approval · flagged as a new drug (신약) by MFDS · imported · product code 202602372",
+     "indication": null,
+     "source": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&searchDivision=detail&itemSeq=202602372",
+     "sourceName": "MFDS Drug Safety Nara (nedrug): product approval record",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -8093,7 +8567,8 @@
    "id": "serplulimab",
    "inn": "serplulimab",
    "brands": [
-    "Olizu"
+    "Olizu",
+    "Serpluma"
    ],
    "sponsors": [
     "Abbott Laboratórios DO Brasil Ltda"
@@ -8112,6 +8587,21 @@
      "submitted": null,
      "expected": null,
      "opinion": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "KR",
+     "regulator": "MFDS",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-07-01",
+     "expected": null,
+     "opinion": null,
+     "type": "Product approval · flagged as a new drug (신약) by MFDS · imported · product code 202601922",
+     "indication": null,
+     "source": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&searchDivision=detail&itemSeq=202601922",
+     "sourceName": "MFDS Drug Safety Nara (nedrug): product approval record",
+     "confidence": "regulator",
      "checked": "2026-10-30"
     }
    ]
@@ -9834,7 +10324,7 @@
   "UK": "2026 MHRA licences (fortnightly PDF lists) for drugs tracked elsewhere in this register, plus selected new active substances. MHRA's lists don't flag new substances, so this isn't a complete list of UK new medicines.",
   "AU": "2026 registrations of new chemical/biological entities and new combinations (to 25 Sep 2026), and applications under evaluation accepted in 2026 (to 21 Sep 2026), with the month accepted. From TGA lists saved by Salish Seven; new-indication applications are shown only for drugs tracked elsewhere.",
   "CN": "Not yet loaded: NMPA does not publish a complete approvals list in English.",
-  "KR": "Not yet loaded: MFDS does not publish a readable approvals list in English.",
+  "KR": "Every prescription product approved in 2026 that MFDS flags as a new drug (신약), from MFDS's public drug database (to 30 Oct 2026). One entry per active ingredient, using the earliest approval.",
   "TW": "2026 Taiwan FDA drug licences (open data) for drugs tracked elsewhere, plus selected new active substances. Licence dates; not a complete list of Taiwan new medicines.",
   "BR": "2026 ANVISA registrations (open data) for drugs tracked elsewhere, plus selected new active substances. Dates are when the registration process was completed; not a complete list of Brazil new medicines.",
   "IN": "Not yet loaded: CDSCO's 2026 list was last updated 12 March 2026 and has three entries; India's 'new drug' category also covers drugs new to India rather than new worldwide."
