@@ -1,9 +1,10 @@
 name: Daily data update
 
 on:
-  schedule:
-    - cron: "34 10 * * *"   # 10:34 UTC = 6:34 am Toronto (EDT), 5:34 am in winter
-  workflow_dispatch: {}     # lets you run it by hand from the Actions tab
+  # Daily schedule paused on 30 Oct 2026 at Mi's request. To restart, put back:
+  # schedule:
+  #   - cron: "34 10 * * *"   # 10:34 UTC = 6:34 am Toronto (EDT), 5:34 am in winter
+  workflow_dispatch: {}     # still runnable by hand from the Actions tab
 
 permissions:
   contents: write
