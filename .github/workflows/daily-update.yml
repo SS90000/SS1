@@ -30,7 +30,7 @@ jobs:
           allowed_bots: "claude[bot]"
           prompt: "Read .github/daily-update.md and carry out the daily update it describes, editing only data.json."
           claude_args: |
-            --model claude-sonnet-5-5
+            --model sonnet
             --max-turns 80
             --allowedTools "Read,Write,Edit,Glob,Grep,WebFetch,WebSearch,Bash(curl:*),Bash(python3:*),Bash(date:*),Bash(ls:*),Bash(cat:*)"
 
