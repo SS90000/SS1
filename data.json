@@ -407,6 +407,32 @@
    ]
   },
   {
+   "id": "anbenitamab",
+   "inn": "anbenitamab",
+   "brands": [
+    "安尼妥单抗注射液",
+    "安尼妥单抗"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-05-28",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international name anbenitamab matched by Salish Seven (Alphamab/CSPC HER2 bispecific (KN026); approval announced by the companies in May 2026); the Chinese name on NMPA's list is authoritative",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准安尼妥单抗注射液上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "anifrolumab",
    "inn": "anifrolumab",
    "brands": [
@@ -552,7 +578,9 @@
    "id": "asundexian",
    "inn": "asundexian",
    "brands": [
-    "Sunharbo"
+    "Sunharbo",
+    "阿舒克森片",
+    "阿舒克森"
    ],
    "sponsors": [
     "Bayer Inc"
@@ -585,6 +613,21 @@
      "indication": null,
      "source": "https://www.tga.gov.au/resources/prescription-medicines-under-evaluation",
      "sourceName": "TGA: Prescription medicines under evaluation (filtered: 2026, types A and B; last updated 21 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-10-26",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international name asundexian matched by Salish Seven (Bayer is the applicant and the indication (stroke prevention) matches asundexian; reported in Chinese news of the approval); the Chinese name on NMPA's list is authoritative",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准阿舒克森片上市",
      "confidence": "regulator",
      "checked": "2026-10-30"
     }
@@ -878,7 +921,7 @@
      "decision": "2026-10-22",
      "expected": null,
      "opinion": null,
-     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录)",
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international name matched to the Chinese name by Salish Seven; the Chinese name on NMPA's list is authoritative",
      "indication": null,
      "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
      "sourceName": "NMPA 创新药品名录: 国家药监局批准巴托利单抗注射液上市",
@@ -1926,7 +1969,7 @@
      "decision": "2026-06-11",
      "expected": null,
      "opinion": null,
-     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录)",
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international name matched to the Chinese name by Salish Seven; the Chinese name on NMPA's list is authoritative",
      "indication": null,
      "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
      "sourceName": "NMPA 创新药品名录: 国家药监局批准克莱罗韦单抗注射液上市",
@@ -2874,7 +2917,7 @@
      "decision": "2026-01-30",
      "expected": null,
      "opinion": null,
-     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录)",
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international name matched to the Chinese name by Salish Seven; the Chinese name on NMPA's list is authoritative",
      "indication": null,
      "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
      "sourceName": "NMPA 创新药品名录: 国家药监局批准埃诺格鲁肽注射液上市",
@@ -3234,6 +3277,32 @@
    ]
   },
   {
+   "id": "etripamil",
+   "inn": "etripamil",
+   "brands": [
+    "艾曲帕米鼻喷雾剂",
+    "艾曲帕米"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09-03",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international name etripamil matched by Salish Seven (Chinese name matched to etripamil nasal spray in trial and drug-information listings); the Chinese name on NMPA's list is authoritative",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准艾曲帕米鼻喷雾剂上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "etuvetidigene-autotemcel",
    "inn": "etuvetidigene autotemcel",
    "brands": [
@@ -3301,7 +3370,7 @@
      "decision": "2026-08-31",
      "expected": null,
      "opinion": null,
-     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录)",
+     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录) · international name matched to the Chinese name by Salish Seven; the Chinese name on NMPA's list is authoritative",
      "indication": null,
      "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
      "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准酒石酸凡瑞格拉替尼片上市",
@@ -3326,7 +3395,7 @@
      "decision": "2026-08-13",
      "expected": null,
      "opinion": null,
-     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录)",
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international name matched to the Chinese name by Salish Seven; the Chinese name on NMPA's list is authoritative",
      "indication": null,
      "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
      "sourceName": "NMPA 创新药品名录: 国家药监局批准注射用菲泽妥单抗上市",
@@ -4088,7 +4157,7 @@
      "decision": "2026-06-11",
      "expected": null,
      "opinion": null,
-     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录)",
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international name matched to the Chinese name by Salish Seven; the Chinese name on NMPA's list is authoritative",
      "indication": null,
      "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
      "sourceName": "NMPA 创新药品名录: 国家药监局批准古莫奇单抗注射液上市",
@@ -4113,7 +4182,7 @@
      "decision": "2026-04-02",
      "expected": null,
      "opinion": null,
-     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录)",
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international name matched to the Chinese name by Salish Seven; the Chinese name on NMPA's list is authoritative",
      "indication": null,
      "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
      "sourceName": "NMPA 创新药品名录: 国家药监局批准盐酸去甲乌药碱注射液上市",
@@ -4192,7 +4261,9 @@
    "id": "iberdomide",
    "inn": "iberdomide",
    "brands": [
-    "Zenbexus"
+    "Zenbexus",
+    "盐酸艾泊度胺胶囊",
+    "盐酸艾泊度胺"
    ],
    "sponsors": [],
    "records": [
@@ -4209,6 +4280,21 @@
      "sourceName": "FDA Novel Drug Approvals 2026",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09-30",
+     "expected": null,
+     "opinion": null,
+     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录) · international name iberdomide matched by Salish Seven (BMS is the applicant and the indication (multiple myeloma with daratumumab and dexamethasone) matches iberdomide); the Chinese name on NMPA's list is authoritative",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准盐酸艾泊度胺胶囊上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -4333,7 +4419,7 @@
      "decision": "2026-08-31",
      "expected": null,
      "opinion": null,
-     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录)",
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international name matched to the Chinese name by Salish Seven; the Chinese name on NMPA's list is authoritative",
      "indication": null,
      "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
      "sourceName": "NMPA 创新药品名录: 国家药监局批准盐酸伊可白滞素片上市",
@@ -4525,7 +4611,7 @@
      "decision": "2026-06-22",
      "expected": null,
      "opinion": null,
-     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录)",
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international name matched to the Chinese name by Salish Seven; the Chinese name on NMPA's list is authoritative",
      "indication": null,
      "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
      "sourceName": "NMPA 创新药品名录: 国家药监局批准甲苯磺酸依仑司群片上市",
@@ -5370,6 +5456,32 @@
      "indication": null,
      "source": "https://www.tga.gov.au/resources/prescription-medicines-under-evaluation",
      "sourceName": "TGA: Prescription medicines under evaluation (filtered: 2026, types A and B; last updated 21 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "libevitug",
+   "inn": "libevitug",
+   "brands": [
+    "立贝韦塔单抗注射液",
+    "立贝韦塔单抗"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-01-23",
+     "expected": null,
+     "opinion": null,
+     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录) · international name libevitug matched by Salish Seven (reported internationally as libevitug, approved in China in January 2026 for hepatitis D); the Chinese name on NMPA's list is authoritative",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准立贝韦塔单抗注射液上市",
      "confidence": "regulator",
      "checked": "2026-10-30"
     }
@@ -6941,7 +7053,7 @@
      "decision": "2026-07-23",
      "expected": null,
      "opinion": null,
-     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录)",
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international name matched to the Chinese name by Salish Seven; the Chinese name on NMPA's list is authoritative",
      "indication": null,
      "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
      "sourceName": "NMPA 创新药品名录: 国家药监局批准奥普雷顿片上市",
@@ -7479,7 +7591,7 @@
      "decision": "2026-01-07",
      "expected": null,
      "opinion": null,
-     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录)",
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international name matched to the Chinese name by Salish Seven; the Chinese name on NMPA's list is authoritative",
      "indication": null,
      "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
      "sourceName": "NMPA 创新药品名录: 国家药监局批准普乐司兰钠注射液上市",
@@ -8238,7 +8350,7 @@
      "decision": "2026-09-03",
      "expected": null,
      "opinion": null,
-     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录)",
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international name matched to the Chinese name by Salish Seven; the Chinese name on NMPA's list is authoritative",
      "indication": null,
      "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
      "sourceName": "NMPA 创新药品名录: 国家药监局批准利扎布替尼片上市",
@@ -8618,7 +8730,7 @@
      "decision": "2026-06-22",
      "expected": null,
      "opinion": null,
-     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录)",
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international name matched to the Chinese name by Salish Seven; the Chinese name on NMPA's list is authoritative",
      "indication": null,
      "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
      "sourceName": "NMPA 创新药品名录: 国家药监局批准舒瑞基奥仑赛注射液上市",
@@ -8941,7 +9053,7 @@
      "decision": "2026-04-21",
      "expected": null,
      "opinion": null,
-     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录)",
+     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录) · international name matched to the Chinese name by Salish Seven; the Chinese name on NMPA's list is authoritative",
      "indication": null,
      "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
      "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准塞伐艾替尼片上市",
@@ -9070,7 +9182,7 @@
      "decision": "2026-01-06",
      "expected": null,
      "opinion": null,
-     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录)",
+     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录) · international name matched to the Chinese name by Salish Seven; the Chinese name on NMPA's list is authoritative",
      "indication": null,
      "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
      "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准索托克拉片上市",
@@ -9539,7 +9651,7 @@
      "decision": "2026-08-11",
      "expected": null,
      "opinion": null,
-     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录)",
+     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录) · international name matched to the Chinese name by Salish Seven; the Chinese name on NMPA's list is authoritative",
      "indication": null,
      "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
      "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准替恩戈替尼片上市",
@@ -10767,34 +10879,10 @@
    ]
   },
   {
-   "id": "cn-ebbb9f92",
-   "inn": "安尼妥单抗",
-   "brands": [
-    "安尼妥单抗注射液"
-   ],
-   "sponsors": [],
-   "records": [
-    {
-     "country": "CN",
-     "regulator": "NMPA",
-     "status": "Approved",
-     "submitted": null,
-     "decision": "2026-05-28",
-     "expected": null,
-     "opinion": null,
-     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
-     "indication": null,
-     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
-     "sourceName": "NMPA 创新药品名录: 国家药监局批准安尼妥单抗注射液上市",
-     "confidence": "regulator",
-     "checked": "2026-10-30"
-    }
-   ]
-  },
-  {
    "id": "cn-ae0d9cc2",
    "inn": "安弗利奇塔单抗",
    "brands": [
+    "SSGJ-613",
     "安弗利奇塔单抗注射液（皮下注射）"
    ],
    "sponsors": [],
@@ -10807,7 +10895,7 @@
      "decision": "2026-08-20",
      "expected": null,
      "opinion": null,
-     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · no international (INN) name published yet; development code from a Chinese drug database; anti-IL-1β antibody for acute gout",
      "indication": null,
      "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
      "sourceName": "NMPA 创新药品名录: 国家药监局批准安弗利奇塔单抗注射液（皮下注射）上市",
@@ -10995,6 +11083,7 @@
    "id": "cn-86cb51d1",
    "inn": "斯乐韦米单抗",
    "brands": [
+    "GR1801",
     "斯乐韦米单抗注射液"
    ],
    "sponsors": [],
@@ -11007,7 +11096,7 @@
      "decision": "2026-06-22",
      "expected": null,
      "opinion": null,
-     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · no international (INN) name published yet; development code reported in Chinese news; rabies antibody",
      "indication": null,
      "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
      "sourceName": "NMPA 创新药品名录: 国家药监局批准斯乐韦米单抗注射液上市",
@@ -11195,6 +11284,7 @@
    "id": "cn-193af517",
    "inn": "瑞西奇拜单抗",
    "brands": [
+    "HB0034",
     "瑞西奇拜单抗注射液"
    ],
    "sponsors": [],
@@ -11207,7 +11297,7 @@
      "decision": "2026-07-29",
      "expected": null,
      "opinion": null,
-     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · no international (INN) name published yet; development code from a Chinese drug database; generalized pustular psoriasis",
      "indication": null,
      "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
      "sourceName": "NMPA 创新药品名录: 国家药监局批准瑞西奇拜单抗注射液上市",
@@ -11292,31 +11382,6 @@
    ]
   },
   {
-   "id": "cn-affc5b1f",
-   "inn": "盐酸艾泊度胺",
-   "brands": [
-    "盐酸艾泊度胺胶囊"
-   ],
-   "sponsors": [],
-   "records": [
-    {
-     "country": "CN",
-     "regulator": "NMPA",
-     "status": "Approved",
-     "submitted": null,
-     "decision": "2026-09-30",
-     "expected": null,
-     "opinion": null,
-     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
-     "indication": null,
-     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
-     "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准盐酸艾泊度胺胶囊上市",
-     "confidence": "regulator",
-     "checked": "2026-10-30"
-    }
-   ]
-  },
-  {
    "id": "cn-980ad1b0",
    "inn": "硫酸索西美雷塞",
    "brands": [
@@ -11342,34 +11407,10 @@
    ]
   },
   {
-   "id": "cn-7bccf26c",
-   "inn": "立贝韦塔单抗",
-   "brands": [
-    "立贝韦塔单抗注射液"
-   ],
-   "sponsors": [],
-   "records": [
-    {
-     "country": "CN",
-     "regulator": "NMPA",
-     "status": "Approved",
-     "submitted": null,
-     "decision": "2026-01-23",
-     "expected": null,
-     "opinion": null,
-     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
-     "indication": null,
-     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
-     "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准立贝韦塔单抗注射液上市",
-     "confidence": "regulator",
-     "checked": "2026-10-30"
-    }
-   ]
-  },
-  {
    "id": "cn-2c0590e1",
    "inn": "纬利妥米单抗",
    "brands": [
+    "GR1803",
     "纬利妥米单抗注射液"
    ],
    "sponsors": [],
@@ -11382,7 +11423,7 @@
      "decision": "2026-08-31",
      "expected": null,
      "opinion": null,
-     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录) · no international (INN) name published yet; development code reported in Chinese news; BCMA×CD3 bispecific for multiple myeloma",
      "indication": null,
      "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
      "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准纬利妥米单抗注射液上市",
@@ -11467,34 +11508,10 @@
    ]
   },
   {
-   "id": "cn-02328eb3",
-   "inn": "艾曲帕米",
-   "brands": [
-    "艾曲帕米鼻喷雾剂"
-   ],
-   "sponsors": [],
-   "records": [
-    {
-     "country": "CN",
-     "regulator": "NMPA",
-     "status": "Approved",
-     "submitted": null,
-     "decision": "2026-09-03",
-     "expected": null,
-     "opinion": null,
-     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
-     "indication": null,
-     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
-     "sourceName": "NMPA 创新药品名录: 国家药监局批准艾曲帕米鼻喷雾剂上市",
-     "confidence": "regulator",
-     "checked": "2026-10-30"
-    }
-   ]
-  },
-  {
    "id": "cn-d2b40de5",
    "inn": "芮特韦拜单抗",
    "brands": [
+    "TNM001",
     "芮特韦拜单抗注射液"
    ],
    "sponsors": [],
@@ -11507,7 +11524,7 @@
      "decision": "2026-09-03",
      "expected": null,
      "opinion": null,
-     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · no international (INN) name published yet; development code from a Chinese drug database; RSV antibody",
      "indication": null,
      "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
      "sourceName": "NMPA 创新药品名录: 国家药监局批准芮特韦拜单抗注射液上市",
@@ -11642,31 +11659,6 @@
    ]
   },
   {
-   "id": "cn-d0f7d11d",
-   "inn": "阿舒克森",
-   "brands": [
-    "阿舒克森片"
-   ],
-   "sponsors": [],
-   "records": [
-    {
-     "country": "CN",
-     "regulator": "NMPA",
-     "status": "Approved",
-     "submitted": null,
-     "decision": "2026-10-26",
-     "expected": null,
-     "opinion": null,
-     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
-     "indication": null,
-     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
-     "sourceName": "NMPA 创新药品名录: 国家药监局批准阿舒克森片上市",
-     "confidence": "regulator",
-     "checked": "2026-10-30"
-    }
-   ]
-  },
-  {
    "id": "cn-21ba19d6",
    "inn": "鲁兹诺雷钠",
    "brands": [
@@ -11701,7 +11693,7 @@
   "SG": "2026 new drug approvals (NDA-1 and NDA-2). HSA does not list indications.",
   "UK": "2026 MHRA licences (fortnightly PDF lists) for drugs tracked elsewhere in this register, plus selected new active substances. MHRA's lists don't flag new substances, so this isn't a complete list of UK new medicines.",
   "AU": "2026 registrations of new chemical/biological entities and new combinations (to 25 Sep 2026), and applications under evaluation accepted in 2026 (to 21 Sep 2026), with the month accepted. From TGA lists saved by Salish Seven; new-indication applications are shown only for drugs tracked elsewhere.",
-  "CN": "2026 approvals in NMPA's innovative drug list (创新药品名录), to 26 Oct 2026, from pages saved by Salish Seven; traditional Chinese medicines are excluded. Drugs whose international name isn't confirmed yet are shown with their Chinese name.",
+  "CN": "2026 approvals in NMPA's innovative drug list (创新药品名录), to 26 Oct 2026, from pages saved by Salish Seven; traditional Chinese medicines are excluded. Translation caveat: NMPA publishes Chinese names only. International (INN) names were matched by Salish Seven using company announcements, news and drug databases; where no international name has been published, the drug is shown with its Chinese name and, if known, its development code. The Chinese name on NMPA's list is authoritative.",
   "KR": "Every prescription product approved in 2026 that MFDS flags as a new drug (신약), from MFDS's public drug database (to 30 Oct 2026). One entry per active ingredient, using the earliest approval.",
   "TW": "2026 Taiwan FDA drug licences (open data) for drugs tracked elsewhere, plus selected new active substances. Licence dates; not a complete list of Taiwan new medicines.",
   "BR": "2026 ANVISA registrations (open data) for drugs tracked elsewhere, plus selected new active substances. Dates are when the registration process was completed; not a complete list of Brazil new medicines.",
