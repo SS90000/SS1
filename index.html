@@ -96,6 +96,9 @@ a{color:var(--accent)}
 .terms h2{font-family:var(--f-display);font-size:16px;color:var(--ink);margin:0}
 .terms p{margin:0;max-width:90ch}
 html.embedded .wrap{padding-block:8px 16px}
+.home{justify-self:start;font-size:13px;font-weight:600;color:var(--accent);text-decoration:none;margin-bottom:6px}
+.home:hover{text-decoration:underline}
+html.embedded .home{display:none}
 .cov{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px}
 .cov div{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:9px 11px;font-size:13px}
 .cov b{display:block;color:var(--ink);font-weight:600;font-size:13px}
@@ -114,6 +117,7 @@ html.embedded .wrap{padding-block:8px 16px}
 
 <div class="wrap">
   <header>
+    <a class="home" id="home-link" href="https://salish-seven.square.site/">← Back to Salish Seven</a>
     <div class="eyebrow">Salish Seven · Life Science Initiative · Pilot</div>
     <h1>Drug approvals and pending decisions, by drug</h1>
     <p class="lede">Each row is one active substance. The cells show where it stands with each regulator: approved, recommended for approval, or under review. Open a row to see dates, submission timing and the source for every entry.</p>
