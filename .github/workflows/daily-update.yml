@@ -1,0 +1,50 @@
+name: Daily data update
+
+on:
+  schedule:
+    - cron: "34 10 * * *"   # 10:34 UTC = 6:34 am Toronto (EDT), 5:34 am in winter
+  workflow_dispatch: {}     # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+  id-token: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Keep a copy of the current data
+        run: cp data.json /tmp/data.before.json
+
+      - name: Check sources and update data.json
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          allowed_bots: "claude[bot]"
+          prompt: "Read .github/daily-update.md and carry out the daily update it describes, editing only data.json."
+          claude_args: |
+            --model claude-sonnet-5-5
+            --max-turns 80
+            --allowedTools "Read,Write,Edit,Glob,Grep,WebFetch,WebSearch,Bash(curl:*),Bash(python3:*),Bash(date:*),Bash(ls:*),Bash(cat:*)"
+
+      - name: Validate data.json
+        run: python3 .github/validate.py /tmp/data.before.json data.json
+
+      - name: Save the update
+        run: |
+          git config user.name "Claude"
+          git config user.email "noreply@anthropic.com"
+          git add data.json
+          if git diff --cached --quiet; then
+            echo "No change to data.json"
+          else
+            git commit -m "Daily data update $(date -u +%F)"
+            git push
+          fi
