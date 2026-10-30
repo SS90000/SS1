@@ -23,11 +23,25 @@ jobs:
       - name: Keep a copy of the current data
         run: cp data.json /tmp/data.before.json
 
+      - name: Check the Claude token is set up (does not print it)
+        env:
+          T: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import os
+          t = os.environ.get("T", "")
+          print("Token present:", bool(t))
+          print("Length:", len(t))
+          print("Starts with sk-ant-:", t.startswith("sk-ant-"))
+          print("Contains spaces or line breaks:", any(c.isspace() for c in t))
+          PY
+
       - name: Check sources and update data.json
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           allowed_bots: "claude[bot]"
+          show_full_output: "true"   # temporary, for diagnosing the first run
           prompt: "Read .github/daily-update.md and carry out the daily update it describes, editing only data.json."
           claude_args: |
             --model sonnet
