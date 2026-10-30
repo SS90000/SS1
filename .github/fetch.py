@@ -6,7 +6,7 @@ MAXB = 80 * 1024 * 1024
 log = []
 def get(url):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
-    with urllib.request.urlopen(req, timeout=90) as r:
+    with urllib.request.urlopen(req, timeout=240) as r:
         data = r.read(MAXB + 1)
         return data, r.headers.get("Content-Type", ""), r.geturl()
 def save(folder, url, data):
