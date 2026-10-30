@@ -32,7 +32,7 @@
   --warn-bg:#35211b; --warn:#f0a58f; --db-bg:#26213a; --db:#bcaef0; color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5}
-.wrap{max-width:1240px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 48px;display:grid;gap:20px}
+.wrap{max-width:1380px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 48px;display:grid;gap:20px}
 header{display:grid;gap:6px}
 .eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600}
 h1{font-family:var(--f-display);font-size:clamp(26px,4vw,36px);line-height:1.15;margin:0;text-wrap:balance}
@@ -51,7 +51,7 @@ select{font:inherit;font-size:13px;padding:5px 8px;border-radius:8px;border:1px 
 .count{font-size:13px;color:var(--muted);margin-left:auto}
 .key{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12.5px;color:var(--muted);align-items:center}
 .table{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden}
-.head,.row-main{display:grid;grid-template-columns:minmax(0,1.5fr) repeat(var(--n,6),minmax(0,1fr)) 20px;gap:8px;align-items:center;padding:10px 14px}
+.head,.row-main{display:grid;grid-template-columns:minmax(0,1.4fr) repeat(var(--n,6),minmax(0,1fr)) 16px;gap:6px;align-items:center;padding:10px 14px}
 .head{font-size:11.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line);background:var(--bg)}
 .head .rg{line-height:1.25}
 .head .rg small{display:block;text-transform:none;letter-spacing:0;font-size:11px}
@@ -62,7 +62,7 @@ select{font:inherit;font-size:13px;padding:5px 8px;border-radius:8px;border:1px 
 .drug{min-width:0}
 .inn{font-weight:600;overflow-wrap:anywhere}
 .brand{font-size:12.5px;color:var(--muted);overflow-wrap:anywhere}
-.cell{min-width:0;display:grid;gap:1px;font-size:12px;padding:5px 7px;border-radius:7px;min-height:42px;align-content:center}
+.cell{min-width:0;display:grid;gap:1px;font-size:12px;padding:5px 6px;border-radius:7px;min-height:42px;align-content:center}
 .cell .lbl{display:none;font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;opacity:.85}
 .cell .st{font-weight:600;font-size:11.5px}
 .cell .date{font-family:var(--f-mono);font-variant-numeric:tabular-nums;font-size:11.5px}
@@ -104,7 +104,7 @@ html.embedded .home{display:none}
 .cov div{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:9px 11px;font-size:13px}
 .cov b{display:block;color:var(--ink);font-weight:600;font-size:13px}
 .cov .off b::after{content:" · not yet loaded";color:var(--warn);font-weight:500}
-@media (max-width:860px){
+@media (max-width:1060px){
   .head{display:none}
   .row-main{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:6px}
   .drug{grid-column:1 / -1}
@@ -178,7 +178,7 @@ html.embedded .home{display:none}
 
 <script>
 (function(){
-  const COLS=[["US","FDA","United States"],["EU","EMA","European Union"],["CA","Health Canada","Canada"],["CH","Swissmedic","Switzerland"],["JP","PMDA","Japan"],["SG","HSA","Singapore"]];
+  const COLS=[["US","FDA","United States"],["EU","EMA","European Union"],["UK","MHRA","United Kingdom"],["CA","Health Canada","Canada"],["CH","Swissmedic","Switzerland"],["JP","PMDA","Japan"],["TW","TFDA","Taiwan"],["SG","HSA","Singapore"],["BR","ANVISA","Brazil"]];
   const CONF={regulator:"Regulator-published",company:"Company-reported",database:"Curated database",thirdparty:"Unconfirmed"};
   const MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
   const state={q:"",countries:new Set(),status:"all",sort:"recent",limit:40,open:new Set()};

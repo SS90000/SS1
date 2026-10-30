@@ -8,9 +8,12 @@
   "CH": "Switzerland · Swissmedic",
   "JP": "Japan · PMDA",
   "SG": "Singapore · HSA",
+  "TW": "Taiwan · TFDA",
+  "BR": "Brazil · ANVISA",
   "AU": "Australia · TGA",
   "CN": "China · NMPA",
-  "KR": "South Korea · MFDS"
+  "KR": "South Korea · MFDS",
+  "IN": "India · CDSCO"
  },
  "notes": {},
  "drugs": [
@@ -90,9 +93,12 @@
   {
    "id": "acoramidis",
    "inn": "acoramidis",
-   "brands": [],
+   "brands": [
+    "Beyonttra"
+   ],
    "sponsors": [
-    "BridgeBio Europe B.V."
+    "BridgeBio Europe B.V.",
+    "Global Regulatory Partners Brasil Ltda"
    ],
    "records": [
     {
@@ -109,6 +115,21 @@
      "decision": null,
      "expected": null,
      "opinion": null
+    },
+    {
+     "country": "BR",
+     "regulator": "ANVISA",
+     "status": "Approved",
+     "decision": "2026-05-04",
+     "type": "ANVISA registration (new drug; registration no. 176780003) · date the registration process was completed",
+     "indication": null,
+     "source": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+     "sourceName": "ANVISA open data: registered medicines",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -162,10 +183,14 @@
   {
    "id": "aficamten",
    "inn": "aficamten",
-   "brands": [],
+   "brands": [
+    "Myqorzo"
+   ],
    "sponsors": [
     "Cytokinetics",
-    "Cytokinetics, Incorporated"
+    "Cytokinetics, Incorporated",
+    "Cytokinetics (Ireland) Limited",
+    "Cytokinetics (ireland) Limited"
    ],
    "records": [
     {
@@ -196,6 +221,36 @@
      "decision": null,
      "expected": null,
      "opinion": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2025-12-11",
+     "decision": "2026-02-12",
+     "type": "European Commission marketing authorisation",
+     "indication": "Cardiomyopathy, Hypertrophic",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/myqorzo",
+     "sourceName": "EMA medicine page: Myqorzo",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "UK",
+     "regulator": "MHRA",
+     "status": "Approved",
+     "decision": "2026-07-29",
+     "type": "UK marketing authorisation granted (PL 60657/0001)",
+     "source": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+     "sourceName": "MHRA: Marketing authorisations granted in 2026 (15 Jul to 31 Jul 2026)",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -258,6 +313,33 @@
    ]
   },
   {
+   "id": "allogeneic-faecal-microbiota-pooled",
+   "inn": "allogeneic faecal microbiota, pooled",
+   "brands": [
+    "Xervyteg"
+   ],
+   "sponsors": [
+    "MaaT PHARMA"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Recommended",
+     "opinion": "2026-09-17",
+     "decision": null,
+     "type": "CHMP positive opinion · European Commission decision pending",
+     "indication": "Graft vs Host Disease",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/xervyteg",
+     "sourceName": "EMA medicine page: Xervyteg",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "alpelisib",
    "inn": "alpelisib",
    "brands": [
@@ -269,18 +351,18 @@
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
      "opinion": "2026-05-21",
-     "type": "CHMP positive opinion · orphan · conditional · European Commission decision pending in this register",
+     "decision": "2026-07-15",
+     "type": "European Commission marketing authorisation · orphan · conditional",
      "indication": "PIK3CA-related overgrowth spectrum (age 2+)",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-18-21-may-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-05)",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/vijoice",
+     "sourceName": "EMA medicine page: Vijoice",
      "confidence": "regulator",
-     "checked": "2026-10-29",
      "submitted": null,
-     "decision": null,
-     "expected": null
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -375,6 +457,33 @@
    ]
   },
   {
+   "id": "arimoclomol",
+   "inn": "arimoclomol",
+   "brands": [
+    "Meplyffa"
+   ],
+   "sponsors": [
+    "Zevra Denmark A/S"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Recommended",
+     "opinion": "2026-07-23",
+     "decision": null,
+     "type": "CHMP positive opinion · European Commission decision pending · orphan",
+     "indication": "Niemann-Pick Diseases",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/meplyffa",
+     "sourceName": "EMA medicine page: Meplyffa",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "asundexian",
    "inn": "asundexian",
    "brands": [],
@@ -424,10 +533,41 @@
    ]
   },
   {
+   "id": "atogepant",
+   "inn": "atogepant",
+   "brands": [
+    "Aquipta"
+   ],
+   "sponsors": [
+    "AbbVie GK"
+   ],
+   "records": [
+    {
+     "country": "JP",
+     "regulator": "MHLW / PMDA",
+     "status": "Approved",
+     "decision": "2026-02-19",
+     "type": "New drug approval · new active ingredient",
+     "indication": "Prevention of migraine attacks",
+     "source": "https://www.pmda.go.jp/files/000281190.pdf",
+     "sourceName": "PMDA: List of approved drugs, April 2004 to February 2026",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "atrasentan",
    "inn": "atrasentan",
-   "brands": [],
-   "sponsors": [],
+   "brands": [
+    "Vanrafia"
+   ],
+   "sponsors": [
+    "Novartis Biociencias S.a"
+   ],
    "records": [
     {
      "country": "CA",
@@ -443,15 +583,48 @@
      "expected": null,
      "opinion": null,
      "indication": null
+    },
+    {
+     "country": "TW",
+     "regulator": "Taiwan FDA",
+     "status": "Approved",
+     "decision": "2026-06-22",
+     "type": "Drug licence issued (衛部藥輸字第029157號)",
+     "indication": null,
+     "source": "https://data.gov.tw/en/datasets/9122",
+     "sourceName": "Taiwan FDA open data: all drug product approvals",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "BR",
+     "regulator": "ANVISA",
+     "status": "Approved",
+     "decision": "2026-08-31",
+     "type": "ANVISA registration (new drug; registration no. 100681190) · date the registration process was completed",
+     "indication": null,
+     "source": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+     "sourceName": "ANVISA open data: registered medicines",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
     }
    ]
   },
   {
    "id": "axatilimab",
    "inn": "axatilimab",
-   "brands": [],
+   "brands": [
+    "Niktimvo"
+   ],
    "sponsors": [
-    "Incyte Corporation"
+    "Incyte Corporation",
+    "United Medical Ltda"
    ],
    "records": [
     {
@@ -468,6 +641,21 @@
      "decision": null,
      "expected": null,
      "opinion": null
+    },
+    {
+     "country": "BR",
+     "regulator": "ANVISA",
+     "status": "Approved",
+     "decision": "2026-10-05",
+     "type": "ANVISA registration (biological product; registration no. 125760044) · date the registration process was completed",
+     "indication": null,
+     "source": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+     "sourceName": "ANVISA open data: registered medicines",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -614,6 +802,33 @@
    ]
   },
   {
+   "id": "belumosudil",
+   "inn": "belumosudil",
+   "brands": [
+    "Rezurock"
+   ],
+   "sponsors": [
+    "Sanofi Winthrop Industrie"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2026-01-29",
+     "decision": "2026-03-24",
+     "type": "European Commission marketing authorisation · orphan · conditional",
+     "indication": "Graft vs Host Disease",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/rezurock",
+     "sourceName": "EMA medicine page: Rezurock",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "benzydamine-/-lidocaine-/-dichlorobenzyl-alcohol",
    "inn": "benzydamine / lidocaine / dichlorobenzyl alcohol",
    "brands": [
@@ -677,6 +892,33 @@
      "decision": null,
      "expected": null,
      "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "beremagene-geperpavec",
+   "inn": "beremagene geperpavec",
+   "brands": [
+    "Vyjuvek"
+   ],
+   "sponsors": [
+    "Krystal Biotech Netherlands, B.v."
+   ],
+   "records": [
+    {
+     "country": "UK",
+     "regulator": "MHRA",
+     "status": "Approved",
+     "decision": "2026-05-15",
+     "type": "UK marketing authorisation granted (PL 61095/0001) · first 2026 UK licence for this substance in MHRA's lists; MHRA does not flag new active substances",
+     "source": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+     "sourceName": "MHRA: Marketing authorisations granted in 2026 (15 May 31 May 2026)",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -766,7 +1008,9 @@
    "brands": [
     "Brinsupri"
    ],
-   "sponsors": [],
+   "sponsors": [
+    "Insmed Netherlands BV"
+   ],
    "records": [
     {
      "country": "JP",
@@ -782,6 +1026,21 @@
      "expected": null,
      "opinion": null,
      "indication": null
+    },
+    {
+     "country": "UK",
+     "regulator": "MHRA",
+     "status": "Approved",
+     "decision": "2026-02-20",
+     "type": "UK marketing authorisation granted (PL 47434/0002)",
+     "source": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+     "sourceName": "MHRA: Marketing authorisations granted in 2026 (15 Feb 28 Feb 2026)",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -865,7 +1124,9 @@
     "Etcamah"
    ],
    "sponsors": [
-    "AstraZeneca"
+    "AstraZeneca",
+    "AstraZeneca AB",
+    "Astrazeneca UK Limited"
    ],
    "records": [
     {
@@ -881,21 +1142,6 @@
      "sourceName": "FDA Novel Drug Approvals 2026",
      "confidence": "regulator",
      "checked": "2026-10-29"
-    },
-    {
-     "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-05-21",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
-     "indication": "ER+/HER2- ESR1-mutated advanced breast cancer, with a CDK4/6 inhibitor",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-18-21-may-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-05)",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
-     "decision": null,
-     "expected": null
     },
     {
      "country": "CA",
@@ -926,6 +1172,90 @@
      "expected": null,
      "opinion": null,
      "indication": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2026-05-21",
+     "decision": "2026-07-20",
+     "type": "European Commission marketing authorisation",
+     "indication": "ER+/HER2- ESR1-mutated advanced breast cancer, with a CDK4/6 inhibitor",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/etcamah",
+     "sourceName": "EMA medicine page: Etcamah",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "UK",
+     "regulator": "MHRA",
+     "status": "Approved",
+     "decision": "2026-08-05",
+     "type": "UK marketing authorisation granted (PL 17901/0390)",
+     "source": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+     "sourceName": "MHRA: Marketing authorisations granted in 2026 (1 Aug to 14 Aug 2026)",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "catequentinib",
+   "inn": "catequentinib",
+   "brands": [
+    "Qezzaqar"
+   ],
+   "sponsors": [
+    "CATS Consultants GmbH"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Recommended",
+     "opinion": "2026-07-23",
+     "decision": null,
+     "type": "CHMP positive opinion · European Commission decision pending · orphan",
+     "indication": "Sarcoma; Leiomyosarcoma",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/qezzaqar",
+     "sourceName": "EMA medicine page: Qezzaqar",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "catumaxomab",
+   "inn": "catumaxomab",
+   "brands": [
+    "Korjuny"
+   ],
+   "sponsors": [
+    "Atnahs Pharma UK Limited"
+   ],
+   "records": [
+    {
+     "country": "UK",
+     "regulator": "MHRA",
+     "status": "Approved",
+     "decision": "2026-10-02",
+     "type": "UK marketing authorisation granted (PL 43252/0080) · first 2026 UK licence for this substance in MHRA's lists; MHRA does not flag new active substances",
+     "source": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+     "sourceName": "MHRA: Marketing authorisations granted in 2026 (1 October to 14 October 2026)",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -1115,7 +1445,10 @@
     "Enflonsia"
    ],
    "sponsors": [
-    "MSD Pharma (Singapore)"
+    "MSD Pharma (Singapore)",
+    "Merck Sharp  Dohme Limited",
+    "Merck Sharp & Dohme (uk) Limited",
+    "Merck Sharp & Dohme Farmaceutica Ltda."
    ],
    "records": [
     {
@@ -1176,6 +1509,51 @@
      "expected": null,
      "opinion": null,
      "indication": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2025-09-18",
+     "decision": "2026-04-15",
+     "type": "European Commission marketing authorisation",
+     "indication": "Respiratory Syncytial Virus Vaccines",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/enflonsia",
+     "sourceName": "EMA medicine page: Enflonsia",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "UK",
+     "regulator": "MHRA",
+     "status": "Approved",
+     "decision": "2026-04-22",
+     "type": "UK marketing authorisation granted (PL 53095/0109)",
+     "source": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+     "sourceName": "MHRA: Marketing authorisations granted in 2026 (15 Apr 30 Apr 2026 1)",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "BR",
+     "regulator": "ANVISA",
+     "status": "Approved",
+     "decision": "2026-03-30",
+     "type": "ANVISA registration (biological product; registration no. 101710239) · date the registration process was completed",
+     "indication": null,
+     "source": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+     "sourceName": "ANVISA open data: registered medicines",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -1225,6 +1603,33 @@
      "decision": null,
      "expected": null,
      "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "covid-19-mrna-vaccine",
+   "inn": "covid-19 mrna vaccine",
+   "brands": [
+    "mNexspike"
+   ],
+   "sponsors": [
+    "Moderna Biotech Spain, S.L."
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2025-12-11",
+     "decision": "2026-02-12",
+     "type": "European Commission marketing authorisation",
+     "indication": "COVID-19 virus infection",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/mnexspike",
+     "sourceName": "EMA medicine page: mNexspike",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -1284,7 +1689,9 @@
    "brands": [
     "Rasonque"
    ],
-   "sponsors": [],
+   "sponsors": [
+    "Revolution Medicines Netherlands B.V."
+   ],
    "records": [
     {
      "country": "US",
@@ -1302,27 +1709,30 @@
     },
     {
      "country": "EU",
-     "regulator": "EMA",
+     "regulator": "EMA / European Commission",
      "status": "Recommended",
      "opinion": "2026-10-15",
-     "type": "CHMP positive opinion · orphan (per CHMP agenda) · European Commission decision pending in this register",
-     "indication": "Metastatic pancreatic adenocarcinoma",
-     "source": "https://www.pharmanow.live/de/latest-news/ema-chmp-october-2026-meeting-highlights-orforglipron-biosimilars",
-     "sourceName": "News report of CHMP October 2026 meeting",
-     "confidence": "thirdparty",
-     "checked": "2026-10-29",
-     "submitted": null,
      "decision": null,
-     "expected": null
+     "type": "CHMP positive opinion · European Commission decision pending · orphan",
+     "indication": "Metastatic pancreatic adenocarcinoma",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/rasonque",
+     "sourceName": "EMA medicine page: Rasonque",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
   {
    "id": "datopotamab-deruxtecan",
    "inn": "datopotamab deruxtecan",
-   "brands": [],
+   "brands": [
+    "Datroway"
+   ],
    "sponsors": [
-    "AstraZeneca Canada Inc"
+    "AstraZeneca Canada Inc",
+    "Daiichi Sankyo Brasil Farmacêutica Ltda"
    ],
    "records": [
     {
@@ -1339,6 +1749,21 @@
      "decision": null,
      "expected": null,
      "opinion": null
+    },
+    {
+     "country": "BR",
+     "regulator": "ANVISA",
+     "status": "Approved",
+     "decision": "2026-03-09",
+     "type": "ANVISA registration (biological product; registration no. 104540196) · date the registration process was completed",
+     "indication": null,
+     "source": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+     "sourceName": "ANVISA open data: registered medicines",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -1354,21 +1779,6 @@
    ],
    "records": [
     {
-     "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-09-17",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
-     "indication": "Prophylaxis of bleeding in haemophilia A",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-09)",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
-     "decision": null,
-     "expected": null
-    },
-    {
      "country": "CA",
      "regulator": "Health Canada",
      "status": "Under review",
@@ -1382,6 +1792,21 @@
      "decision": null,
      "expected": null,
      "opinion": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Recommended",
+     "opinion": "2026-09-17",
+     "decision": null,
+     "type": "CHMP positive opinion · European Commission decision pending",
+     "indication": "Prophylaxis of bleeding in haemophilia A",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/frehemgo",
+     "sourceName": "EMA medicine page: Frehemgo",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -1392,13 +1817,15 @@
     "FORTISSO / OSIFOR",
     "EVFRAXY / VEVZUO",
     "JUBBONTI / WYOST",
-    "Denosumab Ascend"
+    "Denosumab Ascend",
+    "Osqay"
    ],
    "sponsors": [
     "Lotus International",
     "Cedar Pharmaceuticals",
     "Sandoz Singapore",
-    "Ascend GmbH"
+    "Ascend GmbH",
+    "Theramex Ireland Limited"
    ],
    "records": [
     {
@@ -1444,21 +1871,6 @@
      "checked": "2026-10-29"
     },
     {
-     "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-06-25",
-     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
-     "indication": "Skeletal-related events in advanced cancer; giant cell tumour of bone",
-     "source": "https://www.ema.europa.eu/fr/news/meeting-highlights-committee-medicinal-products-human-use-chmp-22-25-june-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-06)",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
-     "decision": null,
-     "expected": null
-    },
-    {
      "country": "CA",
      "regulator": "Health Canada",
      "status": "Approved",
@@ -1472,14 +1884,50 @@
      "expected": null,
      "opinion": null,
      "indication": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2026-06-25",
+     "decision": "2026-08-28",
+     "type": "European Commission marketing authorisation · biosimilar",
+     "indication": "Skeletal-related events in advanced cancer; giant cell tumour of bone",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/denosumab-ascend",
+     "sourceName": "EMA medicine page: Denosumab Ascend",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2025-11-13",
+     "decision": "2026-01-08",
+     "type": "European Commission marketing authorisation · biosimilar",
+     "indication": "Skeletal-related events in advanced cancer; giant cell tumour of bone",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/osqay",
+     "sourceName": "EMA medicine page: Osqay",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
   {
    "id": "depemokimab",
    "inn": "depemokimab",
-   "brands": [],
-   "sponsors": [],
+   "brands": [
+    "Exdensur",
+    "Densurko"
+   ],
+   "sponsors": [
+    "GlaxoSmithKline Trading Services Limited",
+    "Glaxosmithkline Brasil Ltda"
+   ],
    "records": [
     {
      "country": "CA",
@@ -1495,6 +1943,36 @@
      "expected": null,
      "opinion": null,
      "indication": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2025-12-11",
+     "decision": "2026-02-12",
+     "type": "European Commission marketing authorisation",
+     "indication": "Asthma; Nasal Polyps",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/exdensur",
+     "sourceName": "EMA medicine page: Exdensur",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "BR",
+     "regulator": "ANVISA",
+     "status": "Approved",
+     "decision": "2026-05-11",
+     "type": "ANVISA registration (biological product; registration no. 101070370) · date the registration process was completed",
+     "indication": null,
+     "source": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+     "sourceName": "ANVISA open data: registered medicines",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -1525,9 +2003,12 @@
   {
    "id": "deuruxolitinib",
    "inn": "deuruxolitinib",
-   "brands": [],
+   "brands": [
+    "Leqselvi"
+   ],
    "sponsors": [
-    "Sun Pharmaceutical Industries, Inc."
+    "Sun Pharmaceutical Industries, Inc.",
+    "Sun Pharma UK Limited"
    ],
    "records": [
     {
@@ -1544,6 +2025,64 @@
      "decision": null,
      "expected": null,
      "opinion": null
+    },
+    {
+     "country": "UK",
+     "regulator": "MHRA",
+     "status": "Approved",
+     "decision": "2026-03-10",
+     "type": "UK marketing authorisation granted (PLGB 14894/0831)",
+     "source": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+     "sourceName": "MHRA: Marketing authorisations granted in 2026 (1 Mar 14 Mar 2026)",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "deutetrabenazine",
+   "inn": "deutetrabenazine",
+   "brands": [
+    "Austedo"
+   ],
+   "sponsors": [
+    "Teva GmbH",
+    "Teva UK Limited"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2025-11-05",
+     "decision": "2026-01-08",
+     "type": "European Commission marketing authorisation",
+     "indication": "Tardive Dyskinesia",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/austedo",
+     "sourceName": "EMA medicine page: Austedo",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "UK",
+     "regulator": "MHRA",
+     "status": "Approved",
+     "decision": "2026-01-30",
+     "type": "UK marketing authorisation granted (PL 00289/2637)",
+     "source": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+     "sourceName": "MHRA: Marketing authorisations granted in 2026 (15 Jan 31 Jan)",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -1667,7 +2206,10 @@
    "brands": [
     "Dawnzera"
    ],
-   "sponsors": [],
+   "sponsors": [
+    "Otsuka Pharmaceutical Netherlands B.V.",
+    "Otsuka Pharmaceutical Netherlands BV"
+   ],
    "records": [
     {
      "country": "CA",
@@ -1698,6 +2240,36 @@
      "expected": null,
      "opinion": null,
      "indication": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2025-11-13",
+     "decision": "2026-01-19",
+     "type": "European Commission marketing authorisation",
+     "indication": "Angioedemas, Hereditary",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/dawnzera",
+     "sourceName": "EMA medicine page: Dawnzera",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "UK",
+     "regulator": "MHRA",
+     "status": "Approved",
+     "decision": "2026-05-07",
+     "type": "UK marketing authorisation granted (PLGB 50697/0036)",
+     "source": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+     "sourceName": "MHRA: Marketing authorisations granted in 2026 (1 May 14 May 2026)",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -1752,18 +2324,18 @@
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
      "opinion": "2026-01-29",
-     "type": "CHMP positive opinion · orphan · exceptional circumstances · PRIME · European Commission decision pending in this register",
+     "decision": "2026-03-26",
+     "type": "European Commission marketing authorisation · orphan · exceptional circumstances · PRIME",
      "indication": "Thymidine kinase 2 deficiency",
-     "source": "https://www.ema.europa.eu/pl/news/meeting-highlights-committee-medicinal-products-human-use-chmp-26-29-january-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-01)",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/kygevvi",
+     "sourceName": "EMA medicine page: Kygevvi",
      "confidence": "regulator",
-     "checked": "2026-10-29",
      "submitted": null,
-     "decision": null,
-     "expected": null
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -1826,18 +2398,18 @@
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
+     "regulator": "EMA / European Commission",
      "status": "Recommended",
      "opinion": "2026-09-17",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
-     "indication": "ALK-positive advanced NSCLC",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-09)",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
      "decision": null,
-     "expected": null
+     "type": "CHMP positive opinion · European Commission decision pending",
+     "indication": "ALK-positive advanced NSCLC",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/gevalka",
+     "sourceName": "EMA medicine page: Gevalka",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -1868,18 +2440,18 @@
     },
     {
      "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-07-23",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2026-06-23",
+     "decision": "2026-09-18",
+     "type": "European Commission marketing authorisation",
      "indication": "COVID-19 post-exposure prophylaxis",
-     "source": "https://www.ema.europa.eu/sl/media/75536",
-     "sourceName": "EMA CHMP minutes, July 2026",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/zokovea",
+     "sourceName": "EMA medicine page: Zokovea",
      "confidence": "regulator",
-     "checked": "2026-10-29",
      "submitted": null,
-     "decision": null,
-     "expected": null
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -1895,18 +2467,18 @@
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
      "opinion": "2026-01-29",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "decision": "2026-03-26",
+     "type": "European Commission marketing authorisation",
      "indication": "Hormone replacement therapy for oestrogen deficiency symptoms in postmenopausal women",
-     "source": "https://www.ema.europa.eu/pl/news/meeting-highlights-committee-medicinal-products-human-use-chmp-26-29-january-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-01)",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/fylrevy",
+     "sourceName": "EMA medicine page: Fylrevy",
      "confidence": "regulator",
-     "checked": "2026-10-29",
      "submitted": null,
-     "decision": null,
-     "expected": null
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -1922,18 +2494,45 @@
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
      "opinion": "2026-02-26",
-     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
+     "decision": "2026-04-23",
+     "type": "European Commission marketing authorisation · biosimilar",
      "indication": "Inflammatory arthritis and plaque psoriasis",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-february-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-02)",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/fubelv",
+     "sourceName": "EMA medicine page: Fubelv",
      "confidence": "regulator",
-     "checked": "2026-10-29",
      "submitted": null,
-     "decision": null,
-     "expected": null
+     "expected": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "etuvetidigene-autotemcel",
+   "inn": "etuvetidigene autotemcel",
+   "brands": [
+    "Waskyra"
+   ],
+   "sponsors": [
+    "Fondazione Telethon ETS"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2025-11-13",
+     "decision": "2026-01-09",
+     "type": "European Commission marketing authorisation · orphan · advanced therapy",
+     "indication": "Wiskott-Aldrich Syndrome",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/waskyra",
+     "sourceName": "EMA medicine page: Waskyra",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -1944,24 +2543,10 @@
     "Neuzafy"
    ],
    "sponsors": [
-    "Curateq Biologics Private Limited"
+    "Curateq Biologics Private Limited",
+    "CuraTeQ Biologics (Malta) Limited"
    ],
    "records": [
-    {
-     "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-10-15",
-     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
-     "indication": "Neutropenia",
-     "source": "https://www.pharmanow.live/de/latest-news/ema-chmp-october-2026-meeting-highlights-orforglipron-biosimilars",
-     "sourceName": "News report of CHMP October 2026 meeting",
-     "confidence": "thirdparty",
-     "checked": "2026-10-29",
-     "submitted": null,
-     "decision": null,
-     "expected": null
-    },
     {
      "country": "CA",
      "regulator": "Health Canada",
@@ -1976,6 +2561,63 @@
      "decision": null,
      "expected": null,
      "opinion": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Recommended",
+     "opinion": "2026-10-15",
+     "decision": null,
+     "type": "CHMP positive opinion · European Commission decision pending · biosimilar",
+     "indication": "Neutropenia",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/neuzafy",
+     "sourceName": "EMA medicine page: Neuzafy",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "fitusiran",
+   "inn": "fitusiran",
+   "brands": [
+    "Qfitlia"
+   ],
+   "sponsors": [
+    "Sanofi Medley Farmacêutica Ltda."
+   ],
+   "records": [
+    {
+     "country": "TW",
+     "regulator": "Taiwan FDA",
+     "status": "Approved",
+     "decision": "2026-02-03",
+     "type": "Drug licence issued (衛部藥輸字第029074號)",
+     "indication": null,
+     "source": "https://data.gov.tw/en/datasets/9122",
+     "sourceName": "Taiwan FDA open data: all drug product approvals",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "BR",
+     "regulator": "ANVISA",
+     "status": "Approved",
+     "decision": "2026-03-02",
+     "type": "ANVISA registration (new drug; registration no. 183260511) · date the registration process was completed",
+     "indication": null,
+     "source": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+     "sourceName": "ANVISA open data: registered medicines",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -2054,6 +2696,33 @@
    ]
   },
   {
+   "id": "fruquintinib",
+   "inn": "fruquintinib",
+   "brands": [
+    "Fruzaqla"
+   ],
+   "sponsors": [
+    "Takeda Farmaceutica Brasil Ltda"
+   ],
+   "records": [
+    {
+     "country": "BR",
+     "regulator": "ANVISA",
+     "status": "Approved",
+     "decision": "2026-08-31",
+     "type": "ANVISA registration (new drug; registration no. 126270028) · date the registration process was completed",
+     "indication": null,
+     "source": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+     "sourceName": "ANVISA open data: registered medicines",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "gadoquatrane",
    "inn": "gadoquatrane",
    "brands": [
@@ -2105,6 +2774,33 @@
      "expected": null,
      "opinion": null,
      "indication": null
+    }
+   ]
+  },
+  {
+   "id": "garadacimab",
+   "inn": "garadacimab",
+   "brands": [
+    "Andembry"
+   ],
+   "sponsors": [
+    "Csl Behring Comércio DE Produtos Farmacêuticos Ltda"
+   ],
+   "records": [
+    {
+     "country": "BR",
+     "regulator": "ANVISA",
+     "status": "Approved",
+     "decision": "2026-03-09",
+     "type": "ANVISA registration (biological product; registration no. 101510136) · date the registration process was completed",
+     "indication": null,
+     "source": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+     "sourceName": "ANVISA open data: registered medicines",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -2168,21 +2864,6 @@
    ],
    "records": [
     {
-     "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-09-17",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
-     "indication": "Generalised myasthenia gravis",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-09)",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
-     "decision": null,
-     "expected": null
-    },
-    {
      "country": "CA",
      "regulator": "Health Canada",
      "status": "Under review",
@@ -2196,6 +2877,21 @@
      "decision": null,
      "expected": null,
      "opinion": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Recommended",
+     "opinion": "2026-09-17",
+     "decision": null,
+     "type": "CHMP positive opinion · European Commission decision pending",
+     "indication": "Generalised myasthenia gravis",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/klygefa",
+     "sourceName": "EMA medicine page: Klygefa",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -2246,6 +2942,33 @@
      "expected": null,
      "opinion": null,
      "indication": null
+    }
+   ]
+  },
+  {
+   "id": "germanium-68ge-chloride-and-gallium-68ga",
+   "inn": "germanium (68ge) chloride and gallium (68ga)",
+   "brands": [
+    "GalenVita"
+   ],
+   "sponsors": [
+    "Curium Romania S.R.L."
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2025-11-13",
+     "decision": "2026-01-08",
+     "type": "European Commission marketing authorisation",
+     "indication": "Radionuclide Imaging",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/galenvita",
+     "sourceName": "EMA medicine page: GalenVita",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -2319,22 +3042,24 @@
    "brands": [
     "Zeydovio"
    ],
-   "sponsors": [],
+   "sponsors": [
+    "Zealand Pharma A/S"
+   ],
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
+     "regulator": "EMA / European Commission",
      "status": "Recommended",
      "opinion": "2026-09-17",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
-     "indication": "Short bowel syndrome",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-09)",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
      "decision": null,
-     "expected": null
+     "type": "CHMP positive opinion · European Commission decision pending",
+     "indication": "Short bowel syndrome",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/zeydovio",
+     "sourceName": "EMA medicine page: Zeydovio",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -2344,7 +3069,9 @@
    "brands": [
     "Voraxaze"
    ],
-   "sponsors": [],
+   "sponsors": [
+    "Moksha8 Brasil Industria E Comercio DE Medicamentos Ltda"
+   ],
    "records": [
     {
      "country": "CH",
@@ -2360,15 +3087,33 @@
      "expected": null,
      "opinion": null,
      "indication": null
+    },
+    {
+     "country": "BR",
+     "regulator": "ANVISA",
+     "status": "Approved",
+     "decision": "2026-09-08",
+     "type": "ANVISA registration (biological product; registration no. 164250015) · date the registration process was completed",
+     "indication": null,
+     "source": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+     "sourceName": "ANVISA open data: registered medicines",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
     }
    ]
   },
   {
    "id": "golimumab",
    "inn": "golimumab",
-   "brands": [],
+   "brands": [
+    "Gotenfia"
+   ],
    "sponsors": [
-    "Accord Healthcare Inc"
+    "Accord Healthcare Inc",
+    "Stada Arzneimittel AG"
    ],
    "records": [
     {
@@ -2385,6 +3130,21 @@
      "decision": null,
      "expected": null,
      "opinion": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2025-12-11",
+     "decision": "2026-02-10",
+     "type": "European Commission marketing authorisation · biosimilar",
+     "indication": "Arthritis, Rheumatoid; Arthritis, Juvenile; Arthritis, Psoriatic; Axial Spondyloarthritis; Non-Radiographic Axial Spondyloarthritis; Colitis, Ulcerative",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/gotenfia",
+     "sourceName": "EMA medicine page: Gotenfia",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -2497,7 +3257,8 @@
    ],
    "sponsors": [
     "Janssen-Cilag International N.V.",
-    "Janssen Inc"
+    "Janssen Inc",
+    "Janssen-Cilag International"
    ],
    "records": [
     {
@@ -2513,21 +3274,6 @@
      "sourceName": "FDA Novel Drug Approvals 2026",
      "confidence": "regulator",
      "checked": "2026-10-29"
-    },
-    {
-     "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-07-23",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
-     "indication": "Plaque psoriasis (age 12+)",
-     "source": "https://www.ema.europa.eu/sl/media/75536",
-     "sourceName": "EMA CHMP minutes, July 2026",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
-     "decision": null,
-     "expected": null
     },
     {
      "country": "CA",
@@ -2558,6 +3304,21 @@
      "expected": null,
      "opinion": null,
      "indication": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2026-07-23",
+     "decision": "2026-09-18",
+     "type": "European Commission marketing authorisation",
+     "indication": "Plaque psoriasis (age 12+)",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/icotyde",
+     "sourceName": "EMA medicine page: Icotyde",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -2615,7 +3376,9 @@
     "Inluriyo"
    ],
    "sponsors": [
-    "Eli Lilly Canada Inc"
+    "Eli Lilly Canada Inc",
+    "Eli Lilly Nederland B.V.",
+    "Eli Lilly Nederland B.v."
    ],
    "records": [
     {
@@ -2647,6 +3410,51 @@
      "expected": null,
      "opinion": null,
      "indication": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2025-11-13",
+     "decision": "2026-01-09",
+     "type": "European Commission marketing authorisation",
+     "indication": "Breast Neoplasms",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/inluriyo",
+     "sourceName": "EMA medicine page: Inluriyo",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "UK",
+     "regulator": "MHRA",
+     "status": "Approved",
+     "decision": "2026-02-24",
+     "type": "UK marketing authorisation granted (PL 14895/0348)",
+     "source": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+     "sourceName": "MHRA: Marketing authorisations granted in 2026 (15 Feb 28 Feb 2026)",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "TW",
+     "regulator": "Taiwan FDA",
+     "status": "Approved",
+     "decision": "2026-05-15",
+     "type": "Drug licence issued (衛部藥輸字第029131號)",
+     "indication": null,
+     "source": "https://data.gov.tw/en/datasets/9122",
+     "sourceName": "Taiwan FDA open data: all drug product approvals",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -2671,6 +3479,33 @@
      "sourceName": "Third-party PDUFA calendar (Assyro)",
      "confidence": "thirdparty",
      "checked": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "inavolisib",
+   "inn": "inavolisib",
+   "brands": [
+    "Itovebi"
+   ],
+   "sponsors": [
+    "Produtos Roche Químicos E Farmacêuticos S.a."
+   ],
+   "records": [
+    {
+     "country": "BR",
+     "regulator": "ANVISA",
+     "status": "Approved",
+     "decision": "2026-03-30",
+     "type": "ANVISA registration (new drug; registration no. 101000678) · date the registration process was completed",
+     "indication": null,
+     "source": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+     "sourceName": "ANVISA open data: registered medicines",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -2732,23 +3567,24 @@
     "mCombriax"
    ],
    "sponsors": [
-    "Moderna Biotech Spain S.L."
+    "Moderna Biotech Spain S.L.",
+    "Moderna Biotech Spain, S.L."
    ],
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
      "opinion": "2026-02-26",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "decision": "2026-04-20",
+     "type": "European Commission marketing authorisation",
      "indication": "Prevention of influenza and COVID-19",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-february-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-02)",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/mcombriax",
+     "sourceName": "EMA medicine page: mCombriax",
      "confidence": "regulator",
-     "checked": "2026-10-29",
      "submitted": null,
-     "decision": null,
-     "expected": null
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -2790,18 +3626,18 @@
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
      "opinion": "2026-01-29",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "decision": "2026-03-30",
+     "type": "European Commission marketing authorisation",
      "indication": "Influenza prevention from 9 years",
-     "source": "https://www.ema.europa.eu/pl/news/meeting-highlights-committee-medicinal-products-human-use-chmp-26-29-january-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-01)",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/supemtek",
+     "sourceName": "EMA medicine page: Supemtek",
      "confidence": "regulator",
-     "checked": "2026-10-29",
      "submitted": null,
-     "decision": null,
-     "expected": null
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -2838,23 +3674,24 @@
     "Aujemflu"
    ],
    "sponsors": [
-    "Seqirus Netherlands BV"
+    "Seqirus Netherlands BV",
+    "Seqirus Netherlands B.V."
    ],
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
      "opinion": "2026-06-25",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "decision": "2026-08-20",
+     "type": "European Commission marketing authorisation",
      "indication": "Influenza prophylaxis",
-     "source": "https://www.ema.europa.eu/fr/news/meeting-highlights-committee-medicinal-products-human-use-chmp-22-25-june-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-06)",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/aujemflu",
+     "sourceName": "EMA medicine page: Aujemflu",
      "confidence": "regulator",
-     "checked": "2026-10-29",
      "submitted": null,
-     "decision": null,
-     "expected": null
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -2865,23 +3702,24 @@
     "Dazparda"
    ],
    "sponsors": [
-    "Gan & Lee Pharmaceuticals Europe GmbH"
+    "Gan & Lee Pharmaceuticals Europe GmbH",
+    "Sandoz GmbH"
    ],
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
      "opinion": "2026-02-26",
-     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
+     "decision": "2026-04-27",
+     "type": "European Commission marketing authorisation · biosimilar",
      "indication": "Diabetes mellitus",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-february-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-02)",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/dazparda",
+     "sourceName": "EMA medicine page: Dazparda",
      "confidence": "regulator",
-     "checked": "2026-10-29",
      "submitted": null,
-     "decision": null,
-     "expected": null
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -2893,7 +3731,8 @@
    ],
    "sponsors": [
     "Eli Lilly Nederland B.V.",
-    "Eli Lilly Canada Inc"
+    "Eli Lilly Canada Inc",
+    "Eli Lilly Nederland B.v."
    ],
    "records": [
     {
@@ -2909,21 +3748,6 @@
      "sourceName": "FDA Novel Drug Approvals 2026",
      "confidence": "regulator",
      "checked": "2026-10-29"
-    },
-    {
-     "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-06-25",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
-     "indication": "Type 2 diabetes in adults",
-     "source": "https://www.ema.europa.eu/fr/news/meeting-highlights-committee-medicinal-products-human-use-chmp-22-25-june-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-06)",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
-     "decision": null,
-     "expected": null
     },
     {
      "country": "CA",
@@ -2954,6 +3778,63 @@
      "expected": null,
      "opinion": null,
      "indication": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Recommended",
+     "opinion": "2026-06-25",
+     "decision": null,
+     "type": "CHMP positive opinion · European Commission decision pending",
+     "indication": "Type 2 diabetes in adults",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/onswik",
+     "sourceName": "EMA medicine page: Onswik",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "UK",
+     "regulator": "MHRA",
+     "status": "Approved",
+     "decision": "2026-10-13",
+     "type": "UK marketing authorisation granted (PL 14895/0361)",
+     "source": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+     "sourceName": "MHRA: Marketing authorisations granted in 2026 (1 October to 14 October 2026)",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "insulin-glargine",
+   "inn": "insulin glargine",
+   "brands": [
+    "Ondibta"
+   ],
+   "sponsors": [
+    "Sandoz GmbH"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2025-11-13",
+     "decision": "2026-01-09",
+     "type": "European Commission marketing authorisation · biosimilar",
+     "indication": "Diabetes Mellitus",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/ondibta",
+     "sourceName": "EMA medicine page: Ondibta",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -3005,23 +3886,24 @@
     "Bysumlog"
    ],
    "sponsors": [
-    "Gan & Lee Pharmaceuticals Europe GmbH"
+    "Gan & Lee Pharmaceuticals Europe GmbH",
+    "Sandoz GmbH"
    ],
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
      "opinion": "2026-02-26",
-     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
+     "decision": "2026-05-06",
+     "type": "European Commission marketing authorisation · biosimilar",
      "indication": "Diabetes mellitus",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-february-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-02)",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/bysumlog",
+     "sourceName": "EMA medicine page: Bysumlog",
      "confidence": "regulator",
-     "checked": "2026-10-29",
      "submitted": null,
-     "decision": null,
-     "expected": null
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -3076,6 +3958,33 @@
    ]
   },
   {
+   "id": "l-acetylleucine",
+   "inn": "l-acetylleucine",
+   "brands": [
+    "Aqneursa"
+   ],
+   "sponsors": [
+    "Intrabio Ireland Limited"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2025-11-13",
+     "decision": "2026-01-19",
+     "type": "European Commission marketing authorisation · orphan",
+     "indication": "Niemann-Pick Disease, Type C",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/aqneursa",
+     "sourceName": "EMA medicine page: Aqneursa",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "lanadelumab",
    "inn": "lanadelumab",
    "brands": [
@@ -3102,6 +4011,33 @@
    ]
   },
   {
+   "id": "lenacapavir",
+   "inn": "lenacapavir",
+   "brands": [
+    "Sunlenca"
+   ],
+   "sponsors": [
+    "Gilead Sciences Farmaceutica DO Brasil Ltda"
+   ],
+   "records": [
+    {
+     "country": "BR",
+     "regulator": "ANVISA",
+     "status": "Approved",
+     "decision": "2026-01-05",
+     "type": "ANVISA registration (new drug; registration no. 109290015) · date the registration process was completed",
+     "indication": null,
+     "source": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+     "sourceName": "ANVISA open data: registered medicines",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "leniolisib",
    "inn": "leniolisib",
    "brands": [
@@ -3111,21 +4047,6 @@
     "Pharming Technologies B.V."
    ],
    "records": [
-    {
-     "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-03-26",
-     "type": "CHMP positive opinion · orphan · exceptional circumstances · European Commission decision pending in this register",
-     "indication": "Activated PI3K delta syndrome (APDS)",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-march-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-03)",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
-     "decision": null,
-     "expected": null
-    },
     {
      "country": "JP",
      "regulator": "MHLW / PMDA",
@@ -3140,6 +4061,21 @@
      "expected": null,
      "opinion": null,
      "indication": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2026-03-26",
+     "decision": "2026-05-21",
+     "type": "European Commission marketing authorisation · orphan · exceptional circumstances",
+     "indication": "Activated PI3K delta syndrome (APDS)",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/joenja",
+     "sourceName": "EMA medicine page: Joenja",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -3155,18 +4091,18 @@
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
      "opinion": "2026-07-23",
-     "type": "CHMP positive opinion · exceptional circumstances · European Commission decision pending in this register",
+     "decision": "2026-09-21",
+     "type": "European Commission marketing authorisation · orphan · exceptional circumstances",
      "indication": "Adrenoleukodystrophy",
-     "source": "https://www.ema.europa.eu/sl/media/75536",
-     "sourceName": "EMA CHMP minutes, July 2026",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/nezglyal",
+     "sourceName": "EMA medicine page: Nezglyal",
      "confidence": "regulator",
-     "checked": "2026-10-29",
      "submitted": null,
-     "decision": null,
-     "expected": null
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -3182,18 +4118,18 @@
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
+     "regulator": "EMA / European Commission",
      "status": "Recommended",
      "opinion": "2026-07-23",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
-     "indication": "Primary hypercholesterolaemia or mixed dyslipidaemia",
-     "source": "https://www.ema.europa.eu/sl/media/75536",
-     "sourceName": "EMA CHMP minutes, July 2026",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
      "decision": null,
-     "expected": null
+     "type": "CHMP positive opinion · European Commission decision pending",
+     "indication": "Primary hypercholesterolaemia or mixed dyslipidaemia",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/lyrokaul",
+     "sourceName": "EMA medicine page: Lyrokaul",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -3232,38 +4168,39 @@
    ],
    "sponsors": [
     "Tanabe Pharma GmbH",
-    "Zambon S.p.A."
+    "Zambon S.p.A.",
+    "Zambon SpA"
    ],
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-02-26",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2026-06-25",
+     "decision": "2026-08-20",
+     "type": "European Commission marketing authorisation",
      "indication": "Motor fluctuations in Parkinson's disease",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-february-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-02)",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/hopledo",
+     "sourceName": "EMA medicine page: Hopledo",
      "confidence": "regulator",
-     "checked": "2026-10-29",
      "submitted": null,
-     "decision": null,
-     "expected": null
+     "expected": null,
+     "checked": "2026-10-30"
     },
     {
      "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-06-25",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
-     "indication": "Parkinson's disease with motor fluctuations",
-     "source": "https://www.ema.europa.eu/fr/news/meeting-highlights-committee-medicinal-products-human-use-chmp-22-25-june-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-06)",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2026-02-26",
+     "decision": "2026-04-27",
+     "type": "European Commission marketing authorisation",
+     "indication": "Motor fluctuations in Parkinson's disease",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/onerji",
+     "sourceName": "EMA medicine page: Onerji",
      "confidence": "regulator",
-     "checked": "2026-10-29",
      "submitted": null,
-     "decision": null,
-     "expected": null
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -3275,7 +4212,9 @@
    ],
    "sponsors": [
     "GlaxoSmithKline Trading Services Ltd",
-    "GlaxoSmithKline Inc"
+    "GlaxoSmithKline Inc",
+    "GlaxoSmithKline Trading Services Limited",
+    "Glaxosmithkline UK Limited"
    ],
    "records": [
     {
@@ -3293,21 +4232,6 @@
      "checked": "2026-10-29"
     },
     {
-     "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-07-23",
-     "type": "CHMP positive opinion · orphan · European Commission decision pending in this register",
-     "indication": "Cholestatic pruritus in primary biliary cholangitis",
-     "source": "https://www.ema.europa.eu/sl/media/75536",
-     "sourceName": "EMA CHMP minutes, July 2026",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
-     "decision": null,
-     "expected": null
-    },
-    {
      "country": "CA",
      "regulator": "Health Canada",
      "status": "Under review",
@@ -3321,6 +4245,36 @@
      "decision": null,
      "expected": null,
      "opinion": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2026-07-23",
+     "decision": "2026-10-22",
+     "type": "European Commission marketing authorisation · orphan",
+     "indication": "Cholestatic pruritus in primary biliary cholangitis",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/lynavoy",
+     "sourceName": "EMA medicine page: Lynavoy",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "UK",
+     "regulator": "MHRA",
+     "status": "Approved",
+     "decision": "2026-05-01",
+     "type": "UK marketing authorisation granted (PL 19494/0330)",
+     "source": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+     "sourceName": "MHRA: Marketing authorisations granted in 2026 (1 May 14 May 2026)",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -3409,18 +4363,18 @@
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
      "opinion": "2026-03-26",
-     "type": "CHMP positive opinion · orphan · European Commission decision pending in this register",
+     "decision": "2026-05-29",
+     "type": "European Commission marketing authorisation · orphan",
      "indication": "Maintenance treatment of extensive-stage small cell lung cancer",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-march-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-03)",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/zepzelca",
+     "sourceName": "EMA medicine page: Zepzelca",
      "confidence": "regulator",
-     "checked": "2026-10-29",
      "submitted": null,
-     "decision": null,
-     "expected": null
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -3450,29 +4404,29 @@
    ]
   },
   {
-   "id": "lutetium-177lu-chloride",
-   "inn": "lutetium (177lu) chloride",
+   "id": "lutetium-177lu",
+   "inn": "lutetium (177lu)",
    "brands": [
     "Ilumira"
    ],
    "sponsors": [
-    "SHINE Europe B.V."
+    "Shine Europe B.V."
    ],
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
      "opinion": "2026-01-29",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
-     "indication": "Radiolabelling of carrier medicines",
-     "source": "https://www.ema.europa.eu/pl/news/meeting-highlights-committee-medicinal-products-human-use-chmp-26-29-january-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-01)",
+     "decision": "2026-03-26",
+     "type": "European Commission marketing authorisation",
+     "indication": "Radionuclide Imaging",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/ilumira",
+     "sourceName": "EMA medicine page: Ilumira",
      "confidence": "regulator",
-     "checked": "2026-10-29",
      "submitted": null,
-     "decision": null,
-     "expected": null
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -3483,23 +4437,24 @@
     "Xolremdi"
    ],
    "sponsors": [
-    "X4 Pharmaceuticals (Austria) GmbH"
+    "X4 Pharmaceuticals (Austria) GmbH",
+    "Norgine B.V."
    ],
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
      "opinion": "2026-02-26",
-     "type": "CHMP positive opinion · orphan · exceptional circumstances · European Commission decision pending in this register",
+     "decision": "2026-04-27",
+     "type": "European Commission marketing authorisation · orphan · exceptional circumstances",
      "indication": "WHIM syndrome",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-february-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-02)",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/xolremdi",
+     "sourceName": "EMA medicine page: Xolremdi",
      "confidence": "regulator",
-     "checked": "2026-10-29",
      "submitted": null,
-     "decision": null,
-     "expected": null
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -3692,6 +4647,21 @@
      "expected": null,
      "opinion": null,
      "indication": null
+    },
+    {
+     "country": "TW",
+     "regulator": "Taiwan FDA",
+     "status": "Approved",
+     "decision": "2026-05-07",
+     "type": "Drug licence issued (衛部菌疫輸字第001321號)",
+     "indication": null,
+     "source": "https://data.gov.tw/en/datasets/9122",
+     "sourceName": "Taiwan FDA open data: all drug product approvals",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -3831,18 +4801,45 @@
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
      "opinion": "2026-03-26",
-     "type": "CHMP positive opinion · conditional · European Commission decision pending in this register",
+     "decision": "2026-05-28",
+     "type": "European Commission marketing authorisation · conditional · advanced therapy",
      "indication": "BCG-unresponsive high-grade non-muscle invasive bladder cancer",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-march-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-03)",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/adstiladrin",
+     "sourceName": "EMA medicine page: Adstiladrin",
      "confidence": "regulator",
-     "checked": "2026-10-29",
      "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "narsoplimab",
+   "inn": "narsoplimab",
+   "brands": [
+    "Yartemlea"
+   ],
+   "sponsors": [
+    "Omeros Ireland Limited"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Recommended",
+     "opinion": "2026-10-15",
      "decision": null,
-     "expected": null
+     "type": "CHMP positive opinion · European Commission decision pending",
+     "indication": "Thrombotic Microangiopathies; Hematopoietic Stem Cell Transplantation",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/yartemlea",
+     "sourceName": "EMA medicine page: Yartemlea",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -3852,7 +4849,9 @@
    "brands": [
     "Yuviwel"
    ],
-   "sponsors": [],
+   "sponsors": [
+    "Ascendis Pharma Growth Disorders A/S"
+   ],
    "records": [
     {
      "country": "US",
@@ -3870,18 +4869,18 @@
     },
     {
      "country": "EU",
-     "regulator": "EMA",
+     "regulator": "EMA / European Commission",
      "status": "Recommended",
      "opinion": "2026-10-15",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
-     "indication": "Achondroplasia in children",
-     "source": "https://www.pharmanow.live/de/latest-news/ema-chmp-october-2026-meeting-highlights-orforglipron-biosimilars",
-     "sourceName": "News report of CHMP October 2026 meeting",
-     "confidence": "thirdparty",
-     "checked": "2026-10-29",
-     "submitted": null,
      "decision": null,
-     "expected": null
+     "type": "CHMP positive opinion · European Commission decision pending · orphan",
+     "indication": "Achondroplasia in children",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/yuviwel",
+     "sourceName": "EMA medicine page: Yuviwel",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -3910,6 +4909,33 @@
    ]
   },
   {
+   "id": "nemolizumab",
+   "inn": "nemolizumab",
+   "brands": [
+    "Nemluvio"
+   ],
+   "sponsors": [
+    "Galderma Brasil Ltda"
+   ],
+   "records": [
+    {
+     "country": "BR",
+     "regulator": "ANVISA",
+     "status": "Approved",
+     "decision": "2026-05-18",
+     "type": "ANVISA registration (biological product; registration no. 129160207) · date the registration process was completed",
+     "indication": null,
+     "source": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+     "sourceName": "ANVISA open data: registered medicines",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "nerandomilast",
    "inn": "nerandomilast",
    "brands": [
@@ -3917,24 +4943,10 @@
    ],
    "sponsors": [
     "Boehringer Ingelheim International GmbH",
-    "Boehringer Ingelheim (Canada) Ltd Ltee"
+    "Boehringer Ingelheim (Canada) Ltd Ltee",
+    "Boehringer Ingelheim International Gmbh"
    ],
    "records": [
-    {
-     "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-05-21",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
-     "indication": "Idiopathic and progressive pulmonary fibrosis",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-18-21-may-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-05)",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
-     "decision": null,
-     "expected": null
-    },
     {
      "country": "CA",
      "regulator": "Health Canada",
@@ -3964,6 +4976,78 @@
      "expected": null,
      "opinion": null,
      "indication": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2026-05-21",
+     "decision": "2026-07-15",
+     "type": "European Commission marketing authorisation",
+     "indication": "Idiopathic and progressive pulmonary fibrosis",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/jascayd",
+     "sourceName": "EMA medicine page: Jascayd",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "UK",
+     "regulator": "MHRA",
+     "status": "Approved",
+     "decision": "2026-07-08",
+     "type": "UK marketing authorisation granted (PL 14598/0243)",
+     "source": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+     "sourceName": "MHRA: Marketing authorisations granted in 2026 (1 Jul to 14 Jul 2026)",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "TW",
+     "regulator": "Taiwan FDA",
+     "status": "Approved",
+     "decision": "2026-07-28",
+     "type": "Drug licence issued (衛部藥輸字第029186號)",
+     "indication": null,
+     "source": "https://data.gov.tw/en/datasets/9122",
+     "sourceName": "Taiwan FDA open data: all drug product approvals",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "nipocalimab",
+   "inn": "nipocalimab",
+   "brands": [
+    "Imaavy"
+   ],
+   "sponsors": [
+    "Janssen-cilag Limited"
+   ],
+   "records": [
+    {
+     "country": "UK",
+     "regulator": "MHRA",
+     "status": "Approved",
+     "decision": "2026-06-09",
+     "type": "UK marketing authorisation granted (PL 00242/0780) · first 2026 UK licence for this substance in MHRA's lists; MHRA does not flag new active substances",
+     "source": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+     "sourceName": "MHRA: Marketing authorisations granted in 2026 (1 Jun 14 Jun 2026)",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -4000,7 +5084,8 @@
     "Ogsiveo"
    ],
    "sponsors": [
-    "EMD Serono a Division of EMD Inc Canada"
+    "EMD Serono a Division of EMD Inc Canada",
+    "Springworks Therapeutics Ireland Limited"
    ],
    "records": [
     {
@@ -4032,6 +5117,21 @@
      "expected": null,
      "opinion": null,
      "indication": null
+    },
+    {
+     "country": "UK",
+     "regulator": "MHRA",
+     "status": "Approved",
+     "decision": "2026-01-07",
+     "type": "UK marketing authorisation granted (PL 59369/0001)",
+     "source": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+     "sourceName": "MHRA: Marketing authorisations granted in 2026 (1 Jan 14 Jan)",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -4061,6 +5161,33 @@
    ]
   },
   {
+   "id": "nogapendekin-alfa-inbakicept",
+   "inn": "nogapendekin alfa inbakicept",
+   "brands": [
+    "Anktiva"
+   ],
+   "sponsors": [
+    "Immunitybio Ireland Limited"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2025-12-11",
+     "decision": "2026-02-16",
+     "type": "European Commission marketing authorisation · conditional",
+     "indication": "Non-Muscle Invasive Bladder Neoplasms",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/anktiva",
+     "sourceName": "EMA medicine page: Anktiva",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "obicetrapib",
    "inn": "obicetrapib",
    "brands": [
@@ -4072,18 +5199,18 @@
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
+     "regulator": "EMA / European Commission",
      "status": "Recommended",
      "opinion": "2026-07-23",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
-     "indication": "Primary hypercholesterolaemia or mixed dyslipidaemia",
-     "source": "https://www.ema.europa.eu/sl/media/75536",
-     "sourceName": "EMA CHMP minutes, July 2026",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
      "decision": null,
-     "expected": null
+     "type": "CHMP positive opinion · European Commission decision pending",
+     "indication": "Primary hypercholesterolaemia or mixed dyslipidaemia",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/ubeslo",
+     "sourceName": "EMA medicine page: Ubeslo",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -4099,18 +5226,18 @@
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
+     "regulator": "EMA / European Commission",
      "status": "Recommended",
      "opinion": "2026-07-23",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
-     "indication": "Primary hypercholesterolaemia or mixed dyslipidaemia",
-     "source": "https://www.ema.europa.eu/sl/media/75536",
-     "sourceName": "EMA CHMP minutes, July 2026",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
      "decision": null,
-     "expected": null
+     "type": "CHMP positive opinion · European Commission decision pending",
+     "indication": "Primary hypercholesterolaemia or mixed dyslipidaemia",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/evlarco",
+     "sourceName": "EMA medicine page: Evlarco",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -4165,6 +5292,33 @@
    ]
   },
   {
+   "id": "olezarsen",
+   "inn": "olezarsen",
+   "brands": [
+    "Tryngolza"
+   ],
+   "sponsors": [
+    "Swedish Orphan Biovitrum AB (publ)"
+   ],
+   "records": [
+    {
+     "country": "UK",
+     "regulator": "MHRA",
+     "status": "Approved",
+     "decision": "2026-04-10",
+     "type": "UK marketing authorisation granted (PL 30941/0031) · first 2026 UK licence for this substance in MHRA's lists; MHRA does not flag new active substances",
+     "source": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+     "sourceName": "MHRA: Marketing authorisations granted in 2026 (1 Apr 14 Apr 2026)",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "omalizumab",
    "inn": "omalizumab",
    "brands": [
@@ -4175,21 +5329,6 @@
     "Advanz Pharma Canada Inc."
    ],
    "records": [
-    {
-     "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-09-17",
-     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
-     "indication": "Asthma, nasal polyps, chronic spontaneous urticaria",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-09)",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
-     "decision": null,
-     "expected": null
-    },
     {
      "country": "CA",
      "regulator": "Health Canada",
@@ -4204,6 +5343,21 @@
      "decision": null,
      "expected": null,
      "opinion": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Recommended",
+     "opinion": "2026-09-17",
+     "decision": null,
+     "type": "CHMP positive opinion · European Commission decision pending · biosimilar",
+     "indication": "Asthma, nasal polyps, chronic spontaneous urticaria",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/adcomfo",
+     "sourceName": "EMA medicine page: Adcomfo",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -4219,18 +5373,18 @@
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
      "opinion": "2026-04-23",
-     "type": "CHMP positive opinion · orphan · European Commission decision pending in this register",
+     "decision": "2026-06-30",
+     "type": "European Commission marketing authorisation",
      "indication": "5q spinal muscular atrophy",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-20-23-april-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-04)",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/itvisma",
+     "sourceName": "EMA medicine page: Itvisma",
      "confidence": "regulator",
-     "checked": "2026-10-29",
      "submitted": null,
-     "decision": null,
-     "expected": null
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -4241,7 +5395,9 @@
     "Foundayo"
    ],
    "sponsors": [
-    "Eli Lilly Canada Inc"
+    "Eli Lilly Canada Inc",
+    "Eli Lilly Nederland B.V.",
+    "Eli Lilly Nederland B.v."
    ],
    "records": [
     {
@@ -4259,21 +5415,6 @@
      "checked": "2026-10-29"
     },
     {
-     "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-10-15",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
-     "indication": "Weight management and type 2 diabetes in adults",
-     "source": "https://www.pharmanow.live/de/latest-news/ema-chmp-october-2026-meeting-highlights-orforglipron-biosimilars",
-     "sourceName": "News report of CHMP October 2026 meeting",
-     "confidence": "thirdparty",
-     "checked": "2026-10-29",
-     "submitted": null,
-     "decision": null,
-     "expected": null
-    },
-    {
      "country": "CA",
      "regulator": "Health Canada",
      "status": "Under review",
@@ -4287,6 +5428,36 @@
      "decision": null,
      "expected": null,
      "opinion": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Recommended",
+     "opinion": "2026-10-15",
+     "decision": null,
+     "type": "CHMP positive opinion · European Commission decision pending",
+     "indication": "Weight management and type 2 diabetes in adults",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/foundayo",
+     "sourceName": "EMA medicine page: Foundayo",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "UK",
+     "regulator": "MHRA",
+     "status": "Approved",
+     "decision": "2026-08-10",
+     "type": "UK marketing authorisation granted (PL 14895/0369)",
+     "source": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+     "sourceName": "MHRA: Marketing authorisations granted in 2026 (1 Aug to 14 Aug 2026)",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -4332,6 +5503,87 @@
    ]
   },
   {
+   "id": "pacritinib",
+   "inn": "pacritinib",
+   "brands": [
+    "Vonjo"
+   ],
+   "sponsors": [
+    "Pint Pharma Produtos Medico-hospitalares E Farmaceuticos Ltda"
+   ],
+   "records": [
+    {
+     "country": "BR",
+     "regulator": "ANVISA",
+     "status": "Approved",
+     "decision": "2026-06-08",
+     "type": "ANVISA registration (new drug; registration no. 139000011) · date the registration process was completed",
+     "indication": null,
+     "source": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+     "sourceName": "ANVISA open data: registered medicines",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "palopegteriparatide",
+   "inn": "palopegteriparatide",
+   "brands": [
+    "Yorvipath"
+   ],
+   "sponsors": [
+    "Adium S.a."
+   ],
+   "records": [
+    {
+     "country": "BR",
+     "regulator": "ANVISA",
+     "status": "Approved",
+     "decision": "2026-09-21",
+     "type": "ANVISA registration (new drug; registration no. 122140142) · date the registration process was completed",
+     "indication": null,
+     "source": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+     "sourceName": "ANVISA open data: registered medicines",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "palovarotene",
+   "inn": "palovarotene",
+   "brands": [
+    "Sohonos"
+   ],
+   "sponsors": [
+    "IPSEN Co., Ltd."
+   ],
+   "records": [
+    {
+     "country": "JP",
+     "regulator": "MHLW / PMDA",
+     "status": "Approved",
+     "decision": "2026-02-19",
+     "type": "New drug approval · new active ingredient",
+     "indication": "Fibrodysplasia ossificans progressiva (orphan drug)",
+     "source": "https://www.pmda.go.jp/files/000281190.pdf",
+     "sourceName": "PMDA: List of approved drugs, April 2004 to February 2026",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "paltusotine",
    "inn": "paltusotine",
    "brands": [
@@ -4343,18 +5595,18 @@
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
      "opinion": "2026-02-26",
-     "type": "CHMP positive opinion · orphan · European Commission decision pending in this register",
+     "decision": "2026-04-23",
+     "type": "European Commission marketing authorisation · orphan",
      "indication": "Acromegaly",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-february-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-02)",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/palsonify",
+     "sourceName": "EMA medicine page: Palsonify",
      "confidence": "regulator",
-     "checked": "2026-10-29",
      "submitted": null,
-     "decision": null,
-     "expected": null
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -4388,33 +5640,33 @@
     },
     {
      "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-06-25",
-     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2026-07-23",
+     "decision": "2026-09-25",
+     "type": "European Commission marketing authorisation · biosimilar",
      "indication": "Chemotherapy-induced neutropenia",
-     "source": "https://www.ema.europa.eu/fr/news/meeting-highlights-committee-medicinal-products-human-use-chmp-22-25-june-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-06)",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/cavoley",
+     "sourceName": "EMA medicine page: Cavoley",
      "confidence": "regulator",
-     "checked": "2026-10-29",
      "submitted": null,
-     "decision": null,
-     "expected": null
+     "expected": null,
+     "checked": "2026-10-30"
     },
     {
      "country": "EU",
-     "regulator": "EMA",
+     "regulator": "EMA / European Commission",
      "status": "Recommended",
-     "opinion": "2026-07-23",
-     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
-     "indication": "Chemotherapy-induced neutropenia",
-     "source": "https://www.ema.europa.eu/sl/media/75536",
-     "sourceName": "EMA CHMP minutes, July 2026",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
+     "opinion": "2026-06-25",
      "decision": null,
-     "expected": null
+     "type": "CHMP positive opinion · European Commission decision pending · biosimilar",
+     "indication": "Chemotherapy-induced neutropenia",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/nylaspeg",
+     "sourceName": "EMA medicine page: Nylaspeg",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -4444,6 +5696,33 @@
    ]
   },
   {
+   "id": "pegunigalsidase-alfa",
+   "inn": "pegunigalsidase alfa",
+   "brands": [
+    "Elfabrio"
+   ],
+   "sponsors": [
+    "Chiesi Farmacêutica Ltda"
+   ],
+   "records": [
+    {
+     "country": "BR",
+     "regulator": "ANVISA",
+     "status": "Approved",
+     "decision": "2026-10-05",
+     "type": "ANVISA registration (biological product; registration no. 100580126) · date the registration process was completed",
+     "indication": null,
+     "source": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+     "sourceName": "ANVISA open data: registered medicines",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "pegzilarginase",
    "inn": "pegzilarginase",
    "brands": [
@@ -4468,6 +5747,33 @@
    ]
   },
   {
+   "id": "pertussis-vaccine-recombinant-acellular-component-adsorbed",
+   "inn": "pertussis vaccine (recombinant, acellular, component, adsorbed)",
+   "brands": [
+    "VacPertagen"
+   ],
+   "sponsors": [
+    "BioNet Europe"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2025-11-13",
+     "decision": "2026-01-09",
+     "type": "European Commission marketing authorisation",
+     "indication": "Whooping Cough; Infections",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/vacpertagen",
+     "sourceName": "EMA medicine page: VacPertagen",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "pertuzumab",
    "inn": "pertuzumab",
    "brands": [
@@ -4480,36 +5786,6 @@
     "Shanghai Henlius Biotech, Inc."
    ],
    "records": [
-    {
-     "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-02-26",
-     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
-     "indication": "Breast cancer",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-february-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-02)",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
-     "decision": null,
-     "expected": null
-    },
-    {
-     "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-09-17",
-     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
-     "indication": "Breast cancer",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-09)",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
-     "decision": null,
-     "expected": null
-    },
     {
      "country": "CA",
      "regulator": "Health Canada",
@@ -4539,6 +5815,21 @@
      "decision": null,
      "expected": null,
      "opinion": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2026-02-26",
+     "decision": "2026-04-23",
+     "type": "European Commission marketing authorisation · biosimilar",
+     "indication": "Breast cancer",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/poherdy",
+     "sourceName": "EMA medicine page: Poherdy",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -4604,18 +5895,18 @@
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
      "opinion": "2026-04-23",
-     "type": "CHMP positive opinion · orphan · European Commission decision pending in this register",
+     "decision": "2026-06-19",
+     "type": "European Commission marketing authorisation · orphan",
      "indication": "Familial chylomicronaemia syndrome",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-20-23-april-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-04)",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/redemplo",
+     "sourceName": "EMA medicine page: Redemplo",
      "confidence": "regulator",
-     "checked": "2026-10-29",
      "submitted": null,
-     "decision": null,
-     "expected": null
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -4677,24 +5968,10 @@
    ],
    "sponsors": [
     "Incyte Biosciences Distribution B.V",
-    "Incyte Corporation"
+    "Incyte Corporation",
+    "Incyte Biosciences Distribution B.V."
    ],
    "records": [
-    {
-     "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-09-17",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
-     "indication": "Moderate to severe hidradenitis suppurativa",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-09)",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
-     "decision": null,
-     "expected": null
-    },
     {
      "country": "CA",
      "regulator": "Health Canada",
@@ -4709,6 +5986,21 @@
      "decision": null,
      "expected": null,
      "opinion": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Recommended",
+     "opinion": "2026-09-17",
+     "decision": null,
+     "type": "CHMP positive opinion · European Commission decision pending",
+     "indication": "Moderate to severe hidradenitis suppurativa",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/povofortay",
+     "sourceName": "EMA medicine page: Povofortay",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -4748,18 +6040,18 @@
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
+     "regulator": "EMA / European Commission",
      "status": "Recommended",
      "opinion": "2026-09-17",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
-     "indication": "Rabies pre- and post-exposure prophylaxis",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-09)",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
      "decision": null,
-     "expected": null
+     "type": "CHMP positive opinion · European Commission decision pending",
+     "indication": "Rabies pre- and post-exposure prophylaxis",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/vaxrabeo",
+     "sourceName": "EMA medicine page: VaxRabeo",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -4795,75 +6087,17 @@
     "Rexatilux",
     "Vislyfa",
     "Susvimo",
-    "Fovlussea"
+    "Fovlussea",
+    "Ranluspec"
    ],
    "sponsors": [
     "Intas Third Party Sales 2005 S.L.",
     "Lupin Europe GmbH",
     "Roche Registration GmbH",
-    "Lupin Limited"
+    "Lupin Limited",
+    "Accord Healthcare S.L.U."
    ],
    "records": [
-    {
-     "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-04-23",
-     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
-     "indication": "Wet AMD and other retinal diseases",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-20-23-april-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-04)",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
-     "decision": null,
-     "expected": null
-    },
-    {
-     "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-05-21",
-     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
-     "indication": "Neovascular AMD and other retinal diseases",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-18-21-may-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-05)",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
-     "decision": null,
-     "expected": null
-    },
-    {
-     "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-07-23",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
-     "indication": "Neovascular (wet) AMD (port delivery system)",
-     "source": "https://www.ema.europa.eu/sl/media/75536",
-     "sourceName": "EMA CHMP minutes, July 2026",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
-     "decision": null,
-     "expected": null
-    },
-    {
-     "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-10-15",
-     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
-     "indication": "Retinal diseases",
-     "source": "https://www.pharmanow.live/de/latest-news/ema-chmp-october-2026-meeting-highlights-orforglipron-biosimilars",
-     "sourceName": "News report of CHMP October 2026 meeting",
-     "confidence": "thirdparty",
-     "checked": "2026-10-29",
-     "submitted": null,
-     "decision": null,
-     "expected": null
-    },
     {
      "country": "CA",
      "regulator": "Health Canada",
@@ -4878,6 +6112,81 @@
      "decision": null,
      "expected": null,
      "opinion": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Recommended",
+     "opinion": "2026-10-15",
+     "decision": null,
+     "type": "CHMP positive opinion · European Commission decision pending · biosimilar",
+     "indication": "Wet AMD and other retinal diseases",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/fovlussea",
+     "sourceName": "EMA medicine page: Fovlussea",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2026-07-23",
+     "decision": "2026-09-18",
+     "type": "European Commission marketing authorisation",
+     "indication": "Wet AMD and other retinal diseases",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/susvimo",
+     "sourceName": "EMA medicine page: Susvimo",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2026-05-21",
+     "decision": "2026-07-15",
+     "type": "European Commission marketing authorisation · biosimilar",
+     "indication": "Wet AMD and other retinal diseases",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/vislyfa",
+     "sourceName": "EMA medicine page: Vislyfa",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2026-04-23",
+     "decision": "2026-06-19",
+     "type": "European Commission marketing authorisation · biosimilar",
+     "indication": "Wet AMD and other retinal diseases",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/rexatilux",
+     "sourceName": "EMA medicine page: Rexatilux",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2025-12-11",
+     "decision": "2026-02-10",
+     "type": "European Commission marketing authorisation · biosimilar",
+     "indication": "Wet AMD and other retinal diseases",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/ranluspec",
+     "sourceName": "EMA medicine page: Ranluspec",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -4914,7 +6223,8 @@
    ],
    "sponsors": [
     "Corcept Therapeutics",
-    "Corcept Therapeutics Netherlands B.V"
+    "Corcept Therapeutics Netherlands B.V",
+    "Corcept Therapeutics Netherlands B.V."
    ],
    "records": [
     {
@@ -4947,18 +6257,18 @@
     },
     {
      "country": "EU",
-     "regulator": "EMA",
+     "regulator": "EMA / European Commission",
      "status": "Recommended",
      "opinion": "2026-09-17",
-     "type": "CHMP positive opinion · orphan · European Commission decision pending in this register",
-     "indication": "Platinum-resistant ovarian, fallopian tube or primary peritoneal cancer (with nab-paclitaxel)",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-09)",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
      "decision": null,
-     "expected": null
+     "type": "CHMP positive opinion · European Commission decision pending · orphan",
+     "indication": "Platinum-resistant ovarian, fallopian tube or primary peritoneal cancer (with nab-paclitaxel)",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/lifyorli",
+     "sourceName": "EMA medicine page: Lifyorli",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -4993,24 +6303,10 @@
     "Rhapsido"
    ],
    "sponsors": [
-    "Novartis Europharm Limited"
+    "Novartis Europharm Limited",
+    "Novartis Pharmaceuticals UK Limited"
    ],
    "records": [
-    {
-     "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-02-26",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
-     "indication": "Chronic spontaneous urticaria",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-february-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-02)",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
-     "decision": null,
-     "expected": null
-    },
     {
      "country": "CH",
      "regulator": "Swissmedic",
@@ -5040,6 +6336,78 @@
      "expected": null,
      "opinion": null,
      "indication": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2026-02-26",
+     "decision": "2026-04-23",
+     "type": "European Commission marketing authorisation",
+     "indication": "Chronic spontaneous urticaria",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/rhapsido",
+     "sourceName": "EMA medicine page: Rhapsido",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "UK",
+     "regulator": "MHRA",
+     "status": "Approved",
+     "decision": "2026-08-05",
+     "type": "UK marketing authorisation granted (PL 00101/1314)",
+     "source": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+     "sourceName": "MHRA: Marketing authorisations granted in 2026 (1 Aug to 14 Aug 2026)",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "TW",
+     "regulator": "Taiwan FDA",
+     "status": "Approved",
+     "decision": "2026-10-14",
+     "type": "Drug licence issued (衛部藥輸字第029239號)",
+     "indication": null,
+     "source": "https://data.gov.tw/en/datasets/9122",
+     "sourceName": "Taiwan FDA open data: all drug product approvals",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "retifanlimab",
+   "inn": "retifanlimab",
+   "brands": [
+    "Zynyz"
+   ],
+   "sponsors": [
+    "Incyte Biosciences UK Limited"
+   ],
+   "records": [
+    {
+     "country": "UK",
+     "regulator": "MHRA",
+     "status": "Approved",
+     "decision": "2026-07-06",
+     "type": "UK marketing authorisation granted (PL 42338/0024) · first 2026 UK licence for this substance in MHRA's lists; MHRA does not flag new active substances",
+     "source": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+     "sourceName": "MHRA: Marketing authorisations granted in 2026 (1 Jul to 14 Jul 2026)",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -5074,7 +6442,9 @@
    "brands": [
     "Wayrilz"
    ],
-   "sponsors": [],
+   "sponsors": [
+    "Aventis Pharma Limited"
+   ],
    "records": [
     {
      "country": "JP",
@@ -5090,6 +6460,21 @@
      "expected": null,
      "opinion": null,
      "indication": null
+    },
+    {
+     "country": "UK",
+     "regulator": "MHRA",
+     "status": "Approved",
+     "decision": "2026-05-29",
+     "type": "UK marketing authorisation granted (PL 04425/0914)",
+     "source": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+     "sourceName": "MHRA: Marketing authorisations granted in 2026 (15 May 31 May 2026)",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -5116,6 +6501,48 @@
      "sourceName": "HSA Listing of approvals",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "rozanolixizumab",
+   "inn": "rozanolixizumab",
+   "brands": [
+    "Rystiggo"
+   ],
+   "sponsors": [
+    "Ucb Biopharma Ltda."
+   ],
+   "records": [
+    {
+     "country": "TW",
+     "regulator": "Taiwan FDA",
+     "status": "Approved",
+     "decision": "2026-02-12",
+     "type": "Drug licence issued (衛部菌疫輸字第001308號)",
+     "indication": null,
+     "source": "https://data.gov.tw/en/datasets/9122",
+     "sourceName": "Taiwan FDA open data: all drug product approvals",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "BR",
+     "regulator": "ANVISA",
+     "status": "Approved",
+     "decision": "2026-04-06",
+     "type": "ANVISA registration (biological product; registration no. 123610098) · date the registration process was completed",
+     "indication": null,
+     "source": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+     "sourceName": "ANVISA open data: registered medicines",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -5423,18 +6850,18 @@
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
      "opinion": "2026-01-29",
-     "type": "CHMP positive opinion · conditional · European Commission decision pending in this register",
+     "decision": "2026-03-26",
+     "type": "European Commission marketing authorisation · conditional",
      "indication": "Non-cirrhotic MASH with liver fibrosis (F2–F3)",
-     "source": "https://www.ema.europa.eu/pl/news/meeting-highlights-committee-medicinal-products-human-use-chmp-26-29-january-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-01)",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/kayshild",
+     "sourceName": "EMA medicine page: Kayshild",
      "confidence": "regulator",
-     "checked": "2026-10-29",
      "submitted": null,
-     "decision": null,
-     "expected": null
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -5450,18 +6877,114 @@
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
+     "regulator": "EMA / European Commission",
      "status": "Recommended",
      "opinion": "2026-09-17",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
-     "indication": "Maintenance treatment of advanced high-grade ovarian cancer",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-09)",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
      "decision": null,
-     "expected": null
+     "type": "CHMP positive opinion · European Commission decision pending",
+     "indication": "Maintenance treatment of advanced high-grade ovarian cancer",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/sepalna",
+     "sourceName": "EMA medicine page: Sepalna",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "sepiapterin",
+   "inn": "sepiapterin",
+   "brands": [
+    "Sephience"
+   ],
+   "sponsors": [
+    "Ptc Farmaceutica DO Brasil Ltda."
+   ],
+   "records": [
+    {
+     "country": "BR",
+     "regulator": "ANVISA",
+     "status": "Approved",
+     "decision": "2026-02-18",
+     "type": "ANVISA registration (new drug; registration no. 157700005) · date the registration process was completed",
+     "indication": null,
+     "source": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+     "sourceName": "ANVISA open data: registered medicines",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "serplulimab",
+   "inn": "serplulimab",
+   "brands": [
+    "Olizu"
+   ],
+   "sponsors": [
+    "Abbott Laboratórios DO Brasil Ltda"
+   ],
+   "records": [
+    {
+     "country": "BR",
+     "regulator": "ANVISA",
+     "status": "Approved",
+     "decision": "2026-03-30",
+     "type": "ANVISA registration (biological product; registration no. 105530401) · date the registration process was completed",
+     "indication": null,
+     "source": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+     "sourceName": "ANVISA open data: registered medicines",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "sevabertinib",
+   "inn": "sevabertinib",
+   "brands": [
+    "Hyrnuo"
+   ],
+   "sponsors": [
+    "Bayer Plc"
+   ],
+   "records": [
+    {
+     "country": "UK",
+     "regulator": "MHRA",
+     "status": "Approved",
+     "decision": "2026-04-01",
+     "type": "UK marketing authorisation granted (PL 00010/0764) · first 2026 UK licence for this substance in MHRA's lists; MHRA does not flag new active substances",
+     "source": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+     "sourceName": "MHRA: Marketing authorisations granted in 2026 (1 Apr 14 Apr 2026)",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "TW",
+     "regulator": "Taiwan FDA",
+     "status": "Approved",
+     "decision": "2026-06-11",
+     "type": "Drug licence issued (衛部藥輸字第029138號)",
+     "indication": null,
+     "source": "https://data.gov.tw/en/datasets/9122",
+     "sourceName": "Taiwan FDA open data: all drug product approvals",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -5581,6 +7104,31 @@
    ]
   },
   {
+   "id": "sotatercept",
+   "inn": "sotatercept",
+   "brands": [
+    "Winrevair"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "TW",
+     "regulator": "Taiwan FDA",
+     "status": "Approved",
+     "decision": "2026-01-12",
+     "type": "Drug licence issued (衛部菌疫輸字第001309號)",
+     "indication": null,
+     "source": "https://data.gov.tw/en/datasets/9122",
+     "sourceName": "Taiwan FDA open data: all drug product approvals",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "spinosad",
    "inn": "spinosad",
    "brands": [],
@@ -5691,21 +7239,6 @@
    ],
    "records": [
     {
-     "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-03-26",
-     "type": "CHMP positive opinion · orphan · European Commission decision pending in this register",
-     "indication": "Relapsed extensive-stage small cell lung cancer",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-march-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-03)",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
-     "decision": null,
-     "expected": null
-    },
-    {
      "country": "CH",
      "regulator": "Swissmedic",
      "status": "Approved",
@@ -5719,6 +7252,21 @@
      "expected": null,
      "opinion": null,
      "indication": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2026-03-26",
+     "decision": "2026-05-29",
+     "type": "European Commission marketing authorisation · orphan",
+     "indication": "Relapsed extensive-stage small cell lung cancer",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/imdylltra",
+     "sourceName": "EMA medicine page: Imdylltra",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -5800,9 +7348,13 @@
    "id": "teplizumab",
    "inn": "teplizumab",
    "brands": [
-    "Teizeild"
+    "Teizeild",
+    "Tzield"
    ],
-   "sponsors": [],
+   "sponsors": [
+    "Sanofi Winthrop Industrie",
+    "Sanofi Medley Farmacêutica Ltda."
+   ],
    "records": [
     {
      "country": "CH",
@@ -5818,6 +7370,36 @@
      "expected": null,
      "opinion": null,
      "indication": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2025-11-13",
+     "decision": "2026-01-08",
+     "type": "European Commission marketing authorisation · PRIME",
+     "indication": "Diabetes Mellitus, Type 1",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/teizeild",
+     "sourceName": "EMA medicine page: Teizeild",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "BR",
+     "regulator": "ANVISA",
+     "status": "Approved",
+     "decision": "2026-03-09",
+     "type": "ANVISA registration (biological product; registration no. 183260512) · date the registration process was completed",
+     "indication": null,
+     "source": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+     "sourceName": "ANVISA open data: registered medicines",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -5854,23 +7436,24 @@
     "Zandoriah"
    ],
    "sponsors": [
-    "Cinnagen Co Unipessoal Lda."
+    "Cinnagen Co Unipessoal Lda.",
+    "CinnaGen Co Unipessoal LDA"
    ],
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
      "opinion": "2026-02-26",
-     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
+     "decision": "2026-04-27",
+     "type": "European Commission marketing authorisation · biosimilar",
      "indication": "Osteoporosis",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-february-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-02)",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/zandoriah",
+     "sourceName": "EMA medicine page: Zandoriah",
      "confidence": "regulator",
-     "checked": "2026-10-29",
      "submitted": null,
-     "decision": null,
-     "expected": null
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -5953,23 +7536,24 @@
     "Tuyory"
    ],
    "sponsors": [
-    "Chemical Works of Gedeon Richter Plc."
+    "Chemical Works of Gedeon Richter Plc.",
+    "Chemical Works of Gedeon Richter Plc. (Gedeon Richter Plc.)"
    ],
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
      "opinion": "2026-02-26",
-     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
+     "decision": "2026-04-27",
+     "type": "European Commission marketing authorisation · biosimilar",
      "indication": "Rheumatoid arthritis and other inflammatory conditions",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-february-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-02)",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/tuyory",
+     "sourceName": "EMA medicine page: Tuyory",
      "confidence": "regulator",
-     "checked": "2026-10-29",
      "submitted": null,
-     "decision": null,
-     "expected": null
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -5985,21 +7569,6 @@
    ],
    "records": [
     {
-     "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-04-23",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
-     "indication": "Non-relapsing secondary progressive multiple sclerosis",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-20-23-april-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-04)",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
-     "decision": null,
-     "expected": null
-    },
-    {
      "country": "CA",
      "regulator": "Health Canada",
      "status": "Under review",
@@ -6013,6 +7582,48 @@
      "decision": null,
      "expected": null,
      "opinion": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2026-04-23",
+     "decision": "2026-06-19",
+     "type": "European Commission marketing authorisation",
+     "indication": "Non-relapsing secondary progressive multiple sclerosis",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/cenrifki",
+     "sourceName": "EMA medicine page: Cenrifki",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "toripalimab",
+   "inn": "toripalimab",
+   "brands": [
+    "Zytorvi"
+   ],
+   "sponsors": [
+    "Dr. Reddys Farmacêutica DO Brasil Ltda"
+   ],
+   "records": [
+    {
+     "country": "BR",
+     "regulator": "ANVISA",
+     "status": "Approved",
+     "decision": "2026-08-07",
+     "type": "ANVISA registration (biological product; registration no. 151430104) · date the registration process was completed",
+     "indication": null,
+     "source": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+     "sourceName": "ANVISA open data: registered medicines",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -6026,21 +7637,6 @@
     "Ipsen Pharma"
    ],
    "records": [
-    {
-     "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
-     "opinion": "2026-02-26",
-     "type": "CHMP positive opinion · orphan · conditional · European Commission decision pending in this register",
-     "indication": "Paediatric low-grade glioma",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-february-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-02)",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "submitted": null,
-     "decision": null,
-     "expected": null
-    },
     {
      "country": "CH",
      "regulator": "Swissmedic",
@@ -6070,6 +7666,21 @@
      "expected": null,
      "opinion": null,
      "indication": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
+     "opinion": "2026-02-26",
+     "decision": "2026-04-20",
+     "type": "European Commission marketing authorisation · orphan · conditional",
+     "indication": "Paediatric low-grade glioma",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/ojemda",
+     "sourceName": "EMA medicine page: Ojemda",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -6155,23 +7766,24 @@
     "Boey"
    ],
    "sponsors": [
-    "AbbVie Deutschland GmbH & Co"
+    "AbbVie Deutschland GmbH & Co",
+    "AbbVie Limited"
    ],
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
      "opinion": "2026-05-21",
-     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "decision": "2026-07-15",
+     "type": "European Commission marketing authorisation",
      "indication": "Glabellar lines",
-     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-18-21-may-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-05)",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/boey",
+     "sourceName": "EMA medicine page: Boey",
      "confidence": "regulator",
-     "checked": "2026-10-29",
      "submitted": null,
-     "decision": null,
-     "expected": null
+     "expected": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -6207,23 +7819,93 @@
     "Daybu"
    ],
    "sponsors": [
-    "Acadia Pharmaceuticals (Netherlands) B.V."
+    "Acadia Pharmaceuticals (Netherlands) B.V.",
+    "Acadia Pharmaceuticals B.V."
    ],
    "records": [
     {
      "country": "EU",
-     "regulator": "EMA",
-     "status": "Recommended",
+     "regulator": "EMA / European Commission",
+     "status": "Approved",
      "opinion": "2026-06-25",
-     "type": "CHMP positive opinion · orphan · after re-examination · European Commission decision pending in this register",
+     "decision": "2026-08-20",
+     "type": "European Commission marketing authorisation · orphan",
      "indication": "Rett syndrome (age 5+)",
-     "source": "https://www.ema.europa.eu/fr/news/meeting-highlights-committee-medicinal-products-human-use-chmp-22-25-june-2026",
-     "sourceName": "EMA CHMP meeting highlights (2026-06)",
+     "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/daybu",
+     "sourceName": "EMA medicine page: Daybu",
      "confidence": "regulator",
-     "checked": "2026-10-29",
      "submitted": null,
-     "decision": null,
-     "expected": null
+     "expected": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "tucatinib",
+   "inn": "tucatinib",
+   "brands": [
+    "Tukysa"
+   ],
+   "sponsors": [
+    "Pfizer Japan Inc."
+   ],
+   "records": [
+    {
+     "country": "JP",
+     "regulator": "MHLW / PMDA",
+     "status": "Approved",
+     "decision": "2026-02-19",
+     "type": "New drug approval · new active ingredient",
+     "indication": "HER2-positive inoperable or recurrent breast cancer after chemotherapy",
+     "source": "https://www.pmda.go.jp/files/000281190.pdf",
+     "sourceName": "PMDA: List of approved drugs, April 2004 to February 2026",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "TW",
+     "regulator": "Taiwan FDA",
+     "status": "Approved",
+     "decision": "2026-03-02",
+     "type": "Drug licence issued (衛部藥輸字第029081號)",
+     "indication": null,
+     "source": "https://data.gov.tw/en/datasets/9122",
+     "sourceName": "Taiwan FDA open data: all drug product approvals",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "ublituximab",
+   "inn": "ublituximab",
+   "brands": [
+    "Briumvi"
+   ],
+   "sponsors": [
+    "Neuraxpharm Brasil Importacao E Distribuicao DE Medicamentos LT"
+   ],
+   "records": [
+    {
+     "country": "BR",
+     "regulator": "ANVISA",
+     "status": "Approved",
+     "decision": "2026-04-22",
+     "type": "ANVISA registration (biological product; registration no. 140610001) · date the registration process was completed",
+     "indication": null,
+     "source": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+     "sourceName": "ANVISA open data: registered medicines",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -6408,6 +8090,33 @@
    ]
   },
   {
+   "id": "vimseltinib",
+   "inn": "vimseltinib",
+   "brands": [
+    "Romvimza"
+   ],
+   "sponsors": [
+    "Deciphera Pharmaceuticals (netherlands) B.v."
+   ],
+   "records": [
+    {
+     "country": "UK",
+     "regulator": "MHRA",
+     "status": "Approved",
+     "decision": "2026-08-14",
+     "type": "UK marketing authorisation granted (PL 55295/0005) · first 2026 UK licence for this substance in MHRA's lists; MHRA does not flag new active substances",
+     "source": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+     "sourceName": "MHRA: Marketing authorisations granted in 2026 (1 Aug to 14 Aug 2026)",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "vosoritide",
    "inn": "vosoritide",
    "brands": [
@@ -6430,6 +8139,85 @@
      "sourceName": "HSA Listing of approvals",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "vutrisiran",
+   "inn": "vutrisiran",
+   "brands": [
+    "Amvuttra"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "TW",
+     "regulator": "Taiwan FDA",
+     "status": "Approved",
+     "decision": "2026-08-24",
+     "type": "Drug licence issued (衛部藥輸字第029214號)",
+     "indication": null,
+     "source": "https://data.gov.tw/en/datasets/9122",
+     "sourceName": "Taiwan FDA open data: all drug product approvals",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "zanidatamab",
+   "inn": "zanidatamab",
+   "brands": [
+    "Ziihera"
+   ],
+   "sponsors": [
+    "Jazz Pharmaceuticals Research UK Limited"
+   ],
+   "records": [
+    {
+     "country": "UK",
+     "regulator": "MHRA",
+     "status": "Approved",
+     "decision": "2026-02-19",
+     "type": "UK marketing authorisation granted (PL 36772/0002) · first 2026 UK licence for this substance in MHRA's lists; MHRA does not flag new active substances",
+     "source": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+     "sourceName": "MHRA: Marketing authorisations granted in 2026 (15 Feb 28 Feb 2026)",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "zapomeran",
+   "inn": "zapomeran",
+   "brands": [
+    "Kostaive"
+   ],
+   "sponsors": [
+    "Seqirus UK Limited"
+   ],
+   "records": [
+    {
+     "country": "UK",
+     "regulator": "MHRA",
+     "status": "Approved",
+     "decision": "2026-01-02",
+     "type": "UK marketing authorisation granted (PL 47991/0019) · first 2026 UK licence for this substance in MHRA's lists; MHRA does not flag new active substances",
+     "source": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+     "sourceName": "MHRA: Marketing authorisations granted in 2026 (1 Jan 14 Jan)",
+     "confidence": "regulator",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null,
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -6558,14 +8346,17 @@
  ],
  "coverage": {
   "US": "2026 novel drug approvals (FDA list) and upcoming PDUFA dates.",
-  "EU": "2026 CHMP positive opinions for new medicines, Jan–Oct (generics and hybrids excluded). European Commission decision dates not yet captured. October from a news report pending the EMA page.",
+  "EU": "All 2026 European Commission authorisations and CHMP positive opinions for new medicines, from EMA's official medicines data (generics and hybrid copies of old substances excluded). Includes the date of the CHMP opinion and of the Commission decision.",
   "CA": "All submissions under review (with month accepted, as of 30 Sep 2026). 2026 approvals loaded for ingredients A–E only so far.",
   "CH": "2026 authorisations of medicines with new active substances.",
-  "JP": "2026 approvals as compiled by KEGG from Japanese regulatory records; PMDA's own site could not be read directly.",
+  "JP": "2026 approvals: PMDA's official list (to February 2026) plus later approvals compiled by KEGG from Japanese regulatory records.",
   "SG": "2026 new drug approvals (NDA-1 and NDA-2). HSA does not list indications.",
-  "UK": "Not yet loaded: MHRA publishes fortnightly PDF lists that could not be read here.",
+  "UK": "2026 MHRA licences (fortnightly PDF lists) for drugs tracked elsewhere in this register, plus selected new active substances. MHRA's lists don't flag new substances, so this isn't a complete list of UK new medicines.",
   "AU": "Not yet loaded: TGA's website blocks automated tools.",
   "CN": "Not yet loaded: NMPA does not publish a complete approvals list in English.",
-  "KR": "Not yet loaded: MFDS does not publish a readable approvals list in English."
+  "KR": "Not yet loaded: MFDS does not publish a readable approvals list in English.",
+  "TW": "2026 Taiwan FDA drug licences (open data) for drugs tracked elsewhere, plus selected new active substances. Licence dates; not a complete list of Taiwan new medicines.",
+  "BR": "2026 ANVISA registrations (open data) for drugs tracked elsewhere, plus selected new active substances. Dates are when the registration process was completed; not a complete list of Brazil new medicines.",
+  "IN": "Not yet loaded: CDSCO's website could not be reached from the download service."
  }
 }

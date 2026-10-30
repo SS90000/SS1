@@ -19,7 +19,7 @@ sponsors[], records[]}. `inn` is the lowercase active ingredient with any 4-lett
 biologic suffix and any salt word (hydrochloride, sodium, calcium, phosphate, tosylate,
 mesylate, etc.) removed; one drug entry per inn; records from different regulators go under
 the same drug. New drug `id` = inn with non-alphanumerics replaced by "-".
-Each record: {country "US"|"EU"|"CA"|"CH"|"JP"|"SG"|"UK"|"AU"|"CN"|"KR", regulator,
+Each record: {country "US"|"EU"|"UK"|"CA"|"CH"|"JP"|"TW"|"SG"|"BR"|"AU"|"CN"|"KR"|"IN", regulator,
 status "Approved"|"Recommended"|"Under review", submitted (ISO date, "YYYY-MM", or null),
 decision (ISO approval date or null), opinion (ISO date of an EU CHMP opinion or null),
 expected (ISO target date or null), type, indication (string or null), source (URL),
@@ -49,7 +49,7 @@ d. Confirm up to 5 "thirdparty" records (any country): search for the company's 
 e. On Mondays only, add new US pending decisions for the next 60 days from company
    announcements (search e.g. "PDUFA target action date" plus the month). Third-party
    calendars may be used to find candidates, but mark those "thirdparty" unless confirmed per (d).
-f. Records for EU, Canada, Switzerland and Japan were loaded manually; leave them as they are
+f. Records for EU, UK, Canada, Switzerland, Japan, Taiwan and Brazil were loaded from bulk files; leave them as they are
    unless (d) confirms one. Australia (tga.gov.au) blocks automated tools: do not access it.
 
 ## Verify, then save
