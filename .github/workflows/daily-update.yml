@@ -23,23 +23,30 @@ jobs:
       - name: Keep a copy of the current data
         run: cp data.json /tmp/data.before.json
 
-      - name: Check the Claude token is set up (does not print it)
+      - name: Prepare the Claude token (does not print it)
         env:
           T: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: |
           python3 - <<'PY'
-          import os
-          t = os.environ.get("T", "")
-          print("Token present:", bool(t))
-          print("Length:", len(t))
-          print("Starts with sk-ant-:", t.startswith("sk-ant-"))
-          print("Contains spaces or line breaks:", any(c.isspace() for c in t))
+          import os, re
+          raw = os.environ.get("T", "")
+          joined = "".join(raw.split())          # remove spaces and line breaks added by copy-paste
+          m = re.search(r"sk-ant-[A-Za-z0-9_\-]+", joined)
+          print("Secret length:", len(raw), "| after removing spaces/line breaks:", len(joined))
+          print("Found sk-ant- in the secret:", bool(m))
+          if m:
+              print("Characters before sk-ant- (ignored):", m.start(), "| after the token (ignored):", len(joined) - m.end())
+              print("Cleaned token length:", len(m.group(0)))
+              print("::add-mask::" + m.group(0))
+              with open(os.environ["GITHUB_ENV"], "a") as f:
+                  f.write("CLAUDE_CODE_OAUTH_TOKEN=" + m.group(0) + "\n")
+          else:
+              raise SystemExit("The saved secret does not contain a token starting with sk-ant-. Create a new token and save it again.")
           PY
 
       - name: Check sources and update data.json
         uses: anthropics/claude-code-action@v1
         with:
-          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           allowed_bots: "claude[bot]"
           show_full_output: "true"   # temporary, for diagnosing the first run
           prompt: "Read .github/daily-update.md and carry out the daily update it describes, editing only data.json."
