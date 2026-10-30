@@ -49,8 +49,8 @@ d. Confirm up to 5 "thirdparty" records (any country): search for the company's 
 e. On Mondays only, add new US pending decisions for the next 60 days from company
    announcements (search e.g. "PDUFA target action date" plus the month). Third-party
    calendars may be used to find candidates, but mark those "thirdparty" unless confirmed per (d).
-f. Records for EU, UK, Canada, Switzerland, Japan, Taiwan and Brazil were loaded from bulk files; leave them as they are
-   unless (d) confirms one. Australia (tga.gov.au) blocks automated tools: do not access it.
+f. Records for EU, UK, Canada, Australia, Switzerland, Japan, South Korea, China, Taiwan and Brazil were loaded from bulk files or saved pages; leave them as they are
+   unless (d) confirms one. Australia (tga.gov.au) and China (nmpa.gov.cn) block automated tools: do not access them.
 
 ## Verify, then save
 - For every record you added or changed today, re-read its source a second time with a

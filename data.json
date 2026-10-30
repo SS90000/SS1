@@ -863,6 +863,31 @@
    ]
   },
   {
+   "id": "batoclimab",
+   "inn": "batoclimab",
+   "brands": [
+    "巴托利单抗注射液"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-10-22",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录)",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准巴托利单抗注射液上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "baxdrostat",
    "inn": "baxdrostat",
    "brands": [
@@ -1749,7 +1774,8 @@
    "id": "clesrovimab",
    "inn": "clesrovimab",
    "brands": [
-    "Enflonsia"
+    "Enflonsia",
+    "克莱罗韦单抗注射液"
    ],
    "sponsors": [
     "MSD Pharma (Singapore)",
@@ -1889,6 +1915,21 @@
      "indication": null,
      "source": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&searchDivision=detail&itemSeq=202601589",
      "sourceName": "MFDS Drug Safety Nara (nedrug): product approval record",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-06-11",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录)",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准克莱罗韦单抗注射液上市",
      "confidence": "regulator",
      "checked": "2026-10-30"
     }
@@ -2818,6 +2859,31 @@
    ]
   },
   {
+   "id": "ecnoglutide",
+   "inn": "ecnoglutide",
+   "brands": [
+    "埃诺格鲁肽注射液"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-01-30",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录)",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准埃诺格鲁肽注射液上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "eculizumab",
    "inn": "eculizumab",
    "brands": [],
@@ -3214,6 +3280,56 @@
      "indication": null,
      "source": "https://www.tga.gov.au/resources/prescription-medicines-under-evaluation",
      "sourceName": "TGA: Prescription medicines under evaluation (filtered: 2026, types A and B; last updated 21 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "fanregratinib",
+   "inn": "fanregratinib",
+   "brands": [
+    "酒石酸凡瑞格拉替尼片"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08-31",
+     "expected": null,
+     "opinion": null,
+     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录)",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准酒石酸凡瑞格拉替尼片上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "felzartamab",
+   "inn": "felzartamab",
+   "brands": [
+    "注射用菲泽妥单抗"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08-13",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录)",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准注射用菲泽妥单抗上市",
      "confidence": "regulator",
      "checked": "2026-10-30"
     }
@@ -3957,6 +4073,56 @@
    ]
   },
   {
+   "id": "gumokimab",
+   "inn": "gumokimab",
+   "brands": [
+    "古莫奇单抗注射液"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-06-11",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录)",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准古莫奇单抗注射液上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "higenamine",
+   "inn": "higenamine",
+   "brands": [
+    "盐酸去甲乌药碱注射液"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-04-02",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录)",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准盐酸去甲乌药碱注射液上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "human-normal-immunoglobulin",
    "inn": "human normal immunoglobulin",
    "brands": [
@@ -4076,7 +4242,8 @@
    "id": "icotrokinra",
    "inn": "icotrokinra",
    "brands": [
-    "Icotyde"
+    "Icotyde",
+    "盐酸伊可白滞素片"
    ],
    "sponsors": [
     "Janssen-Cilag International N.V.",
@@ -4155,6 +4322,21 @@
      "indication": null,
      "source": "https://www.tga.gov.au/resources/prescription-medicines-under-evaluation",
      "sourceName": "TGA: Prescription medicines under evaluation (filtered: 2026, types A and B; last updated 21 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08-31",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录)",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准盐酸伊可白滞素片上市",
      "confidence": "regulator",
      "checked": "2026-10-30"
     }
@@ -4236,7 +4418,8 @@
    "id": "imlunestrant",
    "inn": "imlunestrant",
    "brands": [
-    "Inluriyo"
+    "Inluriyo",
+    "甲苯磺酸依仑司群片"
    ],
    "sponsors": [
     "Eli Lilly Canada Inc",
@@ -4331,6 +4514,21 @@
      "indication": null,
      "source": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&searchDivision=detail&itemSeq=202600429",
      "sourceName": "MFDS Drug Safety Nara (nedrug): product approval record",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-06-22",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录)",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准甲苯磺酸依仑司群片上市",
      "confidence": "regulator",
      "checked": "2026-10-30"
     }
@@ -6684,7 +6882,8 @@
    "id": "oveporexton",
    "inn": "oveporexton",
    "brands": [
-    "Orzeyful"
+    "Orzeyful",
+    "奥普雷顿片"
    ],
    "sponsors": [
     "Takeda Canada Inc"
@@ -6731,6 +6930,21 @@
      "indication": null,
      "source": "https://www.tga.gov.au/resources/prescription-medicines-under-evaluation",
      "sourceName": "TGA: Prescription medicines under evaluation (filtered: 2026, types A and B; last updated 21 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-07-23",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录)",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准奥普雷顿片上市",
      "confidence": "regulator",
      "checked": "2026-10-30"
     }
@@ -7205,7 +7419,8 @@
    "id": "plozasiran",
    "inn": "plozasiran",
    "brands": [
-    "Redemplo"
+    "Redemplo",
+    "普乐司兰钠注射液"
    ],
    "sponsors": [
     "Arrowhead Pharmaceuticals Ireland Limited"
@@ -7253,6 +7468,21 @@
      "indication": null,
      "source": "https://www.tga.gov.au/resources/prescription-medicines-registrations",
      "sourceName": "TGA: Prescription medicines registrations (filtered: 2026, NCE/NBE, new combination; last updated 25 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-01-07",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录)",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准普乐司兰钠注射液上市",
      "confidence": "regulator",
      "checked": "2026-10-30"
     }
@@ -7963,7 +8193,8 @@
    "id": "rilzabrutinib",
    "inn": "rilzabrutinib",
    "brands": [
-    "Wayrilz"
+    "Wayrilz",
+    "利扎布替尼片"
    ],
    "sponsors": [
     "Aventis Pharma Limited"
@@ -7997,6 +8228,21 @@
      "expected": null,
      "opinion": null,
      "indication": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09-03",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录)",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准利扎布替尼片上市",
+     "confidence": "regulator",
      "checked": "2026-10-30"
     }
    ]
@@ -8357,6 +8603,31 @@
    ]
   },
   {
+   "id": "satricabtagene-autoleucel",
+   "inn": "satricabtagene autoleucel",
+   "brands": [
+    "舒瑞基奥仑赛注射液"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-06-22",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录)",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准舒瑞基奥仑赛注射液上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "savolitinib",
    "inn": "savolitinib",
    "brands": [
@@ -8610,7 +8881,8 @@
    "id": "sevabertinib",
    "inn": "sevabertinib",
    "brands": [
-    "Hyrnuo"
+    "Hyrnuo",
+    "塞伐艾替尼片"
    ],
    "sponsors": [
     "Bayer Plc"
@@ -8658,6 +8930,21 @@
      "indication": null,
      "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
      "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-04-21",
+     "expected": null,
+     "opinion": null,
+     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录)",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准塞伐艾替尼片上市",
      "confidence": "regulator",
      "checked": "2026-10-30"
     }
@@ -8739,7 +9026,8 @@
    "id": "sonrotoclax",
    "inn": "sonrotoclax",
    "brands": [
-    "Beqalzi"
+    "Beqalzi",
+    "索托克拉片"
    ],
    "sponsors": [
     "BeOne Medicines I GmbH"
@@ -8773,6 +9061,21 @@
      "decision": null,
      "expected": null,
      "opinion": null
+    },
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-01-06",
+     "expected": null,
+     "opinion": null,
+     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录)",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准索托克拉片上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -9216,6 +9519,31 @@
      "confidence": "regulator",
      "submitted": null,
      "expected": null,
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "tinengotinib",
+   "inn": "tinengotinib",
+   "brands": [
+    "替恩戈替尼片"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08-11",
+     "expected": null,
+     "opinion": null,
+     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录)",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准替恩戈替尼片上市",
+     "confidence": "regulator",
      "checked": "2026-10-30"
     }
    ]
@@ -10312,6 +10640,1056 @@
      "opinion": null
     }
    ]
+  },
+  {
+   "id": "cn-b2685adf",
+   "inn": "伏欣奇拜单抗",
+   "brands": [
+    "伏欣奇拜单抗注射液"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-04-30",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准伏欣奇拜单抗注射液上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-c36afee5",
+   "inn": "伦康依隆妥单抗",
+   "brands": [
+    "注射用伦康依隆妥单抗"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-06-22",
+     "expected": null,
+     "opinion": null,
+     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准注射用伦康依隆妥单抗上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-a8586160",
+   "inn": "培来加南",
+   "brands": [
+    "培来加南喷雾剂"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-06-22",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准培来加南喷雾剂上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-413d079a",
+   "inn": "塞多明基",
+   "brands": [
+    "塞多明基注射液"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-05-28",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准塞多明基注射液上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-e83eeead",
+   "inn": "奥洛格列净",
+   "brands": [
+    "奥洛格列净胶囊"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-01-16",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准奥洛格列净胶囊上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-ebbb9f92",
+   "inn": "安尼妥单抗",
+   "brands": [
+    "安尼妥单抗注射液"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-05-28",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准安尼妥单抗注射液上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-ae0d9cc2",
+   "inn": "安弗利奇塔单抗",
+   "brands": [
+    "安弗利奇塔单抗注射液（皮下注射）"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08-20",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准安弗利奇塔单抗注射液（皮下注射）上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-b7440df0",
+   "inn": "安沐奇塔单抗",
+   "brands": [
+    "安沐奇塔单抗注射液"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-02-13",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准安沐奇塔单抗注射液上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-1bd40fcc",
+   "inn": "安瑞曲替尼",
+   "brands": [
+    "安瑞曲替尼胶囊"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-06-04",
+     "expected": null,
+     "opinion": null,
+     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准安瑞曲替尼胶囊上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-b01bfc68",
+   "inn": "富马酸立康可泮",
+   "brands": [
+    "富马酸立康可泮胶囊"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08-20",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准富马酸立康可泮胶囊上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-977b086e",
+   "inn": "尼卡利单抗",
+   "brands": [
+    "尼卡利单抗注射液"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-05-21",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准尼卡利单抗注射液上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-a09b1e6d",
+   "inn": "库莱韦拜单抗",
+   "brands": [
+    "库莱韦拜单抗注射液"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09-03",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准库莱韦拜单抗注射液上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-127eb6c3",
+   "inn": "康特替尼",
+   "brands": [
+    "康特替尼颗粒"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-06-11",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准康特替尼颗粒上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-e6209ead",
+   "inn": "德莫奇单抗",
+   "brands": [
+    "德莫奇单抗注射液"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-03-27",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准德莫奇单抗注射液上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-86cb51d1",
+   "inn": "斯乐韦米单抗",
+   "brands": [
+    "斯乐韦米单抗注射液"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-06-22",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准斯乐韦米单抗注射液上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-105a807f",
+   "inn": "斯贝利单抗",
+   "brands": [
+    "斯贝利单抗注射液（皮下注射）"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-06-04",
+     "expected": null,
+     "opinion": null,
+     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准斯贝利单抗注射液（皮下注射）上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-c5723222",
+   "inn": "法赞雷生",
+   "brands": [
+    "法赞雷生片"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-05-21",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准法赞雷生片上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-56039fda",
+   "inn": "波米泰酶α",
+   "brands": [
+    "注射用波米泰酶α"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-06-04",
+     "expected": null,
+     "opinion": null,
+     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准注射用波米泰酶α上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-583aa62e",
+   "inn": "洛布替尼",
+   "brands": [
+    "洛布替尼片"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-06-04",
+     "expected": null,
+     "opinion": null,
+     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准洛布替尼片上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-0c8706ab",
+   "inn": "琥珀酸安维吖啶",
+   "brands": [
+    "琥珀酸安维吖啶片"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-07-14",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准琥珀酸安维吖啶片上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-1277ec37",
+   "inn": "琥珀酸思普可泮",
+   "brands": [
+    "琥珀酸思普可泮片"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-07-23",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准琥珀酸思普可泮片上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-53d06e7b",
+   "inn": "瑞拉芙普α",
+   "brands": [
+    "瑞拉芙普α注射液"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-01-07",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准瑞拉芙普α注射液上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-193af517",
+   "inn": "瑞西奇拜单抗",
+   "brands": [
+    "瑞西奇拜单抗注射液"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-07-29",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准瑞西奇拜单抗注射液上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-1f017386",
+   "inn": "甲磺酸氘申艾替尼",
+   "brands": [
+    "甲磺酸氘申艾替尼片"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08-31",
+     "expected": null,
+     "opinion": null,
+     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准甲磺酸氘申艾替尼片上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-847caebd",
+   "inn": "盐酸伊司特韦",
+   "brands": [
+    "盐酸伊司特韦片"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-07-29",
+     "expected": null,
+     "opinion": null,
+     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准盐酸伊司特韦片上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-396cd82c",
+   "inn": "盐酸兰诺可泮",
+   "brands": [
+    "盐酸兰诺可泮片"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-06-11",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准盐酸兰诺可泮片上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-affc5b1f",
+   "inn": "盐酸艾泊度胺",
+   "brands": [
+    "盐酸艾泊度胺胶囊"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09-30",
+     "expected": null,
+     "opinion": null,
+     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准盐酸艾泊度胺胶囊上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-980ad1b0",
+   "inn": "硫酸索西美雷塞",
+   "brands": [
+    "硫酸索西美雷塞片"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-02-28",
+     "expected": null,
+     "opinion": null,
+     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准硫酸索西美雷塞片上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-7bccf26c",
+   "inn": "立贝韦塔单抗",
+   "brands": [
+    "立贝韦塔单抗注射液"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-01-23",
+     "expected": null,
+     "opinion": null,
+     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准立贝韦塔单抗注射液上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-2c0590e1",
+   "inn": "纬利妥米单抗",
+   "brands": [
+    "纬利妥米单抗注射液"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08-31",
+     "expected": null,
+     "opinion": null,
+     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准纬利妥米单抗注射液上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-58831650",
+   "inn": "罗伐昔替尼",
+   "brands": [
+    "罗伐昔替尼片"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-02-28",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准罗伐昔替尼片上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-a76fff30",
+   "inn": "罗赛促红素α",
+   "brands": [
+    "罗赛促红素α注射液"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-03-19",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准罗赛促红素α注射液上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-b3d1a429",
+   "inn": "舒地胰岛素",
+   "brands": [
+    "舒地胰岛素注射液"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-07-29",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准舒地胰岛素注射液上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-02328eb3",
+   "inn": "艾曲帕米",
+   "brands": [
+    "艾曲帕米鼻喷雾剂"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09-03",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准艾曲帕米鼻喷雾剂上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-d2b40de5",
+   "inn": "芮特韦拜单抗",
+   "brands": [
+    "芮特韦拜单抗注射液"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09-03",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准芮特韦拜单抗注射液上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-4a929cec",
+   "inn": "苯甲酸安达艾替尼",
+   "brands": [
+    "苯甲酸安达艾替尼胶囊"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-04-30",
+     "expected": null,
+     "opinion": null,
+     "type": "Conditional approval (附条件批准) · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准苯甲酸安达艾替尼胶囊上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-6951975b",
+   "inn": "莱康奇塔单抗",
+   "brands": [
+    "莱康奇塔单抗注射液（皮下注射）"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08-31",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准莱康奇塔单抗注射液（皮下注射）上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-6215fdd1",
+   "inn": "贝泽昔替尼",
+   "brands": [
+    "贝泽昔替尼片"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-04-30",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准贝泽昔替尼片上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-5af5bfeb",
+   "inn": "锝[99mTc]佩昔瑞特加肽",
+   "brands": [
+    "锝[99mTc]佩昔瑞特加肽注射液及注射用锝[99mTc]佩昔瑞特加肽药盒"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-04-02",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准锝[99mTc]佩昔瑞特加肽注射液及注射用锝[99mTc]佩昔瑞特加肽药盒上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-a6a5eb97",
+   "inn": "阿更葡糖钠",
+   "brands": [
+    "阿更葡糖钠注射液"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-07-14",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准阿更葡糖钠注射液上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-d0f7d11d",
+   "inn": "阿舒克森",
+   "brands": [
+    "阿舒克森片"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-10-26",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准阿舒克森片上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "cn-21ba19d6",
+   "inn": "鲁兹诺雷钠",
+   "brands": [
+    "鲁兹诺雷钠片"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CN",
+     "regulator": "NMPA",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-05-28",
+     "expected": null,
+     "opinion": null,
+     "type": "Approval · listed in NMPA's innovative drug list (创新药品名录) · international (INN) name not yet confirmed; shown with its Chinese name",
+     "indication": null,
+     "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
+     "sourceName": "NMPA 创新药品名录: 国家药监局批准鲁兹诺雷钠片上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
   }
  ],
  "coverage": {
@@ -10323,7 +11701,7 @@
   "SG": "2026 new drug approvals (NDA-1 and NDA-2). HSA does not list indications.",
   "UK": "2026 MHRA licences (fortnightly PDF lists) for drugs tracked elsewhere in this register, plus selected new active substances. MHRA's lists don't flag new substances, so this isn't a complete list of UK new medicines.",
   "AU": "2026 registrations of new chemical/biological entities and new combinations (to 25 Sep 2026), and applications under evaluation accepted in 2026 (to 21 Sep 2026), with the month accepted. From TGA lists saved by Salish Seven; new-indication applications are shown only for drugs tracked elsewhere.",
-  "CN": "Not yet loaded: NMPA does not publish a complete approvals list in English.",
+  "CN": "2026 approvals in NMPA's innovative drug list (创新药品名录), to 26 Oct 2026, from pages saved by Salish Seven; traditional Chinese medicines are excluded. Drugs whose international name isn't confirmed yet are shown with their Chinese name.",
   "KR": "Every prescription product approved in 2026 that MFDS flags as a new drug (신약), from MFDS's public drug database (to 30 Oct 2026). One entry per active ingredient, using the earliest approval.",
   "TW": "2026 Taiwan FDA drug licences (open data) for drugs tracked elsewhere, plus selected new active substances. Licence dates; not a complete list of Taiwan new medicines.",
   "BR": "2026 ANVISA registrations (open data) for drugs tracked elsewhere, plus selected new active substances. Dates are when the registration process was completed; not a complete list of Brazil new medicines.",
