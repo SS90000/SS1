@@ -1,0 +1,30 @@
+name: Download regulator source files
+
+on:
+  push:
+    branches: [main]
+    paths: [".github/fetch-list.json"]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v6
+      - name: Download files
+        run: python3 .github/fetch.py
+      - name: Save to the raw-data branch
+        run: |
+          mkdir -p /tmp/out && cp -r raw /tmp/out/
+          git config user.name "Claude"
+          git config user.email "noreply@anthropic.com"
+          git checkout --orphan raw-data
+          git rm -rq --cached . && find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp -r /tmp/out/raw .
+          git add raw
+          git commit -qm "Downloaded source files $(date -u +%F)"
+          git push -f origin raw-data

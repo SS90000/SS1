@@ -1,0 +1,128 @@
+[
+ {
+  "name": "mhra",
+  "url": "https://assets.publishing.service.gov.uk/media/697885b2128d9c1d09a98bcb/Marketing_authorisations_granted_1_Jan_14_Jan.pdf"
+ },
+ {
+  "name": "mhra",
+  "url": "https://assets.publishing.service.gov.uk/media/6985d75bc106cc5501b6e465/Marketing_authorisations_granted_15_Jan_31_Jan.pdf"
+ },
+ {
+  "name": "mhra",
+  "url": "https://assets.publishing.service.gov.uk/media/6995e41dbfdab2546272bf6d/Marketing_authorisations_granted_1_Feb_14_Feb_2026.pdf"
+ },
+ {
+  "name": "mhra",
+  "url": "https://assets.publishing.service.gov.uk/media/69aef622d620c14fa183ef09/Marketing_authorisations_granted_15_Feb_28_Feb_2026.pdf"
+ },
+ {
+  "name": "mhra",
+  "url": "https://assets.publishing.service.gov.uk/media/69bac4e1bfd6895605dad820/Marketing_authorisations_granted_1_Mar_14_Mar_2026.pdf"
+ },
+ {
+  "name": "mhra",
+  "url": "https://assets.publishing.service.gov.uk/media/69de1b242b60817d99ff8df2/Marketing_authorisations_granted_15_Mar_31_Mar_2026.pdf"
+ },
+ {
+  "name": "mhra",
+  "url": "https://assets.publishing.service.gov.uk/media/69e6338c59ffffb9ecfcf951/Marketing_authorisations_granted_1_Apr_14_Apr_2026.pdf"
+ },
+ {
+  "name": "mhra",
+  "url": "https://assets.publishing.service.gov.uk/media/69fdd281e71c4cdf4026b8d5/Marketing_authorisations_granted_15_Apr_30_Apr_2026_1.pdf"
+ },
+ {
+  "name": "mhra",
+  "url": "https://assets.publishing.service.gov.uk/media/6a0c41a8c510c3913d82682a/Marketing_authorisations_granted_1_May_14_May_2026.pdf"
+ },
+ {
+  "name": "mhra",
+  "url": "https://assets.publishing.service.gov.uk/media/6a1ed40a050971fbebf3bd6e/Marketing_authorisations_granted_15_May_31_May_2026.pdf"
+ },
+ {
+  "name": "mhra",
+  "url": "https://assets.publishing.service.gov.uk/media/6a3a574100ff27f06e3efca2/Marketing_authorisations_granted_1_Jun_14_Jun_2026.pdf"
+ },
+ {
+  "name": "mhra",
+  "url": "https://assets.publishing.service.gov.uk/media/6a6b08bcbf4a7aca8f8976d1/Marketing_authorisations_granted_15_Jun_30_Jun_2026.pdf"
+ },
+ {
+  "name": "mhra",
+  "url": "https://assets.publishing.service.gov.uk/media/6a6b08bc862aaf18d9c629fa/Marketing_authorisations_granted_1_Jul_to_14_Jul_2026.pdf"
+ },
+ {
+  "name": "mhra",
+  "url": "https://assets.publishing.service.gov.uk/media/6a70b0db895ee729c0e5b45e/Marketing_authorisations_granted_15_Jul_to_31_Jul_2026.pdf"
+ },
+ {
+  "name": "mhra",
+  "url": "https://assets.publishing.service.gov.uk/media/6a8d6e24df4246cf45e4642f/Marketing_authorisations_granted_1_Aug_to_14_Aug_2026.pdf"
+ },
+ {
+  "name": "mhra",
+  "url": "https://assets.publishing.service.gov.uk/media/6a9988979a177a1decf97dc5/Marketing_authorisations_granted_15_Aug_to_31_Aug_2026.pdf"
+ },
+ {
+  "name": "mhra",
+  "url": "https://assets.publishing.service.gov.uk/media/6aacfb820420ac660805fa26/Marketing_authorisations_granted_1_Sep_to_14_Sep_2026.pdf"
+ },
+ {
+  "name": "mhra",
+  "url": "https://assets.publishing.service.gov.uk/media/6ac6273de8ef5609e7c9329a/Marketing_authorisations_granted_15_Sep_to_30_Sep_2026.pdf"
+ },
+ {
+  "name": "mhra",
+  "url": "https://assets.publishing.service.gov.uk/media/6ad71f08a89985bb9702692d/Marketing_authorisations_granted_1_October_to_14_October_2026.pdf"
+ },
+ {
+  "name": "mhra",
+  "url": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026"
+ },
+ {
+  "name": "pmda",
+  "url": "https://www.pmda.go.jp/english/review-services/reviews/approved-information/drugs/0002.html",
+  "follow": "\\.(pdf|xlsx?)$",
+  "max": 10
+ },
+ {
+  "name": "pmda",
+  "url": "https://www.pmda.go.jp/review-services/drug-reviews/review-information/p-drugs/0010.html",
+  "follow": "\\.(pdf|xlsx?)$",
+  "max": 10
+ },
+ {
+  "name": "hc",
+  "url": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html"
+ },
+ {
+  "name": "hc",
+  "url": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review.html",
+  "follow": "\\.(xlsx?|csv)$",
+  "max": 5
+ },
+ {
+  "name": "ema",
+  "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx"
+ },
+ {
+  "name": "ema",
+  "url": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-12-15-october-2026"
+ },
+ {
+  "name": "tw",
+  "url": "https://data.gov.tw/en/datasets/9122",
+  "follow": "(data\\.fda\\.gov\\.tw|opendata).*",
+  "max": 5
+ },
+ {
+  "name": "br",
+  "url": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv"
+ },
+ {
+  "name": "in",
+  "url": "https://cdsco.gov.in/opencms/opencms/en/Approval_new/Approved-New-Drugs/",
+  "follow": "2026.*\\.pdf$",
+  "max": 15
+ }
+]
