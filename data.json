@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29",
+ "updated": "2026-10-30",
  "countries": {
   "US": "United States · FDA",
   "EU": "European Union · EMA",
@@ -753,10 +753,10 @@
      "expected": "2026-11-30",
      "type": "NDA · PDUFA target date · with sunitinib; a second bezuclastinib date of 30 Dec is also listed",
      "indication": null,
-     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/november",
-     "sourceName": "Third-party PDUFA calendar (Assyro)",
-     "confidence": "thirdparty",
-     "checked": "2026-10-29"
+     "source": "https://www.biospace.com/press-releases/cogent-biosciences-announces-fda-acceptance-of-new-drug-application-nda-with-priority-review-for-bezuclastinib-in-combination-with-sunitinib-for-patients-with-gist",
+     "sourceName": "Cogent Biosciences press release, 28 May 2026",
+     "confidence": "company",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -6351,10 +6351,10 @@
      "expected": "2026-11-25",
      "type": "NDA · PDUFA target date",
      "indication": "Type 3 Gaucher disease",
-     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/november",
-     "sourceName": "Third-party PDUFA calendar (Assyro)",
-     "confidence": "thirdparty",
-     "checked": "2026-10-29"
+     "source": "https://www.sec.gov/Archives/edgar/data/0001121404/000119312526260613/d123884dex991.htm",
+     "sourceName": "Sanofi press release (SEC 6-K Ex. 99.1), 28 May 2026",
+     "confidence": "company",
+     "checked": "2026-10-30"
     }
    ]
   },
