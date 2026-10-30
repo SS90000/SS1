@@ -96,6 +96,7 @@ a{color:var(--accent)}
 .terms h2{font-family:var(--f-display);font-size:16px;color:var(--ink);margin:0}
 .terms p{margin:0;max-width:90ch}
 html.embedded .wrap{padding-block:8px 16px}
+.notice{margin:2px 0 0;font-size:12.5px;color:var(--muted);max-width:90ch}
 .home{justify-self:start;font-size:13px;font-weight:600;color:var(--accent);text-decoration:none;margin-bottom:6px}
 .home:hover{text-decoration:underline}
 html.embedded .home{display:none}
@@ -122,6 +123,7 @@ html.embedded .home{display:none}
     <h1>Drug approvals and pending decisions, by drug</h1>
     <p class="lede">Each row is one active substance. The cells show where it stands with each regulator: approved, recommended for approval, or under review. Open a row to see dates, submission timing and the source for every entry.</p>
     <div class="stats" id="stats"></div>
+    <p class="notice">© Salish Seven. For information only; not medical, legal or investment advice. Copying or republishing requires permission. <a href="#terms">Terms of use</a></p>
   </header>
 
   <section class="controls" aria-label="Search and filter">
@@ -167,7 +169,7 @@ html.embedded .home{display:none}
     <p>"No record" means no entry has been loaded for that regulator yet. It does not mean the drug was refused or never filed. Submission dates are shown where a regulator publishes them (Health Canada gives the month a file was accepted for review). This is a pilot; check the linked source before relying on any date.</p>
   </section>
 
-  <footer class="terms" aria-labelledby="t-h">
+  <footer class="terms" id="terms" aria-labelledby="t-h">
     <h2 id="t-h">Terms of use</h2>
     <p>© <span id="yr">2026</span> Salish Seven. All rights reserved. This register, its selection and arrangement of data, and its design are provided for personal information and research. You may cite individual entries with attribution to Salish Seven. Copying, scraping, republishing or redistributing the register or substantial parts of it, in any form, requires written permission.</p>
     <p>Information is compiled from public regulatory and company sources and may contain errors or delays. It is not medical, legal or investment advice. Always confirm details with the original source linked in each entry.</p>
