@@ -48,7 +48,6 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           allowed_bots: "claude[bot]"
-          show_full_output: "true"   # temporary, for diagnosing the first run
           prompt: "Read .github/daily-update.md and carry out the daily update it describes, editing only data.json."
           claude_args: |
             --model sonnet
