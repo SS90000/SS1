@@ -27,16 +27,16 @@
      "country": "CA",
      "regulator": "Health Canada",
      "status": "Approved",
-     "submitted": "2025-09",
+     "submitted": "2025-09-04",
      "decision": "2026-09-24",
-     "type": "Notice of Compliance · new active substance · therapeutic area: Diagnostic radiopharmaceuticals",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · new active substance; third-party data guidance · therapeutic area: Diagnostic radiopharmaceuticals · submission 299917",
+     "indication": null,
      "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
      "sourceName": "Health Canada Submissions Under Review: completed",
      "confidence": "regulator",
-     "checked": "2026-10-29",
-     "expected": null,
-     "opinion": null,
-     "indication": null
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -158,8 +158,8 @@
    ]
   },
   {
-   "id": "afamelanotide-acetate",
-   "inn": "afamelanotide acetate",
+   "id": "afamelanotide",
+   "inn": "afamelanotide",
    "brands": [],
    "sponsors": [],
    "records": [
@@ -167,18 +167,25 @@
      "country": "CA",
      "regulator": "Health Canada",
      "status": "Approved",
-     "submitted": "2024-12",
+     "submitted": "2024-12-18",
      "decision": "2026-07-09",
-     "type": "Notice of Compliance · new active substance · therapeutic area: Emollients and protectives",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · new active substance · therapeutic area: Emollients and protectives · submission 290853",
+     "indication": null,
      "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
      "sourceName": "Health Canada Submissions Under Review: completed",
      "confidence": "regulator",
-     "checked": "2026-10-29",
-     "expected": null,
-     "opinion": null,
-     "indication": null
+     "checked": "2026-10-30"
     }
    ]
+  },
+  {
+   "id": "afamelanotide-acetate",
+   "inn": "afamelanotide acetate",
+   "brands": [],
+   "sponsors": [],
+   "records": []
   },
   {
    "id": "aficamten",
@@ -570,21 +577,6 @@
    ],
    "records": [
     {
-     "country": "CA",
-     "regulator": "Health Canada",
-     "status": "Approved",
-     "submitted": "2025-07",
-     "decision": "2026-07-02",
-     "type": "Notice of Compliance · new active substance · therapeutic area: Renin-angiotensin system agents",
-     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
-     "sourceName": "Health Canada Submissions Under Review: completed",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "expected": null,
-     "opinion": null,
-     "indication": null
-    },
-    {
      "country": "TW",
      "regulator": "Taiwan FDA",
      "status": "Approved",
@@ -612,6 +604,21 @@
      "submitted": null,
      "expected": null,
      "opinion": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-07-17",
+     "decision": "2026-07-02",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · new active substance · therapeutic area: Agents acting on the renin-angiotensin system · submission 296219",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
      "checked": "2026-10-30"
     }
    ]
@@ -965,16 +972,16 @@
      "country": "CA",
      "regulator": "Health Canada",
      "status": "Approved",
-     "submitted": "2025-06",
+     "submitted": "2025-06-27",
      "decision": "2026-04-28",
-     "type": "Notice of Compliance · biosimilar · therapeutic area: Antineoplastic agents",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · biosimilar; aligned review with hta · therapeutic area: Antineoplastic agents · submission 295938",
+     "indication": null,
      "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
      "sourceName": "Health Canada Submissions Under Review: completed",
      "confidence": "regulator",
-     "checked": "2026-10-29",
-     "expected": null,
-     "opinion": null,
-     "indication": null
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -1144,21 +1151,6 @@
      "checked": "2026-10-29"
     },
     {
-     "country": "CA",
-     "regulator": "Health Canada",
-     "status": "Approved",
-     "submitted": "2025-10",
-     "decision": "2026-08-04",
-     "type": "Notice of Compliance · new active substance · therapeutic area: Endocrine therapy",
-     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
-     "sourceName": "Health Canada Submissions Under Review: completed",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "expected": null,
-     "opinion": null,
-     "indication": null
-    },
-    {
      "country": "JP",
      "regulator": "MHLW / PMDA",
      "status": "Approved",
@@ -1201,6 +1193,21 @@
      "expected": null,
      "opinion": null,
      "indication": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-10-10",
+     "decision": "2026-08-04",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · new active substance; aligned review with hta; project orbis type b · therapeutic area: Endocrine therapy · submission 301088",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
      "checked": "2026-10-30"
     }
    ]
@@ -1383,21 +1390,6 @@
    "sponsors": [],
    "records": [
     {
-     "country": "CA",
-     "regulator": "Health Canada",
-     "status": "Approved",
-     "submitted": "2025-07",
-     "decision": "2026-06-26",
-     "type": "Notice of Compliance · new active substance · therapeutic area: Vaccines",
-     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
-     "sourceName": "Health Canada Submissions Under Review: completed",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "expected": null,
-     "opinion": null,
-     "indication": null
-    },
-    {
      "country": "CH",
      "regulator": "Swissmedic",
      "status": "Approved",
@@ -1411,6 +1403,21 @@
      "expected": null,
      "opinion": null,
      "indication": null
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-07-21",
+     "decision": "2026-06-26",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · new active substance · therapeutic area: Vaccines · submission 296487",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -1464,21 +1471,6 @@
      "sourceName": "HSA Listing of approvals",
      "confidence": "regulator",
      "checked": "2026-10-29"
-    },
-    {
-     "country": "CA",
-     "regulator": "Health Canada",
-     "status": "Approved",
-     "submitted": "2025-04",
-     "decision": "2026-01-30",
-     "type": "Notice of Compliance · new active substance · therapeutic area: Immune sera and immunoglobulins",
-     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
-     "sourceName": "Health Canada Submissions Under Review: completed",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "expected": null,
-     "opinion": null,
-     "indication": null
     },
     {
      "country": "CH",
@@ -1553,6 +1545,21 @@
      "submitted": null,
      "expected": null,
      "opinion": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-04-07",
+     "decision": "2026-01-30",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · new active substance; access consortium work-sharing · therapeutic area: Immune sera and immunoglobulins · submission 295182",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
      "checked": "2026-10-30"
     }
    ]
@@ -1871,21 +1878,6 @@
      "checked": "2026-10-29"
     },
     {
-     "country": "CA",
-     "regulator": "Health Canada",
-     "status": "Approved",
-     "submitted": "2024-09",
-     "decision": "2026-03-09",
-     "type": "Notice of Compliance · biosimilar · therapeutic area: Bone disease treatment · first of 12 biosimilar denosumab NOCs in 2026",
-     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
-     "sourceName": "Health Canada Submissions Under Review: completed",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "expected": null,
-     "opinion": null,
-     "indication": null
-    },
-    {
      "country": "EU",
      "regulator": "EMA / European Commission",
      "status": "Approved",
@@ -1914,6 +1906,21 @@
      "submitted": null,
      "expected": null,
      "checked": "2026-10-30"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2024-09-11",
+     "decision": "2026-03-09",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · biosimilar · therapeutic area: Drugs for treatment of bone diseases · submission 286878",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -1929,21 +1936,6 @@
     "Glaxosmithkline Brasil Ltda"
    ],
    "records": [
-    {
-     "country": "CA",
-     "regulator": "Health Canada",
-     "status": "Approved",
-     "submitted": "2025-04",
-     "decision": "2026-06-15",
-     "type": "Notice of Compliance · new active substance · therapeutic area: Drugs for obstructive airway diseases",
-     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
-     "sourceName": "Health Canada Submissions Under Review: completed",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "expected": null,
-     "opinion": null,
-     "indication": null
-    },
     {
      "country": "EU",
      "regulator": "EMA / European Commission",
@@ -1972,6 +1964,21 @@
      "submitted": null,
      "expected": null,
      "opinion": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-04-17",
+     "decision": "2026-06-15",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · new active substance; aligned review with hta · therapeutic area: Drugs for obstructive airway diseases · submission 290294",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
      "checked": "2026-10-30"
     }
    ]
@@ -2169,21 +2176,6 @@
    "sponsors": [],
    "records": [
     {
-     "country": "CA",
-     "regulator": "Health Canada",
-     "status": "Approved",
-     "submitted": "2024-02",
-     "decision": "2026-04-30",
-     "type": "Notice of Compliance · new active substance · therapeutic area: Psychoanaleptics",
-     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
-     "sourceName": "Health Canada Submissions Under Review: completed",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "expected": null,
-     "opinion": null,
-     "indication": null
-    },
-    {
      "country": "CH",
      "regulator": "Swissmedic",
      "status": "Approved",
@@ -2197,6 +2189,21 @@
      "expected": null,
      "opinion": null,
      "indication": null
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2024-02-05",
+     "decision": "2026-04-30",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · new active substance; aligned review with hta · therapeutic area: Psychoanaleptics · submission 282096",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -2211,21 +2218,6 @@
     "Otsuka Pharmaceutical Netherlands BV"
    ],
    "records": [
-    {
-     "country": "CA",
-     "regulator": "Health Canada",
-     "status": "Approved",
-     "submitted": "2025-12",
-     "decision": "2026-09-28",
-     "type": "Notice of Compliance · new active substance · therapeutic area: Other hematological agents",
-     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
-     "sourceName": "Health Canada Submissions Under Review: completed",
-     "confidence": "regulator",
-     "checked": "2026-10-29",
-     "expected": null,
-     "opinion": null,
-     "indication": null
-    },
     {
      "country": "CH",
      "regulator": "Swissmedic",
@@ -2270,6 +2262,21 @@
      "opinion": null,
      "indication": null,
      "checked": "2026-10-30"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-12-03",
+     "decision": "2026-09-28",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · new active substance; aligned review with hta · therapeutic area: Other hematological agents · submission 298052",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -2299,16 +2306,16 @@
      "country": "CA",
      "regulator": "Health Canada",
      "status": "Approved",
-     "submitted": "2025-08",
+     "submitted": "2025-08-07",
      "decision": "2026-06-22",
-     "type": "Notice of Compliance · new active substance · therapeutic area: Antivirals for systemic use",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · new active substance · therapeutic area: Antivirals for systemic use · submission 298314",
+     "indication": null,
      "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
      "sourceName": "Health Canada Submissions Under Review: completed",
      "confidence": "regulator",
-     "checked": "2026-10-29",
-     "expected": null,
-     "opinion": null,
-     "indication": null
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -2349,16 +2356,16 @@
      "country": "CA",
      "regulator": "Health Canada",
      "status": "Approved",
-     "submitted": "2022-07",
+     "submitted": "2022-07-26",
      "decision": "2026-04-22",
-     "type": "Notice of Compliance · biosimilar · therapeutic area: Immunosuppressants · first of 2 biosimilar eculizumab NOCs in 2026",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · biosimilar; aligned review with hta · therapeutic area: Immunosuppressants · submission 263132",
+     "indication": null,
      "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
      "sourceName": "Health Canada Submissions Under Review: completed",
      "confidence": "regulator",
-     "checked": "2026-10-29",
-     "expected": null,
-     "opinion": null,
-     "indication": null
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -2723,6 +2730,29 @@
    ]
   },
   {
+   "id": "gadopiclenol",
+   "inn": "gadopiclenol",
+   "brands": [],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-04-17",
+     "decision": "2026-04-10",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · new active substance · therapeutic area: Contrast media · submission 293318",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "gadoquatrane",
    "inn": "gadoquatrane",
    "brands": [
@@ -2774,6 +2804,21 @@
      "expected": null,
      "opinion": null,
      "indication": null
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-09-26",
+     "decision": "2026-07-29",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · new active substance; access consortium work-sharing · therapeutic area: Contrast media · submission 300845",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -3145,6 +3190,21 @@
      "submitted": null,
      "expected": null,
      "checked": "2026-10-30"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-06-16",
+     "decision": "2026-04-10",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · biosimilar; aligned review with hta · therapeutic area: Immunosuppressants · submission 294382",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -3332,16 +3392,16 @@
      "country": "CA",
      "regulator": "Health Canada",
      "status": "Approved",
-     "submitted": "2025-05",
+     "submitted": "2025-05-06",
      "decision": "2026-01-30",
-     "type": "Notice of Compliance · new active substance · therapeutic area: Antibacterials for systemic use",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · new active substance; priority review policy · therapeutic area: Antibacterials for systemic use · submission 296713",
+     "indication": null,
      "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
      "sourceName": "Health Canada Submissions Under Review: completed",
      "confidence": "regulator",
-     "checked": "2026-10-29",
-     "expected": null,
-     "opinion": null,
-     "indication": null
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -4076,6 +4136,21 @@
      "submitted": null,
      "expected": null,
      "checked": "2026-10-30"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2023-10-25",
+     "decision": "2026-07-08",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · new active substance; priority review policy; aligned review with hta · therapeutic area: Immunostimulants · submission 277578",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -4714,6 +4789,29 @@
    ]
   },
   {
+   "id": "mosunetuzumab",
+   "inn": "mosunetuzumab",
+   "brands": [],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-06-17",
+     "decision": "2026-02-06",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance under the NOC/c Guidance · new active substance; noc/c guidance; aligned review with hta · therapeutic area: Antineoplastic agents · submission 298079",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "motixafortide",
    "inn": "motixafortide",
    "brands": [
@@ -4812,6 +4910,21 @@
      "confidence": "regulator",
      "submitted": null,
      "expected": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-04-24",
+     "decision": "2026-03-16",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · new active substance; aligned review with hta · therapeutic area: Antineoplastic agents · submission 295688",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
      "checked": "2026-10-30"
     }
    ]
@@ -5553,6 +5666,21 @@
      "expected": null,
      "opinion": null,
      "checked": "2026-10-30"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-03-28",
+     "decision": "2026-01-28",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · new active substance; aligned review with hta · therapeutic area: Calcium homeostasis · submission 294475",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -5667,6 +5795,21 @@
      "submitted": null,
      "expected": null,
      "checked": "2026-10-30"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-03-12",
+     "decision": "2026-01-06",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · biosimilar · therapeutic area: Immunostimulants · submission 294441",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -5743,6 +5886,21 @@
      "sourceName": "FDA Novel Drug Approvals 2026",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-10-24",
+     "decision": "2026-05-29",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · new active substance; priority review policy; aligned review with hta · therapeutic area: Other alimentary tract and metabolism products · submission 302066",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -5834,6 +5992,29 @@
    ]
   },
   {
+   "id": "pimicotinib",
+   "inn": "pimicotinib",
+   "brands": [],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-12-15",
+     "decision": "2026-06-12",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · new active substance; priority review policy; project orbis type a · therapeutic area: Antineoplastic agents · submission 304089",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "pirtobrutinib",
    "inn": "pirtobrutinib",
    "brands": [
@@ -5906,6 +6087,21 @@
      "confidence": "regulator",
      "submitted": null,
      "expected": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-07-08",
+     "decision": "2026-01-02",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · new active substance; priority review policy; aligned review with hta · therapeutic area: Lipid modifying agents · submission 298667",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
      "checked": "2026-10-30"
     }
    ]
@@ -6187,6 +6383,21 @@
      "submitted": null,
      "expected": null,
      "checked": "2026-10-30"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-08-19",
+     "decision": "2026-06-10",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · biosimilar; aligned review with hta · therapeutic area: Ophthalmologicals · submission 297955",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -6381,6 +6592,21 @@
      "expected": null,
      "opinion": null,
      "checked": "2026-10-30"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-09-22",
+     "decision": "2026-07-16",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · new active substance; aligned review with hta · therapeutic area: Immunosuppressants · submission 300491",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -6433,6 +6659,29 @@
      "expected": null,
      "opinion": null,
      "indication": null
+    }
+   ]
+  },
+  {
+   "id": "rifapentine",
+   "inn": "rifapentine",
+   "brands": [],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-03-28",
+     "decision": "2026-02-12",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · new active substance · therapeutic area: Antimycobacterials · submission 293336",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -6501,6 +6750,52 @@
      "sourceName": "HSA Listing of approvals",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "rituximab",
+   "inn": "rituximab",
+   "brands": [],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2024-02-15",
+     "decision": "2026-02-13",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · biosimilar; aligned review with hta · therapeutic area: Antineoplastic agents · submission 280385",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "id": "ropeginterferon-alfa-2b",
+   "inn": "ropeginterferon alfa-2b",
+   "brands": [],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-09-05",
+     "decision": "2026-07-02",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · new active substance · therapeutic area: Immunostimulants · submission 300017",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -6985,6 +7280,21 @@
      "expected": null,
      "opinion": null,
      "checked": "2026-10-30"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-05-08",
+     "decision": "2026-01-29",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance under the NOC/c Guidance · new active substance; noc/c guidance; aligned review with hta; project orbis type a · therapeutic area: Antineoplastic agents · submission 297051",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -7010,6 +7320,29 @@
      "decision": null,
      "expected": null,
      "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "sodium-benzoate-and-sodium-phenylacetate",
+   "inn": "sodium benzoate and sodium phenylacetate",
+   "brands": [],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2026-03-20",
+     "decision": "2026-09-16",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · new active substance; priority review policy; third-party data guidance · therapeutic area: Other alimentary tract and metabolism products · submission 306362",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -7681,6 +8014,21 @@
      "submitted": null,
      "expected": null,
      "checked": "2026-10-30"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-10-07",
+     "decision": "2026-07-13",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance under the NOC/c Guidance · new active substance; noc/c guidance; aligned review with hta · therapeutic area: Antineoplastic agents · submission 301603",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -7783,6 +8131,21 @@
      "confidence": "regulator",
      "submitted": null,
      "expected": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-09-04",
+     "decision": "2026-06-22",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · new active substance · therapeutic area: Muscle relaxants · submission 300062",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
      "checked": "2026-10-30"
     }
    ]
@@ -7964,6 +8327,21 @@
      "sourceName": "HSA Listing of approvals",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2024-05-14",
+     "decision": "2026-01-21",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance · biosimilar; aligned review with hta · therapeutic area: Immunosuppressants · submission 281536",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -8139,6 +8517,21 @@
      "sourceName": "HSA Listing of approvals",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-02-05",
+     "decision": "2026-01-21",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance under the NOC/c Guidance · new active substance · therapeutic area: Drugs for treatment of bone diseases · submission 290788",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -8190,6 +8583,21 @@
      "expected": null,
      "opinion": null,
      "indication": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-04-29",
+     "decision": "2026-01-15",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance under the NOC/c Guidance · new active substance; noc/c guidance · therapeutic area: Antineoplastic agents · submission 296499",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
      "checked": "2026-10-30"
     }
    ]
@@ -8315,6 +8723,21 @@
      "decision": null,
      "expected": null,
      "opinion": null
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2026-01-19",
+     "decision": "2026-09-24",
+     "expected": null,
+     "opinion": null,
+     "type": "Issued Notice of Compliance under the NOC/c Guidance · new active substance; noc/c guidance; project orbis type c · therapeutic area: Antineoplastic agents · submission 304237",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -8347,7 +8770,7 @@
  "coverage": {
   "US": "2026 novel drug approvals (FDA list) and upcoming PDUFA dates.",
   "EU": "All 2026 European Commission authorisations and CHMP positive opinions for new medicines, from EMA's official medicines data (generics and hybrid copies of old substances excluded). Includes the date of the CHMP opinion and of the Commission decision.",
-  "CA": "All submissions under review (with month accepted, as of 30 Sep 2026). 2026 approvals loaded for ingredients A–E only so far.",
+  "CA": "All submissions under review, with the date each was accepted (to 30 Sep 2026), and every 2026 decision on a new active substance or biosimilar, with acceptance and decision dates.",
   "CH": "2026 authorisations of medicines with new active substances.",
   "JP": "2026 approvals: PMDA's official list (to February 2026) plus later approvals compiled by KEGG from Japanese regulatory records.",
   "SG": "2026 new drug approvals (NDA-1 and NDA-2). HSA does not list indications.",
@@ -8357,6 +8780,6 @@
   "KR": "Not yet loaded: MFDS does not publish a readable approvals list in English.",
   "TW": "2026 Taiwan FDA drug licences (open data) for drugs tracked elsewhere, plus selected new active substances. Licence dates; not a complete list of Taiwan new medicines.",
   "BR": "2026 ANVISA registrations (open data) for drugs tracked elsewhere, plus selected new active substances. Dates are when the registration process was completed; not a complete list of Brazil new medicines.",
-  "IN": "Not yet loaded: CDSCO's website could not be reached from the download service."
+  "IN": "Not yet loaded: CDSCO's 2026 list was last updated 12 March 2026 and has three entries; India's 'new drug' category also covers drugs new to India rather than new worldwide."
  }
 }
