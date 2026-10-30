@@ -2,13 +2,116 @@
  "updated": "2026-10-29",
  "countries": {
   "US": "United States · FDA",
+  "EU": "European Union · EMA",
+  "UK": "United Kingdom · MHRA",
+  "CA": "Canada · Health Canada",
+  "CH": "Switzerland · Swissmedic",
+  "JP": "Japan · PMDA",
   "SG": "Singapore · HSA",
-  "AU": "Australia · TGA"
+  "AU": "Australia · TGA",
+  "CN": "China · NMPA",
+  "KR": "South Korea · MFDS"
  },
- "notes": {
-  "AU": "TGA's website blocks automated collection. Australian rows will be added once a permitted data route is set up."
- },
+ "notes": {},
  "drugs": [
+  {
+   "id": "18f-psma-1007",
+   "inn": "(18f)psma-1007",
+   "brands": [],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-09",
+     "decision": "2026-09-24",
+     "type": "Notice of Compliance · new active substance · therapeutic area: Diagnostic radiopharmaceuticals",
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    }
+   ]
+  },
+  {
+   "id": "aceclidine",
+   "inn": "aceclidine",
+   "brands": [],
+   "sponsors": [
+    "Laboratoires Thea"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-08",
+     "type": "Submission under review · new active substance · therapeutic area: Ophthalmologicals",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "acoltremon",
+   "inn": "acoltremon",
+   "brands": [],
+   "sponsors": [
+    "Alcon Canada Inc"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-02",
+     "type": "Submission under review · new active substance · therapeutic area: Ophthalmologicals",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "acoramidis",
+   "inn": "acoramidis",
+   "brands": [],
+   "sponsors": [
+    "BridgeBio Europe B.V."
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-05",
+     "type": "Submission under review · new active substance · aligned review with HTA · therapeutic area: Cardiac therapy",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
   {
    "id": "adrabetadex",
    "inn": "adrabetadex",
@@ -34,11 +137,35 @@
    ]
   },
   {
+   "id": "afamelanotide-acetate",
+   "inn": "afamelanotide acetate",
+   "brands": [],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2024-12",
+     "decision": "2026-07-09",
+     "type": "Notice of Compliance · new active substance · therapeutic area: Emollients and protectives",
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    }
+   ]
+  },
+  {
    "id": "aficamten",
    "inn": "aficamten",
    "brands": [],
    "sponsors": [
-    "Cytokinetics"
+    "Cytokinetics",
+    "Cytokinetics, Incorporated"
    ],
    "records": [
     {
@@ -54,6 +181,21 @@
      "sourceName": "Third-party PDUFA calendar (Assyro)",
      "confidence": "thirdparty",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2025-12",
+     "type": "Submission under review · new active substance · therapeutic area: Cardiac therapy",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
     }
    ]
   },
@@ -66,7 +208,8 @@
    ],
    "sponsors": [
     "Celltrion Healthcare Singapore",
-    "Cedar Pharmaceuticals"
+    "Cedar Pharmaceuticals",
+    "JAMP Pharma Corporation"
    ],
    "records": [
     {
@@ -96,6 +239,48 @@
      "sourceName": "HSA Listing of approvals",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2025-07",
+     "type": "Submission under review · biosimilar · aligned review with HTA · therapeutic area: Ophthalmologicals",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "alpelisib",
+   "inn": "alpelisib",
+   "brands": [
+    "Vijoice"
+   ],
+   "sponsors": [
+    "Novartis Europharm Limited"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-05-21",
+     "type": "CHMP positive opinion · orphan · conditional · European Commission decision pending in this register",
+     "indication": "PIK3CA-related overgrowth spectrum (age 2+)",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-18-21-may-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-05)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
     }
    ]
   },
@@ -130,7 +315,8 @@
    "inn": "anitocabtagene autoleucel",
    "brands": [],
    "sponsors": [
-    "Arcellx / Gilead"
+    "Arcellx / Gilead",
+    "Gilead Sciences Canada Inc"
    ],
    "records": [
     {
@@ -146,6 +332,21 @@
      "sourceName": "Third-party PDUFA calendar (Assyro)",
      "confidence": "thirdparty",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-07",
+     "type": "Submission under review · new active substance · conditional (NOC/c) pathway · aligned review with HTA · therapeutic area: Antineoplastic agents",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
     }
    ]
   },
@@ -174,6 +375,31 @@
    ]
   },
   {
+   "id": "asundexian",
+   "inn": "asundexian",
+   "brands": [],
+   "sponsors": [
+    "Bayer Inc"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-07",
+     "type": "Submission under review · new active substance · aligned review with HTA · therapeutic area: Antithrombotic agents",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
    "id": "atacicept",
    "inn": "atacicept",
    "brands": [
@@ -194,6 +420,54 @@
      "sourceName": "FDA Novel Drug Approvals 2026",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "atrasentan",
+   "inn": "atrasentan",
+   "brands": [],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-07",
+     "decision": "2026-07-02",
+     "type": "Notice of Compliance · new active substance · therapeutic area: Renin-angiotensin system agents",
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    }
+   ]
+  },
+  {
+   "id": "axatilimab",
+   "inn": "axatilimab",
+   "brands": [],
+   "sponsors": [
+    "Incyte Corporation"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2025-01",
+     "type": "Submission under review · new active substance · therapeutic area: Immunosuppressants",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
     }
    ]
   },
@@ -229,7 +503,9 @@
    "brands": [
     "Baxfendy"
    ],
-   "sponsors": [],
+   "sponsors": [
+    "AstraZeneca Canada Inc"
+   ],
    "records": [
     {
      "country": "US",
@@ -244,6 +520,21 @@
      "sourceName": "FDA Novel Drug Approvals 2026",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-06",
+     "type": "Submission under review · new active substance · therapeutic area: Antihypertensives",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
     }
    ]
   },
@@ -268,6 +559,31 @@
      "sourceName": "Third-party PDUFA calendar (Assyro)",
      "confidence": "thirdparty",
      "checked": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "bcg-intravesical",
+   "inn": "bcg (intravesical)",
+   "brands": [
+    "BCG-medac"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CH",
+     "regulator": "Swissmedic",
+     "status": "Approved",
+     "decision": "2026-03-05",
+     "type": "Authorisation of a human medicine with a new active substance",
+     "source": "https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel/authorisations/new-medicines.html",
+     "sourceName": "Swissmedic: authorised medicines with new active substances",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
     }
    ]
   },
@@ -329,7 +645,9 @@
    "brands": [
     "Hibsago"
    ],
-   "sponsors": [],
+   "sponsors": [
+    "GlaxoSmithKline Inc"
+   ],
    "records": [
     {
      "country": "US",
@@ -344,6 +662,21 @@
      "sourceName": "FDA Novel Drug Approvals 2026",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-05",
+     "type": "Submission under review · new active substance · priority review · aligned review with HTA · therapeutic area: Antivirals for systemic use",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
     }
    ]
   },
@@ -353,7 +686,9 @@
    "brands": [
     "Lytenava"
    ],
-   "sponsors": [],
+   "sponsors": [
+    "Sandoz Canada Incorporated"
+   ],
    "records": [
     {
      "country": "US",
@@ -368,6 +703,36 @@
      "sourceName": "FDA Novel Drug Approvals 2026",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-04",
+     "type": "Submission under review · biosimilar · therapeutic area: Antineoplastic agents",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-06",
+     "decision": "2026-04-28",
+     "type": "Notice of Compliance · biosimilar · therapeutic area: Antineoplastic agents",
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "expected": null,
+     "opinion": null,
+     "indication": null
     }
    ]
   },
@@ -392,6 +757,31 @@
      "sourceName": "Third-party PDUFA calendar (Assyro)",
      "confidence": "thirdparty",
      "checked": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "brensocatib",
+   "inn": "brensocatib",
+   "brands": [
+    "Brinsupri"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "JP",
+     "regulator": "MHLW / PMDA",
+     "status": "Approved",
+     "decision": "2026-08-24",
+     "type": "New drug approval",
+     "source": "https://www.kegg.jp/kegg/drug/br08328.html",
+     "sourceName": "KEGG: New drug approvals in the USA, Europe and Japan",
+     "confidence": "database",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
     }
    ]
   },
@@ -444,12 +834,39 @@
    ]
   },
   {
+   "id": "cagrilintide-and-semaglutide",
+   "inn": "cagrilintide and semaglutide",
+   "brands": [],
+   "sponsors": [
+    "Novo Nordisk Canada Inc"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-03",
+     "type": "Submission under review · new active substance · therapeutic area: Drugs used in diabetes",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
    "id": "camizestrant",
    "inn": "camizestrant",
    "brands": [
     "Etcamah"
    ],
-   "sponsors": [],
+   "sponsors": [
+    "AstraZeneca"
+   ],
    "records": [
     {
      "country": "US",
@@ -464,6 +881,51 @@
      "sourceName": "FDA Novel Drug Approvals 2026",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-05-21",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "ER+/HER2- ESR1-mutated advanced breast cancer, with a CDK4/6 inhibitor",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-18-21-may-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-05)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-10",
+     "decision": "2026-08-04",
+     "type": "Notice of Compliance · new active substance · therapeutic area: Endocrine therapy",
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    },
+    {
+     "country": "JP",
+     "regulator": "MHLW / PMDA",
+     "status": "Approved",
+     "decision": "2026-06-19",
+     "type": "New drug approval",
+     "source": "https://www.kegg.jp/kegg/drug/br08328.html",
+     "sourceName": "KEGG: New drug approvals in the USA, Europe and Japan",
+     "confidence": "database",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
     }
    ]
   },
@@ -492,12 +954,64 @@
    ]
   },
   {
+   "id": "ceftaroline-fosamil",
+   "inn": "ceftaroline fosamil",
+   "brands": [],
+   "sponsors": [
+    "Sterimax Inc."
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2025-07",
+     "type": "Submission under review · new active substance · third-party data pathway · therapeutic area: Antibacterials for systemic use",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "ceftazidime-and-avibactam",
+   "inn": "ceftazidime and avibactam",
+   "brands": [],
+   "sponsors": [
+    "Sterimax Inc"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2025-08",
+     "type": "Submission under review · new active substance · priority review · third-party data pathway · therapeutic area: Antibacterials for systemic use",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
    "id": "centanafadine",
    "inn": "centanafadine",
    "brands": [
     "Simtriyo"
    ],
-   "sponsors": [],
+   "sponsors": [
+    "Otsuka Pharmaceutical Co Ltd"
+   ],
    "records": [
     {
      "country": "US",
@@ -512,6 +1026,61 @@
      "sourceName": "FDA Novel Drug Approvals 2026",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-06",
+     "type": "Submission under review · new active substance · therapeutic area: Psychoanaleptics",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "chikungunya-virus-like-particle-vaccine",
+   "inn": "chikungunya virus-like particle vaccine",
+   "brands": [
+    "Vimkunya"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-07",
+     "decision": "2026-06-26",
+     "type": "Notice of Compliance · new active substance · therapeutic area: Vaccines",
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    },
+    {
+     "country": "CH",
+     "regulator": "Swissmedic",
+     "status": "Approved",
+     "decision": "2026-04-15",
+     "type": "Authorisation of a human medicine with a new active substance · listed by Swissmedic as trosovavilp alfa",
+     "source": "https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel/authorisations/new-medicines.html",
+     "sourceName": "Swissmedic: authorised medicines with new active substances",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
     }
    ]
   },
@@ -543,7 +1112,7 @@
    "id": "clesrovimab",
    "inn": "clesrovimab",
    "brands": [
-    "ENFLONSIA"
+    "Enflonsia"
    ],
    "sponsors": [
     "MSD Pharma (Singapore)"
@@ -562,6 +1131,51 @@
      "sourceName": "HSA Listing of approvals",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-04",
+     "decision": "2026-01-30",
+     "type": "Notice of Compliance · new active substance · therapeutic area: Immune sera and immunoglobulins",
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    },
+    {
+     "country": "CH",
+     "regulator": "Swissmedic",
+     "status": "Approved",
+     "decision": "2026-01-22",
+     "type": "Authorisation of a human medicine with a new active substance",
+     "source": "https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel/authorisations/new-medicines.html",
+     "sourceName": "Swissmedic: authorised medicines with new active substances",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    },
+    {
+     "country": "JP",
+     "regulator": "MHLW / PMDA",
+     "status": "Approved",
+     "decision": "2026-06-19",
+     "type": "New drug approval",
+     "source": "https://www.kegg.jp/kegg/drug/br08328.html",
+     "sourceName": "KEGG: New drug approvals in the USA, Europe and Japan",
+     "confidence": "database",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
     }
    ]
   },
@@ -586,6 +1200,31 @@
      "sourceName": "FDA Novel Drug Approvals 2026",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "cosibelimab",
+   "inn": "cosibelimab",
+   "brands": [],
+   "sponsors": [
+    "Sun Pharmaceutical Industries, Inc."
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-06",
+     "type": "Submission under review · new active substance · aligned review with HTA · therapeutic area: Antineoplastic agents",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
     }
    ]
   },
@@ -660,6 +1299,89 @@
      "sourceName": "FDA Novel Drug Approvals 2026",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-10-15",
+     "type": "CHMP positive opinion · orphan (per CHMP agenda) · European Commission decision pending in this register",
+     "indication": "Metastatic pancreatic adenocarcinoma",
+     "source": "https://www.pharmanow.live/de/latest-news/ema-chmp-october-2026-meeting-highlights-orforglipron-biosimilars",
+     "sourceName": "News report of CHMP October 2026 meeting",
+     "confidence": "thirdparty",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
+   "id": "datopotamab-deruxtecan",
+   "inn": "datopotamab deruxtecan",
+   "brands": [],
+   "sponsors": [
+    "AstraZeneca Canada Inc"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-02",
+     "type": "Submission under review · new active substance · aligned review with HTA · therapeutic area: Antineoplastic agents",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "denecimig",
+   "inn": "denecimig",
+   "brands": [
+    "Frehemgo"
+   ],
+   "sponsors": [
+    "Novo Nordisk A/S",
+    "Novo Nordisk Canada Inc"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-09-17",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "Prophylaxis of bleeding in haemophilia A",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-09)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2025-12",
+     "type": "Submission under review · new active substance · therapeutic area: Antihemorrhagics",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
     }
    ]
   },
@@ -669,12 +1391,14 @@
    "brands": [
     "FORTISSO / OSIFOR",
     "EVFRAXY / VEVZUO",
-    "JUBBONTI / WYOST"
+    "JUBBONTI / WYOST",
+    "Denosumab Ascend"
    ],
    "sponsors": [
     "Lotus International",
     "Cedar Pharmaceuticals",
-    "Sandoz Singapore"
+    "Sandoz Singapore",
+    "Ascend GmbH"
    ],
    "records": [
     {
@@ -718,6 +1442,59 @@
      "sourceName": "HSA Listing of approvals",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-06-25",
+     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
+     "indication": "Skeletal-related events in advanced cancer; giant cell tumour of bone",
+     "source": "https://www.ema.europa.eu/fr/news/meeting-highlights-committee-medicinal-products-human-use-chmp-22-25-june-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-06)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2024-09",
+     "decision": "2026-03-09",
+     "type": "Notice of Compliance · biosimilar · therapeutic area: Bone disease treatment · first of 12 biosimilar denosumab NOCs in 2026",
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    }
+   ]
+  },
+  {
+   "id": "depemokimab",
+   "inn": "depemokimab",
+   "brands": [],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-04",
+     "decision": "2026-06-15",
+     "type": "Notice of Compliance · new active substance · therapeutic area: Drugs for obstructive airway diseases",
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "expected": null,
+     "opinion": null,
+     "indication": null
     }
    ]
   },
@@ -742,6 +1519,31 @@
      "sourceName": "Capricor SEC 8-K, 24 Aug 2026",
      "confidence": "company",
      "checked": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "deuruxolitinib",
+   "inn": "deuruxolitinib",
+   "brands": [],
+   "sponsors": [
+    "Sun Pharmaceutical Industries, Inc."
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2025-12",
+     "type": "Submission under review · new active substance · therapeutic area: Immunosuppressants",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
     }
    ]
   },
@@ -820,6 +1622,86 @@
    ]
   },
   {
+   "id": "donanemab",
+   "inn": "donanemab",
+   "brands": [
+    "Kisunla"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2024-02",
+     "decision": "2026-04-30",
+     "type": "Notice of Compliance · new active substance · therapeutic area: Psychoanaleptics",
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    },
+    {
+     "country": "CH",
+     "regulator": "Swissmedic",
+     "status": "Approved",
+     "decision": "2026-01-22",
+     "type": "Authorisation of a human medicine with a new active substance",
+     "source": "https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel/authorisations/new-medicines.html",
+     "sourceName": "Swissmedic: authorised medicines with new active substances",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    }
+   ]
+  },
+  {
+   "id": "donidalorsen",
+   "inn": "donidalorsen",
+   "brands": [
+    "Dawnzera"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-12",
+     "decision": "2026-09-28",
+     "type": "Notice of Compliance · new active substance · therapeutic area: Other hematological agents",
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    },
+    {
+     "country": "CH",
+     "regulator": "Swissmedic",
+     "status": "Approved",
+     "decision": "2026-06-02",
+     "type": "Authorisation of a human medicine with a new active substance",
+     "source": "https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel/authorisations/new-medicines.html",
+     "sourceName": "Swissmedic: authorised medicines with new active substances",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    }
+   ]
+  },
+  {
    "id": "doravirine-and-islatravir",
    "inn": "doravirine and islatravir",
    "brands": [
@@ -840,6 +1722,71 @@
      "sourceName": "FDA Novel Drug Approvals 2026",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-08",
+     "decision": "2026-06-22",
+     "type": "Notice of Compliance · new active substance · therapeutic area: Antivirals for systemic use",
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    }
+   ]
+  },
+  {
+   "id": "doxecitine-and-doxribtimine",
+   "inn": "doxecitine and doxribtimine",
+   "brands": [
+    "Kygevvi"
+   ],
+   "sponsors": [
+    "UCB Pharma"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-01-29",
+     "type": "CHMP positive opinion · orphan · exceptional circumstances · PRIME · European Commission decision pending in this register",
+     "indication": "Thymidine kinase 2 deficiency",
+     "source": "https://www.ema.europa.eu/pl/news/meeting-highlights-committee-medicinal-products-human-use-chmp-26-29-january-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-01)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
+   "id": "eculizumab",
+   "inn": "eculizumab",
+   "brands": [],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2022-07",
+     "decision": "2026-04-22",
+     "type": "Notice of Compliance · biosimilar · therapeutic area: Immunosuppressants · first of 2 biosimilar eculizumab NOCs in 2026",
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "expected": null,
+     "opinion": null,
+     "indication": null
     }
    ]
   },
@@ -868,12 +1815,42 @@
    ]
   },
   {
+   "id": "ensartinib",
+   "inn": "ensartinib",
+   "brands": [
+    "Gevalka"
+   ],
+   "sponsors": [
+    "SFL Pharmaceuticals Deutschland GmbH"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-09-17",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "ALK-positive advanced NSCLC",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-09)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
    "id": "ensitrelvir",
    "inn": "ensitrelvir",
    "brands": [
-    "Xocova"
+    "Xocova",
+    "Zokovea"
    ],
-   "sponsors": [],
+   "sponsors": [
+    "Shionogi B.V."
+   ],
    "records": [
     {
      "country": "US",
@@ -888,6 +1865,117 @@
      "sourceName": "FDA Novel Drug Approvals 2026",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-07-23",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "COVID-19 post-exposure prophylaxis",
+     "source": "https://www.ema.europa.eu/sl/media/75536",
+     "sourceName": "EMA CHMP minutes, July 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
+   "id": "estetrol",
+   "inn": "estetrol",
+   "brands": [
+    "Fylrevy"
+   ],
+   "sponsors": [
+    "Gedeon Richter Plc."
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-01-29",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "Hormone replacement therapy for oestrogen deficiency symptoms in postmenopausal women",
+     "source": "https://www.ema.europa.eu/pl/news/meeting-highlights-committee-medicinal-products-human-use-chmp-26-29-january-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-01)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
+   "id": "etanercept",
+   "inn": "etanercept",
+   "brands": [
+    "Fubelv"
+   ],
+   "sponsors": [
+    "Biosimilar Collaborations Ireland Limited"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-02-26",
+     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
+     "indication": "Inflammatory arthritis and plaque psoriasis",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-february-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-02)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
+   "id": "filgrastim",
+   "inn": "filgrastim",
+   "brands": [
+    "Neuzafy"
+   ],
+   "sponsors": [
+    "Curateq Biologics Private Limited"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-10-15",
+     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
+     "indication": "Neutropenia",
+     "source": "https://www.pharmanow.live/de/latest-news/ema-chmp-october-2026-meeting-highlights-orforglipron-biosimilars",
+     "sourceName": "News report of CHMP October 2026 meeting",
+     "confidence": "thirdparty",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-06",
+     "type": "Submission under review · biosimilar · aligned review with HTA · therapeutic area: Immunostimulants",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
     }
    ]
   },
@@ -969,8 +2057,7 @@
    "id": "gadoquatrane",
    "inn": "gadoquatrane",
    "brands": [
-    "Ambelvist",
-    "AMBELVIST"
+    "Ambelvist"
    ],
    "sponsors": [
     "Bayer (South East Asia)"
@@ -1003,6 +2090,21 @@
      "sourceName": "HSA Listing of approvals",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "CH",
+     "regulator": "Swissmedic",
+     "status": "Approved",
+     "decision": "2026-08-28",
+     "type": "Authorisation of a human medicine with a new active substance",
+     "source": "https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel/authorisations/new-medicines.html",
+     "sourceName": "Swissmedic: authorised medicines with new active substances",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
     }
    ]
   },
@@ -1055,6 +2157,99 @@
    ]
   },
   {
+   "id": "gefurulimab",
+   "inn": "gefurulimab",
+   "brands": [
+    "Klygefa"
+   ],
+   "sponsors": [
+    "Alexion Europe",
+    "Alexion Pharma GmbH"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-09-17",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "Generalised myasthenia gravis",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-09)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-04",
+     "type": "Submission under review · new active substance · therapeutic area: Immunosuppressants",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "gepirone",
+   "inn": "gepirone",
+   "brands": [],
+   "sponsors": [
+    "Xediton Pharmaceuticals Inc"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2025-08",
+     "type": "Submission under review · new active substance · therapeutic area: Psychoanaleptics",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "germanium-68ge-chloride-gallium-68ga-chloride-generator",
+   "inn": "germanium (68ge) chloride / gallium (68ga) chloride generator",
+   "brands": [
+    "Galli Ad"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CH",
+     "regulator": "Swissmedic",
+     "status": "Approved",
+     "decision": "2026-08-25",
+     "type": "Authorisation of a human medicine with a new active substance",
+     "source": "https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel/authorisations/new-medicines.html",
+     "sourceName": "Swissmedic: authorised medicines with new active substances",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    }
+   ]
+  },
+  {
    "id": "giredestrant",
    "inn": "giredestrant",
    "brands": [],
@@ -1094,6 +2289,106 @@
    ]
   },
   {
+   "id": "givinostat",
+   "inn": "givinostat",
+   "brands": [],
+   "sponsors": [
+    "Italfarmaco S.p.A."
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-06",
+     "type": "Submission under review · new active substance · priority review · therapeutic area: Musculo-skeletal disorders",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "glepaglutide",
+   "inn": "glepaglutide",
+   "brands": [
+    "Zeydovio"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-09-17",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "Short bowel syndrome",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-09)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
+   "id": "glucarpidase",
+   "inn": "glucarpidase",
+   "brands": [
+    "Voraxaze"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CH",
+     "regulator": "Swissmedic",
+     "status": "Approved",
+     "decision": "2026-09-04",
+     "type": "Authorisation of a human medicine with a new active substance",
+     "source": "https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel/authorisations/new-medicines.html",
+     "sourceName": "Swissmedic: authorised medicines with new active substances",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    }
+   ]
+  },
+  {
+   "id": "golimumab",
+   "inn": "golimumab",
+   "brands": [],
+   "sponsors": [
+    "Accord Healthcare Inc"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-05",
+     "type": "Submission under review · biosimilar · aligned review with HTA · therapeutic area: Immunosuppressants",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
    "id": "human-normal-immunoglobulin",
    "inn": "human normal immunoglobulin",
    "brands": [
@@ -1116,6 +2411,31 @@
      "sourceName": "HSA Listing of approvals",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "ianalumab",
+   "inn": "ianalumab",
+   "brands": [],
+   "sponsors": [
+    "Novartis Pharmaceuticals Canada Inc"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-05",
+     "type": "Submission under review · new active substance · aligned review with HTA · therapeutic area: Immunosuppressants",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
     }
    ]
   },
@@ -1175,7 +2495,10 @@
    "brands": [
     "Icotyde"
    ],
-   "sponsors": [],
+   "sponsors": [
+    "Janssen-Cilag International N.V.",
+    "Janssen Inc"
+   ],
    "records": [
     {
      "country": "US",
@@ -1190,6 +2513,74 @@
      "sourceName": "FDA Novel Drug Approvals 2026",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-07-23",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "Plaque psoriasis (age 12+)",
+     "source": "https://www.ema.europa.eu/sl/media/75536",
+     "sourceName": "EMA CHMP minutes, July 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2025-12",
+     "type": "Submission under review · new active substance · therapeutic area: Immunosuppressants",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    },
+    {
+     "country": "JP",
+     "regulator": "MHLW / PMDA",
+     "status": "Approved",
+     "decision": "2026-09-16",
+     "type": "New drug approval",
+     "source": "https://www.kegg.jp/kegg/drug/br08328.html",
+     "sourceName": "KEGG: New drug approvals in the USA, Europe and Japan",
+     "confidence": "database",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    }
+   ]
+  },
+  {
+   "id": "imipenem-cilastatin-and-relebactam",
+   "inn": "imipenem, cilastatin and relebactam",
+   "brands": [],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Approved",
+     "submitted": "2025-05",
+     "decision": "2026-01-30",
+     "type": "Notice of Compliance · new active substance · therapeutic area: Antibacterials for systemic use",
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html",
+     "sourceName": "Health Canada Submissions Under Review: completed",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "expected": null,
+     "opinion": null,
+     "indication": null
     }
    ]
   },
@@ -1214,6 +2605,48 @@
      "sourceName": "Third-party PDUFA calendar (Assyro)",
      "confidence": "thirdparty",
      "checked": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "imlunestrant",
+   "inn": "imlunestrant",
+   "brands": [
+    "Inluriyo"
+   ],
+   "sponsors": [
+    "Eli Lilly Canada Inc"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2025-02",
+     "type": "Submission under review · new active substance · aligned review with HTA · therapeutic area: Antineoplastic agents",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    },
+    {
+     "country": "CH",
+     "regulator": "Swissmedic",
+     "status": "Approved",
+     "decision": "2026-04-29",
+     "type": "Authorisation of a human medicine with a new active substance",
+     "source": "https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel/authorisations/new-medicines.html",
+     "sourceName": "Swissmedic: authorised medicines with new active substances",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
     }
    ]
   },
@@ -1268,6 +2701,58 @@
    ]
   },
   {
+   "id": "influenza-a-h5n1-vaccine",
+   "inn": "influenza a (h5n1) vaccine",
+   "brands": [
+    "Celldemic"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CH",
+     "regulator": "Swissmedic",
+     "status": "Approved",
+     "decision": "2026-06-25",
+     "type": "Authorisation of a human medicine with a new active substance",
+     "source": "https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel/authorisations/new-medicines.html",
+     "sourceName": "Swissmedic: authorised medicines with new active substances",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    }
+   ]
+  },
+  {
+   "id": "influenza-and-covid-19-mrna-vaccine",
+   "inn": "influenza and covid-19 mrna vaccine",
+   "brands": [
+    "mCombriax"
+   ],
+   "sponsors": [
+    "Moderna Biotech Spain S.L."
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-02-26",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "Prevention of influenza and COVID-19",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-february-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-02)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
    "id": "influenza-vaccine",
    "inn": "influenza vaccine",
    "brands": [
@@ -1290,6 +2775,33 @@
      "sourceName": "HSA Listing of approvals",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "influenza-vaccine-recombinant-trivalent",
+   "inn": "influenza vaccine (recombinant, trivalent)",
+   "brands": [
+    "Supemtek"
+   ],
+   "sponsors": [
+    "Sanofi Winthrop Industrie"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-01-29",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "Influenza prevention from 9 years",
+     "source": "https://www.ema.europa.eu/pl/news/meeting-highlights-committee-medicinal-products-human-use-chmp-26-29-january-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-01)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
     }
    ]
   },
@@ -1320,12 +2832,69 @@
    ]
   },
   {
+   "id": "influenza-vaccine-surface-antigen-inactivated-adjuvanted",
+   "inn": "influenza vaccine (surface antigen, inactivated, adjuvanted)",
+   "brands": [
+    "Aujemflu"
+   ],
+   "sponsors": [
+    "Seqirus Netherlands BV"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-06-25",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "Influenza prophylaxis",
+     "source": "https://www.ema.europa.eu/fr/news/meeting-highlights-committee-medicinal-products-human-use-chmp-22-25-june-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-06)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
+   "id": "insulin-aspart",
+   "inn": "insulin aspart",
+   "brands": [
+    "Dazparda"
+   ],
+   "sponsors": [
+    "Gan & Lee Pharmaceuticals Europe GmbH"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-02-26",
+     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
+     "indication": "Diabetes mellitus",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-february-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-02)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
    "id": "insulin-efsitora-alfa",
    "inn": "insulin efsitora alfa",
    "brands": [
     "Onswik"
    ],
-   "sponsors": [],
+   "sponsors": [
+    "Eli Lilly Nederland B.V.",
+    "Eli Lilly Canada Inc"
+   ],
    "records": [
     {
      "country": "US",
@@ -1340,6 +2909,51 @@
      "sourceName": "FDA Novel Drug Approvals 2026",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-06-25",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "Type 2 diabetes in adults",
+     "source": "https://www.ema.europa.eu/fr/news/meeting-highlights-committee-medicinal-products-human-use-chmp-22-25-june-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-06)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-01",
+     "type": "Submission under review · new active substance · aligned review with HTA · therapeutic area: Drugs used in diabetes",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    },
+    {
+     "country": "JP",
+     "regulator": "MHLW / PMDA",
+     "status": "Approved",
+     "decision": "2026-09-16",
+     "type": "New drug approval",
+     "source": "https://www.kegg.jp/kegg/drug/br08328.html",
+     "sourceName": "KEGG: New drug approvals in the USA, Europe and Japan",
+     "confidence": "database",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
     }
    ]
   },
@@ -1381,6 +2995,33 @@
      "sourceName": "HSA Listing of approvals",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "insulin-lispro",
+   "inn": "insulin lispro",
+   "brands": [
+    "Bysumlog"
+   ],
+   "sponsors": [
+    "Gan & Lee Pharmaceuticals Europe GmbH"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-02-26",
+     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
+     "indication": "Diabetes mellitus",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-february-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-02)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
     }
    ]
   },
@@ -1461,6 +3102,102 @@
    ]
   },
   {
+   "id": "leniolisib",
+   "inn": "leniolisib",
+   "brands": [
+    "Joenja"
+   ],
+   "sponsors": [
+    "Pharming Technologies B.V."
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-03-26",
+     "type": "CHMP positive opinion · orphan · exceptional circumstances · European Commission decision pending in this register",
+     "indication": "Activated PI3K delta syndrome (APDS)",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-march-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-03)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    },
+    {
+     "country": "JP",
+     "regulator": "MHLW / PMDA",
+     "status": "Approved",
+     "decision": "2026-03-23",
+     "type": "New drug approval",
+     "source": "https://www.kegg.jp/kegg/drug/br08328.html",
+     "sourceName": "KEGG: New drug approvals in the USA, Europe and Japan",
+     "confidence": "database",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    }
+   ]
+  },
+  {
+   "id": "leriglitazone",
+   "inn": "leriglitazone",
+   "brands": [
+    "Nezglyal"
+   ],
+   "sponsors": [
+    "Minoryx Therapeutics S.L."
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-07-23",
+     "type": "CHMP positive opinion · exceptional circumstances · European Commission decision pending in this register",
+     "indication": "Adrenoleukodystrophy",
+     "source": "https://www.ema.europa.eu/sl/media/75536",
+     "sourceName": "EMA CHMP minutes, July 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
+   "id": "lerodalcibep",
+   "inn": "lerodalcibep",
+   "brands": [
+    "Lyrokaul"
+   ],
+   "sponsors": [
+    "LIB Therapeutics B.V."
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-07-23",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "Primary hypercholesterolaemia or mixed dyslipidaemia",
+     "source": "https://www.ema.europa.eu/sl/media/75536",
+     "sourceName": "EMA CHMP minutes, July 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
    "id": "leuprorelin",
    "inn": "leuprorelin",
    "brands": [
@@ -1487,12 +3224,59 @@
    ]
   },
   {
+   "id": "levodopa-and-carbidopa",
+   "inn": "levodopa and carbidopa",
+   "brands": [
+    "Onerji",
+    "Hopledo"
+   ],
+   "sponsors": [
+    "Tanabe Pharma GmbH",
+    "Zambon S.p.A."
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-02-26",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "Motor fluctuations in Parkinson's disease",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-february-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-02)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-06-25",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "Parkinson's disease with motor fluctuations",
+     "source": "https://www.ema.europa.eu/fr/news/meeting-highlights-committee-medicinal-products-human-use-chmp-22-25-june-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-06)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
    "id": "linerixibat",
    "inn": "linerixibat",
    "brands": [
     "Lynavoy"
    ],
-   "sponsors": [],
+   "sponsors": [
+    "GlaxoSmithKline Trading Services Ltd",
+    "GlaxoSmithKline Inc"
+   ],
    "records": [
     {
      "country": "US",
@@ -1507,6 +3291,61 @@
      "sourceName": "FDA Novel Drug Approvals 2026",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-07-23",
+     "type": "CHMP positive opinion · orphan · European Commission decision pending in this register",
+     "indication": "Cholestatic pruritus in primary biliary cholangitis",
+     "source": "https://www.ema.europa.eu/sl/media/75536",
+     "sourceName": "EMA CHMP minutes, July 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2025-08",
+     "type": "Submission under review · new active substance · therapeutic area: Bile and liver therapy",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "linzagolix",
+   "inn": "linzagolix",
+   "brands": [
+    "Yselty"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CH",
+     "regulator": "Swissmedic",
+     "status": "Approved",
+     "decision": "2026-01-19",
+     "type": "Authorisation of a human medicine with a new active substance",
+     "source": "https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel/authorisations/new-medicines.html",
+     "sourceName": "Swissmedic: authorised medicines with new active substances",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
     }
    ]
   },
@@ -1559,6 +3398,112 @@
    ]
   },
   {
+   "id": "lurbinectedin",
+   "inn": "lurbinectedin",
+   "brands": [
+    "Zepzelca"
+   ],
+   "sponsors": [
+    "Pharma Mar S.A."
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-03-26",
+     "type": "CHMP positive opinion · orphan · European Commission decision pending in this register",
+     "indication": "Maintenance treatment of extensive-stage small cell lung cancer",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-march-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-03)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
+   "id": "luspatercept",
+   "inn": "luspatercept",
+   "brands": [
+    "Reblozyl"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CH",
+     "regulator": "Swissmedic",
+     "status": "Approved",
+     "decision": "2026-05-21",
+     "type": "Authorisation of a human medicine with a new active substance",
+     "source": "https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel/authorisations/new-medicines.html",
+     "sourceName": "Swissmedic: authorised medicines with new active substances",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    }
+   ]
+  },
+  {
+   "id": "lutetium-177lu-chloride",
+   "inn": "lutetium (177lu) chloride",
+   "brands": [
+    "Ilumira"
+   ],
+   "sponsors": [
+    "SHINE Europe B.V."
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-01-29",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "Radiolabelling of carrier medicines",
+     "source": "https://www.ema.europa.eu/pl/news/meeting-highlights-committee-medicinal-products-human-use-chmp-26-29-january-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-01)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
+   "id": "mavorixafor",
+   "inn": "mavorixafor",
+   "brands": [
+    "Xolremdi"
+   ],
+   "sponsors": [
+    "X4 Pharmaceuticals (Austria) GmbH"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-02-26",
+     "type": "CHMP positive opinion · orphan · exceptional circumstances · European Commission decision pending in this register",
+     "indication": "WHIM syndrome",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-february-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-02)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
    "id": "meloxicam-(mr-107a-02,-fast-acting)",
    "inn": "meloxicam (mr-107a-02, fast-acting)",
    "brands": [],
@@ -1579,6 +3524,31 @@
      "sourceName": "Third-party PDUFA calendar (Assyro)",
      "confidence": "thirdparty",
      "checked": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "mezigdomide",
+   "inn": "mezigdomide",
+   "brands": [],
+   "sponsors": [
+    "Bristol-Myers Squibb Canada"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-09",
+     "type": "Submission under review · new active substance · therapeutic area: Antineoplastic agents",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
     }
    ]
   },
@@ -1633,6 +3603,48 @@
    ]
   },
   {
+   "id": "mirdametinib",
+   "inn": "mirdametinib",
+   "brands": [
+    "Ezmekly"
+   ],
+   "sponsors": [
+    "EMD Serono A Division of EMD Inc Canada"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-06",
+     "type": "Submission under review · new active substance · therapeutic area: Antineoplastic agents",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    },
+    {
+     "country": "CH",
+     "regulator": "Swissmedic",
+     "status": "Approved",
+     "decision": "2026-04-09",
+     "type": "Authorisation of a human medicine with a new active substance",
+     "source": "https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel/authorisations/new-medicines.html",
+     "sourceName": "Swissmedic: authorised medicines with new active substances",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    }
+   ]
+  },
+  {
    "id": "mirogabalin",
    "inn": "mirogabalin",
    "brands": [
@@ -1655,6 +3667,31 @@
      "sourceName": "HSA Listing of approvals",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "mirvetuximab-soravtansine",
+   "inn": "mirvetuximab soravtansine",
+   "brands": [
+    "Elahere"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "JP",
+     "regulator": "MHLW / PMDA",
+     "status": "Approved",
+     "decision": "2026-09-16",
+     "type": "New drug approval",
+     "source": "https://www.kegg.jp/kegg/drug/br08328.html",
+     "sourceName": "KEGG: New drug approvals in the USA, Europe and Japan",
+     "confidence": "database",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
     }
    ]
   },
@@ -1733,6 +3770,83 @@
    ]
   },
   {
+   "id": "mrna-influenza-and-covid-19-vaccine",
+   "inn": "mrna influenza and covid-19 vaccine",
+   "brands": [],
+   "sponsors": [
+    "Moderna Biopharma Canada Corporation"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-01",
+     "type": "Submission under review · new active substance · therapeutic area: Vaccines",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "mrna-influenza-vaccine",
+   "inn": "mrna influenza vaccine",
+   "brands": [],
+   "sponsors": [
+    "Moderna Biopharma Canada Corporation"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-01",
+     "type": "Submission under review · new active substance · therapeutic area: Vaccines",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "nadofaragene-firadenovec",
+   "inn": "nadofaragene firadenovec",
+   "brands": [
+    "Adstiladrin"
+   ],
+   "sponsors": [
+    "Ferring Pharmaceuticals A/S"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-03-26",
+     "type": "CHMP positive opinion · conditional · European Commission decision pending in this register",
+     "indication": "BCG-unresponsive high-grade non-muscle invasive bladder cancer",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-march-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-03)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
    "id": "navepegritide",
    "inn": "navepegritide",
    "brands": [
@@ -1753,6 +3867,21 @@
      "sourceName": "FDA Novel Drug Approvals 2026",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-10-15",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "Achondroplasia in children",
+     "source": "https://www.pharmanow.live/de/latest-news/ema-chmp-october-2026-meeting-highlights-orforglipron-biosimilars",
+     "sourceName": "News report of CHMP October 2026 meeting",
+     "confidence": "thirdparty",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
     }
    ]
   },
@@ -1781,6 +3910,64 @@
    ]
   },
   {
+   "id": "nerandomilast",
+   "inn": "nerandomilast",
+   "brands": [
+    "Jascayd"
+   ],
+   "sponsors": [
+    "Boehringer Ingelheim International GmbH",
+    "Boehringer Ingelheim (Canada) Ltd Ltee"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-05-21",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "Idiopathic and progressive pulmonary fibrosis",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-18-21-may-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-05)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2025-12",
+     "type": "Submission under review · new active substance · aligned review with HTA · therapeutic area: Immunosuppressants",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    },
+    {
+     "country": "JP",
+     "regulator": "MHLW / PMDA",
+     "status": "Approved",
+     "decision": "2026-05-18",
+     "type": "New drug approval",
+     "source": "https://www.kegg.jp/kegg/drug/br08328.html",
+     "sourceName": "KEGG: New drug approvals in the USA, Europe and Japan",
+     "confidence": "database",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    }
+   ]
+  },
+  {
    "id": "nirmatrelvir-and-ritonavir",
    "inn": "nirmatrelvir and ritonavir",
    "brands": [
@@ -1803,6 +3990,127 @@
      "sourceName": "HSA Listing of approvals",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "nirogacestat",
+   "inn": "nirogacestat",
+   "brands": [
+    "Ogsiveo"
+   ],
+   "sponsors": [
+    "EMD Serono a Division of EMD Inc Canada"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-07",
+     "type": "Submission under review · new active substance · priority review · therapeutic area: Antineoplastic agents",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    },
+    {
+     "country": "CH",
+     "regulator": "Swissmedic",
+     "status": "Approved",
+     "decision": "2026-05-19",
+     "type": "Authorisation of a human medicine with a new active substance",
+     "source": "https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel/authorisations/new-medicines.html",
+     "sourceName": "Swissmedic: authorised medicines with new active substances",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    }
+   ]
+  },
+  {
+   "id": "nivolumab",
+   "inn": "nivolumab",
+   "brands": [],
+   "sponsors": [
+    "Amgen Canada Inc"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-03",
+     "type": "Submission under review · biosimilar · aligned review with HTA · therapeutic area: Antineoplastic agents",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "obicetrapib",
+   "inn": "obicetrapib",
+   "brands": [
+    "Ubeslo"
+   ],
+   "sponsors": [
+    "A. Menarini International Licensing S.A."
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-07-23",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "Primary hypercholesterolaemia or mixed dyslipidaemia",
+     "source": "https://www.ema.europa.eu/sl/media/75536",
+     "sourceName": "EMA CHMP minutes, July 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
+   "id": "obicetrapib-and-ezetimibe",
+   "inn": "obicetrapib and ezetimibe",
+   "brands": [
+    "Evlarco"
+   ],
+   "sponsors": [
+    "A. Menarini International Licensing S.A."
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-07-23",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "Primary hypercholesterolaemia or mixed dyslipidaemia",
+     "source": "https://www.ema.europa.eu/sl/media/75536",
+     "sourceName": "EMA CHMP minutes, July 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
     }
    ]
   },
@@ -1857,12 +4165,84 @@
    ]
   },
   {
+   "id": "omalizumab",
+   "inn": "omalizumab",
+   "brands": [
+    "Adcomfo"
+   ],
+   "sponsors": [
+    "Advanz Pharma Limited",
+    "Advanz Pharma Canada Inc."
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-09-17",
+     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
+     "indication": "Asthma, nasal polyps, chronic spontaneous urticaria",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-09)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-04",
+     "type": "Submission under review · biosimilar · therapeutic area: Drugs for obstructive airway diseases",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "onasemnogene-abeparvovec",
+   "inn": "onasemnogene abeparvovec",
+   "brands": [
+    "Itvisma"
+   ],
+   "sponsors": [
+    "Novartis Europharm Limited"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-04-23",
+     "type": "CHMP positive opinion · orphan · European Commission decision pending in this register",
+     "indication": "5q spinal muscular atrophy",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-20-23-april-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-04)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
    "id": "orforglipron",
    "inn": "orforglipron",
    "brands": [
     "Foundayo"
    ],
-   "sponsors": [],
+   "sponsors": [
+    "Eli Lilly Canada Inc"
+   ],
    "records": [
     {
      "country": "US",
@@ -1877,6 +4257,36 @@
      "sourceName": "FDA Novel Drug Approvals 2026",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-10-15",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "Weight management and type 2 diabetes in adults",
+     "source": "https://www.pharmanow.live/de/latest-news/ema-chmp-october-2026-meeting-highlights-orforglipron-biosimilars",
+     "sourceName": "News report of CHMP October 2026 meeting",
+     "confidence": "thirdparty",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-01",
+     "type": "Submission under review · new active substance · aligned review with HTA · therapeutic area: Drugs used in diabetes",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
     }
    ]
   },
@@ -1886,7 +4296,9 @@
    "brands": [
     "Orzeyful"
    ],
-   "sponsors": [],
+   "sponsors": [
+    "Takeda Canada Inc"
+   ],
    "records": [
     {
      "country": "US",
@@ -1901,6 +4313,48 @@
      "sourceName": "FDA Novel Drug Approvals 2026",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-07",
+     "type": "Submission under review · new active substance · aligned review with HTA · therapeutic area: Psychoanaleptics",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "paltusotine",
+   "inn": "paltusotine",
+   "brands": [
+    "Palsonify"
+   ],
+   "sponsors": [
+    "Crinetics Pharmaceuticals Europe GmbH"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-02-26",
+     "type": "CHMP positive opinion · orphan · European Commission decision pending in this register",
+     "indication": "Acromegaly",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-february-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-02)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
     }
    ]
   },
@@ -1908,10 +4362,14 @@
    "id": "pegfilgrastim",
    "inn": "pegfilgrastim",
    "brands": [
-    "ZIEXTENZO"
+    "ZIEXTENZO",
+    "Nylaspeg",
+    "Cavoley"
    ],
    "sponsors": [
-    "Sandoz Singapore"
+    "Sandoz Singapore",
+    "Qilu Pharma Spain S.L.",
+    "CuraTeQ Biologics s.r.o"
    ],
    "records": [
     {
@@ -1927,6 +4385,61 @@
      "sourceName": "HSA Listing of approvals",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-06-25",
+     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
+     "indication": "Chemotherapy-induced neutropenia",
+     "source": "https://www.ema.europa.eu/fr/news/meeting-highlights-committee-medicinal-products-human-use-chmp-22-25-june-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-06)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-07-23",
+     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
+     "indication": "Chemotherapy-induced neutropenia",
+     "source": "https://www.ema.europa.eu/sl/media/75536",
+     "sourceName": "EMA CHMP minutes, July 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
+   "id": "pegloticase",
+   "inn": "pegloticase",
+   "brands": [],
+   "sponsors": [
+    "Amgen Canada Inc"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-02",
+     "type": "Submission under review · new active substance · aligned review with HTA · therapeutic area: Antigout preparations",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
     }
    ]
   },
@@ -1951,6 +4464,81 @@
      "sourceName": "FDA Novel Drug Approvals 2026",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "pertuzumab",
+   "inn": "pertuzumab",
+   "brands": [
+    "Poherdy",
+    "Pebrilzo"
+   ],
+   "sponsors": [
+    "Organon N.V.",
+    "Biosimilar Collaborations Ireland Limited",
+    "Shanghai Henlius Biotech, Inc."
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-02-26",
+     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
+     "indication": "Breast cancer",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-february-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-02)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-09-17",
+     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
+     "indication": "Breast cancer",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-09)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2025-05",
+     "type": "Submission under review · biosimilar · therapeutic area: Antineoplastic agents",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-01",
+     "type": "Submission under review · biosimilar · aligned review with HTA · therapeutic area: Antineoplastic agents",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
     }
    ]
   },
@@ -2005,6 +4593,33 @@
    ]
   },
   {
+   "id": "plozasiran",
+   "inn": "plozasiran",
+   "brands": [
+    "Redemplo"
+   ],
+   "sponsors": [
+    "Arrowhead Pharmaceuticals Ireland Limited"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-04-23",
+     "type": "CHMP positive opinion · orphan · European Commission decision pending in this register",
+     "indication": "Familial chylomicronaemia syndrome",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-20-23-april-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-04)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
    "id": "pneumococcal-conjugate-vaccine-(21-valent)",
    "inn": "pneumococcal conjugate vaccine (21-valent)",
    "brands": [
@@ -2055,6 +4670,49 @@
    ]
   },
   {
+   "id": "povorcitinib",
+   "inn": "povorcitinib",
+   "brands": [
+    "Povofortay"
+   ],
+   "sponsors": [
+    "Incyte Biosciences Distribution B.V",
+    "Incyte Corporation"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-09-17",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "Moderate to severe hidradenitis suppurativa",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-09)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-07",
+     "type": "Submission under review · new active substance · aligned review with HTA · therapeutic area: Immunosuppressants",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
    "id": "pritelivir",
    "inn": "pritelivir",
    "brands": [
@@ -2079,13 +4737,184 @@
    ]
   },
   {
+   "id": "rabies-vaccine-inactivated",
+   "inn": "rabies vaccine (inactivated)",
+   "brands": [
+    "VaxRabeo"
+   ],
+   "sponsors": [
+    "Sanofi Winthrop Industrie"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-09-17",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "Rabies pre- and post-exposure prophylaxis",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-09)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
+   "id": "radamts13",
+   "inn": "radamts13",
+   "brands": [
+    "Adzymna"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CH",
+     "regulator": "Swissmedic",
+     "status": "Approved",
+     "decision": "2026-02-24",
+     "type": "Authorisation of a human medicine with a new active substance",
+     "source": "https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel/authorisations/new-medicines.html",
+     "sourceName": "Swissmedic: authorised medicines with new active substances",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    }
+   ]
+  },
+  {
+   "id": "ranibizumab",
+   "inn": "ranibizumab",
+   "brands": [
+    "Rexatilux",
+    "Vislyfa",
+    "Susvimo",
+    "Fovlussea"
+   ],
+   "sponsors": [
+    "Intas Third Party Sales 2005 S.L.",
+    "Lupin Europe GmbH",
+    "Roche Registration GmbH",
+    "Lupin Limited"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-04-23",
+     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
+     "indication": "Wet AMD and other retinal diseases",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-20-23-april-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-04)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-05-21",
+     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
+     "indication": "Neovascular AMD and other retinal diseases",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-18-21-may-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-05)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-07-23",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "Neovascular (wet) AMD (port delivery system)",
+     "source": "https://www.ema.europa.eu/sl/media/75536",
+     "sourceName": "EMA CHMP minutes, July 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-10-15",
+     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
+     "indication": "Retinal diseases",
+     "source": "https://www.pharmanow.live/de/latest-news/ema-chmp-october-2026-meeting-highlights-orforglipron-biosimilars",
+     "sourceName": "News report of CHMP October 2026 meeting",
+     "confidence": "thirdparty",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2025-12",
+     "type": "Submission under review · biosimilar · therapeutic area: Ophthalmologicals",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "regadenoson",
+   "inn": "regadenoson",
+   "brands": [],
+   "sponsors": [
+    "Isologic Innovative Radiopharmaceuticals Ltd."
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-05",
+     "type": "Submission under review · new active substance · third-party data pathway · therapeutic area: Cardiac therapy",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
    "id": "relacorilant",
    "inn": "relacorilant",
    "brands": [
     "Lifyorli"
    ],
    "sponsors": [
-    "Corcept Therapeutics"
+    "Corcept Therapeutics",
+    "Corcept Therapeutics Netherlands B.V"
    ],
    "records": [
     {
@@ -2115,6 +4944,21 @@
      "sourceName": "Third-party PDUFA calendar (Assyro)",
      "confidence": "thirdparty",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-09-17",
+     "type": "CHMP positive opinion · orphan · European Commission decision pending in this register",
+     "indication": "Platinum-resistant ovarian, fallopian tube or primary peritoneal cancer (with nab-paclitaxel)",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-09)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
     }
    ]
   },
@@ -2139,6 +4983,113 @@
      "sourceName": "Third-party PDUFA calendar (Assyro)",
      "confidence": "thirdparty",
      "checked": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "remibrutinib",
+   "inn": "remibrutinib",
+   "brands": [
+    "Rhapsido"
+   ],
+   "sponsors": [
+    "Novartis Europharm Limited"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-02-26",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "Chronic spontaneous urticaria",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-february-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-02)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    },
+    {
+     "country": "CH",
+     "regulator": "Swissmedic",
+     "status": "Approved",
+     "decision": "2026-06-19",
+     "type": "Authorisation of a human medicine with a new active substance",
+     "source": "https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel/authorisations/new-medicines.html",
+     "sourceName": "Swissmedic: authorised medicines with new active substances",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    },
+    {
+     "country": "JP",
+     "regulator": "MHLW / PMDA",
+     "status": "Approved",
+     "decision": "2026-06-19",
+     "type": "New drug approval",
+     "source": "https://www.kegg.jp/kegg/drug/br08328.html",
+     "sourceName": "KEGG: New drug approvals in the USA, Europe and Japan",
+     "confidence": "database",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    }
+   ]
+  },
+  {
+   "id": "rezafungin",
+   "inn": "rezafungin",
+   "brands": [
+    "Rezzayo"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CH",
+     "regulator": "Swissmedic",
+     "status": "Approved",
+     "decision": "2026-08-27",
+     "type": "Authorisation of a human medicine with a new active substance",
+     "source": "https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel/authorisations/new-medicines.html",
+     "sourceName": "Swissmedic: authorised medicines with new active substances",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    }
+   ]
+  },
+  {
+   "id": "rilzabrutinib",
+   "inn": "rilzabrutinib",
+   "brands": [
+    "Wayrilz"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "JP",
+     "regulator": "MHLW / PMDA",
+     "status": "Approved",
+     "decision": "2026-06-19",
+     "type": "New drug approval",
+     "source": "https://www.kegg.jp/kegg/drug/br08328.html",
+     "sourceName": "KEGG: New drug approvals in the USA, Europe and Japan",
+     "confidence": "database",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
     }
    ]
   },
@@ -2195,12 +5146,39 @@
    ]
   },
   {
+   "id": "rucaparib",
+   "inn": "rucaparib",
+   "brands": [],
+   "sponsors": [
+    "Pharmaand GmbH"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-02",
+     "type": "Submission under review · new active substance · therapeutic area: Antineoplastic agents",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
    "id": "rusfertide",
    "inn": "rusfertide",
    "brands": [
     "Mimrylo"
    ],
-   "sponsors": [],
+   "sponsors": [
+    "Takeda Canada Inc"
+   ],
    "records": [
     {
      "country": "US",
@@ -2215,6 +5193,46 @@
      "sourceName": "FDA Novel Drug Approvals 2026",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-09",
+     "type": "Submission under review · new active substance · aligned review with HTA · therapeutic area: Antineoplastic agent",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "sarecycline",
+   "inn": "sarecycline",
+   "brands": [],
+   "sponsors": [
+    "Searchlight Pharma Inc"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2025-12",
+     "type": "Submission under review · new active substance · therapeutic area: Antibacterials for systemic use",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
     }
    ]
   },
@@ -2243,6 +5261,131 @@
    ]
   },
   {
+   "id": "sars-cov-2-mrna-vaccine-xbb-1-5",
+   "inn": "sars-cov-2 mrna vaccine (xbb.1.5)",
+   "brands": [
+    "mNEXSPIKE"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CH",
+     "regulator": "Swissmedic",
+     "status": "Approved",
+     "decision": "2026-08-03",
+     "type": "Authorisation of a human medicine with a new active substance",
+     "source": "https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel/authorisations/new-medicines.html",
+     "sourceName": "Swissmedic: authorised medicines with new active substances",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    }
+   ]
+  },
+  {
+   "id": "sars-cov-2-recombinant-spike-protein-rbd-fusion-homodimer-vaccine",
+   "inn": "sars-cov-2 recombinant spike protein rbd fusion homodimer vaccine",
+   "brands": [],
+   "sponsors": [
+    "Hipra Human Health S.L."
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-05",
+     "type": "Submission under review · new active substance · therapeutic area: Vaccines",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "savolitinib",
+   "inn": "savolitinib",
+   "brands": [
+    "Orpathys"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CH",
+     "regulator": "Swissmedic",
+     "status": "Approved",
+     "decision": "2026-02-13",
+     "type": "Authorisation of a human medicine with a new active substance",
+     "source": "https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel/authorisations/new-medicines.html",
+     "sourceName": "Swissmedic: authorised medicines with new active substances",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    }
+   ]
+  },
+  {
+   "id": "sebetralstat",
+   "inn": "sebetralstat",
+   "brands": [],
+   "sponsors": [
+    "Pendopharm Division of Pharmascience Inc"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-04",
+     "type": "Submission under review · new active substance · aligned review with HTA · therapeutic area: Other hematological agents",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "secukinumab",
+   "inn": "secukinumab",
+   "brands": [],
+   "sponsors": [
+    "Celltrion Inc"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-07",
+     "type": "Submission under review · biosimilar · therapeutic area: Immunosuppressants",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
    "id": "selpercatinib",
    "inn": "selpercatinib",
    "brands": [
@@ -2265,6 +5408,85 @@
      "sourceName": "HSA Listing of approvals",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "semaglutide",
+   "inn": "semaglutide",
+   "brands": [
+    "Kayshild"
+   ],
+   "sponsors": [
+    "Novo Nordisk A/S"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-01-29",
+     "type": "CHMP positive opinion · conditional · European Commission decision pending in this register",
+     "indication": "Non-cirrhotic MASH with liver fibrosis (F2–F3)",
+     "source": "https://www.ema.europa.eu/pl/news/meeting-highlights-committee-medicinal-products-human-use-chmp-26-29-january-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-01)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
+   "id": "senaparib",
+   "inn": "senaparib",
+   "brands": [
+    "Sepalna"
+   ],
+   "sponsors": [
+    "SFL Pharmaceuticals Deutschland GmbH"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-09-17",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "Maintenance treatment of advanced high-grade ovarian cancer",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-09)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
+   "id": "sibeprenlimab",
+   "inn": "sibeprenlimab",
+   "brands": [],
+   "sponsors": [
+    "Otsuka Pharmaceutical Co Ltd"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-04",
+     "type": "Submission under review · new active substance · conditional (NOC/c) pathway · aligned review with HTA · therapeutic area: Immunosuppressants",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
     }
    ]
   },
@@ -2298,7 +5520,9 @@
    "brands": [
     "Beqalzi"
    ],
-   "sponsors": [],
+   "sponsors": [
+    "BeOne Medicines I GmbH"
+   ],
    "records": [
     {
      "country": "US",
@@ -2313,6 +5537,188 @@
      "sourceName": "FDA Novel Drug Approvals 2026",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-08",
+     "type": "Submission under review · new active substance · aligned review with HTA · therapeutic area: Antineoplastic agents",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "sotagliflozin",
+   "inn": "sotagliflozin",
+   "brands": [],
+   "sponsors": [
+    "BGP Pharma ULC"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2025-10",
+     "type": "Submission under review · new active substance · aligned review with HTA · therapeutic area: Drugs used in diabetes",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "spinosad",
+   "inn": "spinosad",
+   "brands": [],
+   "sponsors": [
+    "Cipher Pharmaceuticals Inc"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-01",
+     "type": "Submission under review · new active substance · therapeutic area: Ectoparasiticides",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "sutimlimab",
+   "inn": "sutimlimab",
+   "brands": [],
+   "sponsors": [
+    "Recordati Rare Diseases Canada Inc"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-06",
+     "type": "Submission under review · new active substance · therapeutic area: Immunosuppressants",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "suzetrigine",
+   "inn": "suzetrigine",
+   "brands": [],
+   "sponsors": [
+    "Vertex Pharmaceuticals (Canada) Incorporated"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-05",
+     "type": "Submission under review · new active substance · aligned review with HTA · therapeutic area: Analgesics",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "taletrectinib",
+   "inn": "taletrectinib",
+   "brands": [],
+   "sponsors": [
+    "Eisai Limited"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-09",
+     "type": "Submission under review · new active substance · aligned review with HTA · therapeutic area: Antineoplastic agents",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "tarlatamab",
+   "inn": "tarlatamab",
+   "brands": [
+    "Imdylltra"
+   ],
+   "sponsors": [
+    "Amgen Europe B.V."
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-03-26",
+     "type": "CHMP positive opinion · orphan · European Commission decision pending in this register",
+     "indication": "Relapsed extensive-stage small cell lung cancer",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-march-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-03)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    },
+    {
+     "country": "CH",
+     "regulator": "Swissmedic",
+     "status": "Approved",
+     "decision": "2026-05-08",
+     "type": "Authorisation of a human medicine with a new active substance",
+     "source": "https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel/authorisations/new-medicines.html",
+     "sourceName": "Swissmedic: authorised medicines with new active substances",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
     }
    ]
   },
@@ -2391,6 +5797,31 @@
    ]
   },
   {
+   "id": "teplizumab",
+   "inn": "teplizumab",
+   "brands": [
+    "Teizeild"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CH",
+     "regulator": "Swissmedic",
+     "status": "Approved",
+     "decision": "2026-05-21",
+     "type": "Authorisation of a human medicine with a new active substance",
+     "source": "https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel/authorisations/new-medicines.html",
+     "sourceName": "Swissmedic: authorised medicines with new active substances",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    }
+   ]
+  },
+  {
    "id": "teprotumumab",
    "inn": "teprotumumab",
    "brands": [
@@ -2413,6 +5844,33 @@
      "sourceName": "HSA Listing of approvals",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "teriparatide",
+   "inn": "teriparatide",
+   "brands": [
+    "Zandoriah"
+   ],
+   "sponsors": [
+    "Cinnagen Co Unipessoal Lda."
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-02-26",
+     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
+     "indication": "Osteoporosis",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-february-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-02)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
     }
    ]
   },
@@ -2489,6 +5947,287 @@
    ]
   },
   {
+   "id": "tocilizumab",
+   "inn": "tocilizumab",
+   "brands": [
+    "Tuyory"
+   ],
+   "sponsors": [
+    "Chemical Works of Gedeon Richter Plc."
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-02-26",
+     "type": "CHMP positive opinion · biosimilar · European Commission decision pending in this register",
+     "indication": "Rheumatoid arthritis and other inflammatory conditions",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-february-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-02)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
+   "id": "tolebrutinib",
+   "inn": "tolebrutinib",
+   "brands": [
+    "Cenrifki"
+   ],
+   "sponsors": [
+    "Sanofi Winthrop Industrie",
+    "Sanofi-Aventis Canada Inc"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-04-23",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "Non-relapsing secondary progressive multiple sclerosis",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-20-23-april-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-04)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    },
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2025-08",
+     "type": "Submission under review · new active substance · therapeutic area: Immunosuppressants",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "tovorafenib",
+   "inn": "tovorafenib",
+   "brands": [
+    "Ojemda"
+   ],
+   "sponsors": [
+    "Ipsen Pharma"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-02-26",
+     "type": "CHMP positive opinion · orphan · conditional · European Commission decision pending in this register",
+     "indication": "Paediatric low-grade glioma",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-february-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-02)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    },
+    {
+     "country": "CH",
+     "regulator": "Swissmedic",
+     "status": "Approved",
+     "decision": "2026-05-05",
+     "type": "Authorisation of a human medicine with a new active substance",
+     "source": "https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel/authorisations/new-medicines.html",
+     "sourceName": "Swissmedic: authorised medicines with new active substances",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    },
+    {
+     "country": "JP",
+     "regulator": "MHLW / PMDA",
+     "status": "Approved",
+     "decision": "2026-09-16",
+     "type": "New drug approval",
+     "source": "https://www.kegg.jp/kegg/drug/br08328.html",
+     "sourceName": "KEGG: New drug approvals in the USA, Europe and Japan",
+     "confidence": "database",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    }
+   ]
+  },
+  {
+   "id": "tozorakimab",
+   "inn": "tozorakimab",
+   "brands": [],
+   "sponsors": [
+    "AstraZeneca Canada Inc"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-09",
+     "type": "Submission under review · new active substance · therapeutic area: Drugs for obstructive airway diseases",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "tranylcypromine",
+   "inn": "tranylcypromine",
+   "brands": [
+    "Tranylcypromine Rivopharm"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CH",
+     "regulator": "Swissmedic",
+     "status": "Approved",
+     "decision": "2026-05-12",
+     "type": "Authorisation of a human medicine with a new active substance",
+     "source": "https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel/authorisations/new-medicines.html",
+     "sourceName": "Swissmedic: authorised medicines with new active substances",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
+    }
+   ]
+  },
+  {
+   "id": "trastuzumab",
+   "inn": "trastuzumab",
+   "brands": [],
+   "sponsors": [
+    "Curateq Biologics Private Limited"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2025-09",
+     "type": "Submission under review · biosimilar · aligned review with HTA · therapeutic area: Antineoplastic agents",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "trenibotulinumtoxine",
+   "inn": "trenibotulinumtoxine",
+   "brands": [
+    "Boey"
+   ],
+   "sponsors": [
+    "AbbVie Deutschland GmbH & Co"
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-05-21",
+     "type": "CHMP positive opinion · European Commission decision pending in this register",
+     "indication": "Glabellar lines",
+     "source": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-18-21-may-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-05)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
+   "id": "trilaciclib",
+   "inn": "trilaciclib",
+   "brands": [],
+   "sponsors": [
+    "Pharmacosmos A/S"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-02",
+     "type": "Submission under review · new active substance · therapeutic area: Other therapeutic products",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "trofinetide",
+   "inn": "trofinetide",
+   "brands": [
+    "Daybu"
+   ],
+   "sponsors": [
+    "Acadia Pharmaceuticals (Netherlands) B.V."
+   ],
+   "records": [
+    {
+     "country": "EU",
+     "regulator": "EMA",
+     "status": "Recommended",
+     "opinion": "2026-06-25",
+     "type": "CHMP positive opinion · orphan · after re-examination · European Commission decision pending in this register",
+     "indication": "Rett syndrome (age 5+)",
+     "source": "https://www.ema.europa.eu/fr/news/meeting-highlights-committee-medicinal-products-human-use-chmp-22-25-june-2026",
+     "sourceName": "EMA CHMP meeting highlights (2026-06)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "decision": null,
+     "expected": null
+    }
+   ]
+  },
+  {
    "id": "ustekinumab",
    "inn": "ustekinumab",
    "brands": [
@@ -2543,6 +6282,31 @@
      "sourceName": "HSA Listing of approvals",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "vamorolone",
+   "inn": "vamorolone",
+   "brands": [
+    "Agamree"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "CH",
+     "regulator": "Swissmedic",
+     "status": "Approved",
+     "decision": "2026-01-14",
+     "type": "Authorisation of a human medicine with a new active substance",
+     "source": "https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel/authorisations/new-medicines.html",
+     "sourceName": "Swissmedic: authorised medicines with new active substances",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "submitted": null,
+     "expected": null,
+     "opinion": null,
+     "indication": null
     }
    ]
   },
@@ -2615,6 +6379,31 @@
      "sourceName": "FDA Novel Drug Approvals 2026",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "id": "vibegron",
+   "inn": "vibegron",
+   "brands": [],
+   "sponsors": [
+    "Knight Therapeutics Inc."
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-09",
+     "type": "Submission under review · new active substance · therapeutic area: Urologicals",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
     }
    ]
   },
@@ -2715,6 +6504,68 @@
      "checked": "2026-10-29"
     }
    ]
+  },
+  {
+   "id": "zongertinib",
+   "inn": "zongertinib",
+   "brands": [],
+   "sponsors": [
+    "Boehringer Ingelheim (Canada) Ltd Ltee"
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-07",
+     "type": "Submission under review · conditional (NOC/c) pathway · therapeutic area: Antineoplastic agents",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
+  },
+  {
+   "id": "zonisamide",
+   "inn": "zonisamide",
+   "brands": [],
+   "sponsors": [
+    "Waymade Canada Inc."
+   ],
+   "records": [
+    {
+     "country": "CA",
+     "regulator": "Health Canada",
+     "status": "Under review",
+     "submitted": "2026-09",
+     "type": "Submission under review · new active substance · third-party data pathway · therapeutic area: Antiepileptics",
+     "indication": null,
+     "source": "https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html",
+     "sourceName": "Health Canada Submissions Under Review (as of 30 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-29",
+     "decision": null,
+     "expected": null,
+     "opinion": null
+    }
+   ]
   }
- ]
+ ],
+ "coverage": {
+  "US": "2026 novel drug approvals (FDA list) and upcoming PDUFA dates.",
+  "EU": "2026 CHMP positive opinions for new medicines, Jan–Oct (generics and hybrids excluded). European Commission decision dates not yet captured. October from a news report pending the EMA page.",
+  "CA": "All submissions under review (with month accepted, as of 30 Sep 2026). 2026 approvals loaded for ingredients A–E only so far.",
+  "CH": "2026 authorisations of medicines with new active substances.",
+  "JP": "2026 approvals as compiled by KEGG from Japanese regulatory records; PMDA's own site could not be read directly.",
+  "SG": "2026 new drug approvals (NDA-1 and NDA-2). HSA does not list indications.",
+  "UK": "Not yet loaded: MHRA publishes fortnightly PDF lists that could not be read here.",
+  "AU": "Not yet loaded: TGA's website blocks automated tools.",
+  "CN": "Not yet loaded: NMPA does not publish a complete approvals list in English.",
+  "KR": "Not yet loaded: MFDS does not publish a readable approvals list in English."
+ }
 }

@@ -10,12 +10,12 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
 <style>
-/* Layout: a drug-by-country register. One row per drug, one column per regulator, details unfold under the row. */
+/* Layout: a drug-by-regulator matrix. One row per active substance, one status cell per regulator, sources unfold under the row. */
 :root{
   --bg:#f5f7f6; --surface:#ffffff; --ink:#15211e; --muted:#5a6b66; --line:#d9e1de;
   --accent:#0d5c52; --accent-soft:#e1efec;
-  --ok:#1f7a3f; --ok-bg:#e3f3e8; --wait:#8a5a00; --wait-bg:#fbefd6; --none:#8c9a96;
-  --warn-bg:#f6ece9; --warn:#93412b;
+  --ok:#1f7a3f; --ok-bg:#e3f3e8; --rec:#1d5b8f; --rec-bg:#e2edf7; --wait:#8a5a00; --wait-bg:#fbefd6; --none:#a3b0ac;
+  --warn-bg:#f6ece9; --warn:#93412b; --db-bg:#ece9f5; --db:#57478f;
   --f-display:"Source Serif 4",Georgia,"Times New Roman",serif;
   --f-body:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
   --f-mono:"JetBrains Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
@@ -23,77 +23,87 @@
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --bg:#0f1715; --surface:#16211e; --ink:#e3ece9; --muted:#97a8a3; --line:#2a3834;
   --accent:#6cc2b3; --accent-soft:#1d332f;
-  --ok:#7fd39a; --ok-bg:#183323; --wait:#f0c069; --wait-bg:#3a2d12; --none:#64736f;
-  --warn-bg:#35211b; --warn:#f0a58f; color-scheme:dark}}
+  --ok:#7fd39a; --ok-bg:#183323; --rec:#8cc0ee; --rec-bg:#16283a; --wait:#f0c069; --wait-bg:#3a2d12; --none:#4f5e5a;
+  --warn-bg:#35211b; --warn:#f0a58f; --db-bg:#26213a; --db:#bcaef0; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0f1715; --surface:#16211e; --ink:#e3ece9; --muted:#97a8a3; --line:#2a3834;
   --accent:#6cc2b3; --accent-soft:#1d332f;
-  --ok:#7fd39a; --ok-bg:#183323; --wait:#f0c069; --wait-bg:#3a2d12; --none:#64736f;
-  --warn-bg:#35211b; --warn:#f0a58f; color-scheme:dark}
+  --ok:#7fd39a; --ok-bg:#183323; --rec:#8cc0ee; --rec-bg:#16283a; --wait:#f0c069; --wait-bg:#3a2d12; --none:#4f5e5a;
+  --warn-bg:#35211b; --warn:#f0a58f; --db-bg:#26213a; --db:#bcaef0; color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5}
-.wrap{max-width:1120px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 48px;display:grid;gap:20px}
+.wrap{max-width:1240px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 48px;display:grid;gap:20px}
 header{display:grid;gap:6px}
 .eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600}
 h1{font-family:var(--f-display);font-size:clamp(26px,4vw,36px);line-height:1.15;margin:0;text-wrap:balance}
-.lede{color:var(--muted);max-width:68ch;margin:0}
+.lede{color:var(--muted);max-width:70ch;margin:0}
 .stats{display:flex;flex-wrap:wrap;gap:8px 22px;font-size:13px;color:var(--muted)}
 .stats b{font-family:var(--f-mono);font-weight:500;color:var(--ink);font-variant-numeric:tabular-nums}
 .controls{display:grid;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px}
 #q{width:100%;font:inherit;font-size:16px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
 #q:focus-visible,button:focus-visible,a:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.filters{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center}
+.filters{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center}
 .group{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
 .group>span{font-size:12px;color:var(--muted);margin-right:2px}
 .chip{font:inherit;font-size:13px;padding:5px 11px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--ink);cursor:pointer}
 .chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--bg)}
 select{font:inherit;font-size:13px;padding:5px 8px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
 .count{font-size:13px;color:var(--muted);margin-left:auto}
+.key{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12.5px;color:var(--muted);align-items:center}
 .table{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden}
-.head,.row-main{display:grid;grid-template-columns:minmax(0,1.6fr) repeat(3,minmax(0,1fr)) 28px;gap:12px;align-items:center;padding:10px 14px}
-.head{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line);background:var(--bg)}
+.head,.row-main{display:grid;grid-template-columns:minmax(0,1.5fr) repeat(var(--n,6),minmax(0,1fr)) 20px;gap:8px;align-items:center;padding:10px 14px}
+.head{font-size:11.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line);background:var(--bg)}
+.head .rg{line-height:1.25}
+.head .rg small{display:block;text-transform:none;letter-spacing:0;font-size:11px}
 .row{border-bottom:1px solid var(--line)}
 .row:last-child{border-bottom:0}
 .row-main{cursor:pointer;width:100%;border:0;background:transparent;color:inherit;font:inherit;text-align:left}
 .row-main:hover{background:var(--accent-soft)}
 .drug{min-width:0}
 .inn{font-weight:600;overflow-wrap:anywhere}
-.brand{font-size:13px;color:var(--muted);overflow-wrap:anywhere}
-.cell{min-width:0;display:grid;gap:2px;font-size:13px}
-.cell .lbl{display:none;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
-.pill{justify-self:start;font-size:11.5px;font-weight:600;padding:2px 8px;border-radius:999px;white-space:nowrap}
-.pill.ok{background:var(--ok-bg);color:var(--ok)}
-.pill.wait{background:var(--wait-bg);color:var(--wait)}
-.date{font-family:var(--f-mono);font-variant-numeric:tabular-nums;font-size:12.5px}
-.dash{color:var(--none)}
-.flag{font-size:11px;color:var(--warn)}
+.brand{font-size:12.5px;color:var(--muted);overflow-wrap:anywhere}
+.cell{min-width:0;display:grid;gap:1px;font-size:12px;padding:5px 7px;border-radius:7px;min-height:42px;align-content:center}
+.cell .lbl{display:none;font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;opacity:.85}
+.cell .st{font-weight:600;font-size:11.5px}
+.cell .date{font-family:var(--f-mono);font-variant-numeric:tabular-nums;font-size:11.5px}
+.cell.ok{background:var(--ok-bg);color:var(--ok)}
+.cell.rec{background:var(--rec-bg);color:var(--rec)}
+.cell.wait{background:var(--wait-bg);color:var(--wait)}
+.cell.none{color:var(--none);border:1px dashed var(--line)}
+.flag{font-size:10.5px;color:var(--warn)}
 .chev{color:var(--muted);transition:transform .15s}
 .row.open .chev{transform:rotate(90deg)}
 .detail{padding:4px 14px 16px;display:grid;gap:10px}
-.rec{display:grid;grid-template-columns:110px minmax(0,1fr);gap:4px 14px;padding:10px 12px;border-radius:8px;background:var(--bg);font-size:13.5px}
-.rec dt{color:var(--muted)}
-.rec dd{margin:0;min-width:0;overflow-wrap:anywhere}
-.conf{font-size:12px;padding:1px 7px;border-radius:6px}
+.rec-card{display:grid;grid-template-columns:110px minmax(0,1fr);gap:4px 14px;padding:10px 12px;border-radius:8px;background:var(--bg);font-size:13.5px}
+.rec-card dt{color:var(--muted)}
+.rec-card dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.dash{color:var(--muted)}
+.conf{font-size:12px;padding:1px 7px;border-radius:6px;white-space:nowrap}
 .conf.regulator{background:var(--ok-bg);color:var(--ok)}
 .conf.company{background:var(--accent-soft);color:var(--accent)}
+.conf.database{background:var(--db-bg);color:var(--db)}
 .conf.thirdparty{background:var(--warn-bg);color:var(--warn)}
 .links{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:13px}
 a{color:var(--accent)}
 .empty{padding:32px 14px;text-align:center;color:var(--muted)}
 .more{display:flex;justify-content:center;padding:12px}
 .more button{font:inherit;font-size:14px;padding:8px 16px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
-.notes{display:grid;gap:10px;font-size:13.5px;color:var(--muted);max-width:76ch}
+.notes{display:grid;gap:10px;font-size:13.5px;color:var(--muted)}
 .notes h2{font-family:var(--f-display);font-size:19px;color:var(--ink);margin:6px 0 0}
-.notes p{margin:0}
+.notes p{margin:0;max-width:80ch}
 .legend{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center}
-@media (max-width:720px){
+.cov{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px}
+.cov div{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:9px 11px;font-size:13px}
+.cov b{display:block;color:var(--ink);font-weight:600;font-size:13px}
+.cov .off b::after{content:" · not yet loaded";color:var(--warn);font-weight:500}
+@media (max-width:860px){
   .head{display:none}
-  .row-main{grid-template-columns:minmax(0,1fr) minmax(0,1fr);row-gap:10px}
-  .drug{grid-column:1 / -1;display:flex;justify-content:space-between;gap:10px}
+  .row-main{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:6px}
+  .drug{grid-column:1 / -1}
   .chev{display:none}
   .cell .lbl{display:block}
-  .rec{grid-template-columns:minmax(0,1fr)}
-  .rec dt{margin-top:4px}
+  .rec-card{grid-template-columns:minmax(0,1fr)}
+  .rec-card dt{margin-top:4px}
 }
 @media (prefers-reduced-motion:reduce){.chev{transition:none}}
 </style>
@@ -102,7 +112,7 @@ a{color:var(--accent)}
   <header>
     <div class="eyebrow">Salish Seven · Life Science Initiative · Pilot</div>
     <h1>Drug approvals and pending decisions, by drug</h1>
-    <p class="lede">Each row is one active substance. Columns show where it stands with each regulator: approved, or under review with an expected decision date. Every entry links to the source it came from.</p>
+    <p class="lede">Each row is one active substance. The cells show where it stands with each regulator: approved, recommended for approval, or under review. Open a row to see dates, submission timing and the source for every entry.</p>
     <div class="stats" id="stats"></div>
   </header>
 
@@ -114,99 +124,120 @@ a{color:var(--accent)}
       <div class="group" id="f-status"><span>Status</span></div>
       <div class="group"><span>Sort</span>
         <select id="sort" aria-label="Sort">
-          <option value="recent">Most recent approval</option>
-          <option value="upcoming">Upcoming decisions first</option>
-          <option value="az">A to Z</option>
+          <option value="recent">Most recent decision</option>
+          <option value="upcoming">Upcoming US decisions first</option>
           <option value="multi">Approved in most markets</option>
+          <option value="az">A to Z</option>
         </select>
       </div>
       <div class="count" id="count" aria-live="polite"></div>
     </div>
+    <div class="key" aria-hidden="true">
+      <span class="cell ok" style="min-height:0;padding:1px 8px">Approved</span>
+      <span class="cell rec" style="min-height:0;padding:1px 8px">Recommended (EU: CHMP opinion)</span>
+      <span class="cell wait" style="min-height:0;padding:1px 8px">Under review</span>
+      <span class="cell none" style="min-height:0;padding:1px 8px">No record</span>
+    </div>
   </section>
 
   <section class="table" aria-label="Results">
-    <div class="head"><div>Drug</div><div>United States · FDA</div><div>Singapore · HSA</div><div>Australia · TGA</div><div></div></div>
+    <div class="head" id="head"></div>
     <div id="rows"><div class="empty">Loading the register…</div></div>
     <div class="more" id="more" hidden><button id="more-btn" type="button">Show more</button></div>
   </section>
 
   <section class="notes" aria-labelledby="m-h">
-    <h2 id="m-h">How this register is built</h2>
+    <h2 id="m-h">What each regulator covers</h2>
+    <div class="cov" id="cov"></div>
+    <h2>How this register is built</h2>
     <div class="legend">
-      <span class="conf regulator">Regulator-published</span><span>taken from the regulator's own list</span>
+      <span class="conf regulator">Regulator-published</span><span>from the regulator's own list or minutes</span>
+      <span class="conf database">Curated database</span><span>compiled from regulatory records by a research database</span>
       <span class="conf company">Company-reported</span><span>from the sponsor's announcement</span>
-      <span class="conf thirdparty">Unconfirmed</span><span>third-party calendar, awaiting confirmation</span>
+      <span class="conf thirdparty">Unconfirmed</span><span>news or third-party calendar, awaiting confirmation</span>
     </div>
-    <p>United States: FDA's Novel Drug Approvals list (new molecular entities and new therapeutic biologics). Pending decisions use the PDUFA target date, confirmed against company announcements where available.</p>
-    <p>Singapore: HSA's Listing of approvals, new drug applications (NDA-1 and NDA-2). Additional strengths of a product already registered (NDA-3) are folded into the product. HSA does not publish indications in this list.</p>
-    <p id="au-note">Australia: coming soon.</p>
-    <p>Submission dates are rarely published by regulators. They are added when a regulator or sponsor discloses them. This is a pilot; check the linked source before relying on any date.</p>
+    <p>"No record" means no entry has been loaded for that regulator yet. It does not mean the drug was refused or never filed. Submission dates are shown where a regulator publishes them (Health Canada gives the month a file was accepted for review). This is a pilot; check the linked source before relying on any date.</p>
   </section>
 </div>
 
 <script>
 (function(){
-  const COUNTRIES=["US","SG","AU"];
-  const NAMES={US:"United States · FDA",SG:"Singapore · HSA",AU:"Australia · TGA"};
-  const CONF={regulator:"Regulator-published",company:"Company-reported",thirdparty:"Unconfirmed"};
+  const COLS=[["US","FDA","United States"],["EU","EMA","European Union"],["CA","Health Canada","Canada"],["CH","Swissmedic","Switzerland"],["JP","PMDA","Japan"],["SG","HSA","Singapore"]];
+  const CONF={regulator:"Regulator-published",company:"Company-reported",database:"Curated database",thirdparty:"Unconfirmed"};
+  const MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
   const state={q:"",countries:new Set(),status:"all",sort:"recent",limit:40,open:new Set()};
   let DATA=null;
   const $=id=>document.getElementById(id);
   const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-  const fmt=iso=>{if(!iso)return "";const [y,m,d]=iso.split("-");return `${d} ${["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][+m-1]} ${y}`};
+  const fmt=iso=>{if(!iso)return "";const p=iso.split("-");return p.length===2?`${MON[+p[1]-1]} ${p[0]}`:`${p[2]} ${MON[+p[1]-1]} ${p[0]}`};
+  const disp=s=>s.replace(/\b([a-z]{1,5}-?\d[\w-]*)/g,m=>m.toUpperCase());
+  const evDate=r=>r.decision||r.opinion||"";
+
+  document.documentElement.style.setProperty("--n",COLS.length);
+  $("head").innerHTML=`<div>Drug</div>${COLS.map(([,a,c])=>`<div class="rg">${esc(a)}<small>${esc(c)}</small></div>`).join("")}<div></div>`;
 
   function chips(){
     const c=$("f-country");
-    COUNTRIES.forEach(k=>{const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=k==="US"?"FDA":k==="SG"?"HSA":"TGA";b.title=NAMES[k];b.setAttribute("aria-pressed","false");
+    COLS.forEach(([k,a])=>{const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=a;b.setAttribute("aria-pressed","false");
       b.onclick=()=>{state.countries.has(k)?state.countries.delete(k):state.countries.add(k);b.setAttribute("aria-pressed",state.countries.has(k));state.limit=40;render()};c.appendChild(b)});
     const s=$("f-status");
-    [["all","All"],["Approved","Approved"],["Under review","Under review"]].forEach(([v,l])=>{const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=l;b.dataset.v=v;b.setAttribute("aria-pressed",v==="all");
+    [["all","All"],["Approved","Approved"],["Recommended","Recommended"],["Under review","Under review"]].forEach(([v,l])=>{const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=l;b.dataset.v=v;b.setAttribute("aria-pressed",v==="all");
       b.onclick=()=>{state.status=v;s.querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed",x.dataset.v===v));state.limit=40;render()};s.appendChild(b)});
   }
 
-  function latest(d){return d.records.reduce((m,r)=>{const t=r.decision||"";return t>m?t:m},"")}
-  const disp=s=>s.replace(/\b([a-z]{1,5}-?\d[\w-]*)/g,m=>m.toUpperCase());
-  function nextExpected(d){const e=d.records.filter(r=>r.status!=="Approved"&&r.expected).map(r=>r.expected).sort();return e[0]||"9999"}
-  function hay(d){return [d.inn,...d.brands,...d.sponsors,...d.records.map(r=>r.indication||"")].join(" ").toLowerCase()}
+  const latest=d=>d.records.reduce((m,r)=>{const t=evDate(r);return t>m?t:m},"");
+  const nextUS=d=>d.records.filter(r=>r.country==="US"&&r.status==="Under review"&&r.expected).map(r=>r.expected).sort()[0]||"9999";
+  const nApproved=d=>new Set(d.records.filter(r=>r.status==="Approved").map(r=>r.country)).size;
+  const hay=d=>[d.inn,...d.brands,...d.sponsors,...d.records.map(r=>(r.indication||"")+" "+(r.type||""))].join(" ").toLowerCase();
 
   function filtered(){
     const q=state.q.trim().toLowerCase();
-    let list=DATA.drugs.filter(d=>{
-      if(q && !q.split(/\s+/).every(t=>d._hay.includes(t)))return false;
-      const recs=d.records.filter(r=>(state.countries.size===0||state.countries.has(r.country))&&(state.status==="all"||r.status===state.status));
-      return recs.length>0;
+    const list=DATA.drugs.filter(d=>{
+      if(q&&!q.split(/\s+/).every(t=>d._hay.includes(t)))return false;
+      return d.records.some(r=>(state.countries.size===0||state.countries.has(r.country))&&(state.status==="all"||r.status===state.status));
     });
-    const by={recent:(a,b)=>latest(b).localeCompare(latest(a)),upcoming:(a,b)=>nextExpected(a).localeCompare(nextExpected(b))||a.inn.localeCompare(b.inn),az:(a,b)=>a.inn.localeCompare(b.inn),
-      multi:(a,b)=>(new Set(b.records.filter(r=>r.status==="Approved").map(r=>r.country)).size-new Set(a.records.filter(r=>r.status==="Approved").map(r=>r.country)).size)||latest(b).localeCompare(latest(a))};
+    const by={recent:(a,b)=>latest(b).localeCompare(latest(a))||a.inn.localeCompare(b.inn),
+      upcoming:(a,b)=>nextUS(a).localeCompare(nextUS(b))||a.inn.localeCompare(b.inn),
+      multi:(a,b)=>nApproved(b)-nApproved(a)||latest(b).localeCompare(latest(a)),
+      az:(a,b)=>a.inn.localeCompare(b.inn)};
     return list.sort(by[state.sort]);
   }
 
-  function cell(d,k){
+  function cell(d,[k,a]){
     const recs=d.records.filter(r=>r.country===k);
-    const lbl=`<span class="lbl">${esc(NAMES[k])}</span>`;
-    if(!recs.length)return `<div class="cell">${lbl}<span class="dash" aria-label="No record">—</span></div>`;
-    const ap=recs.filter(r=>r.status==="Approved").sort((a,b)=>a.decision.localeCompare(b.decision))[0];
-    const pend=recs.filter(r=>r.status!=="Approved").sort((a,b)=>a.expected.localeCompare(b.expected));
-    let h="";
-    if(ap)h+=`<span class="pill ok">Approved</span><span class="date">${fmt(ap.decision)}</span>`;
-    if(pend.length){const p=pend[0];h+=`<span class="pill wait">${ap?"New use pending":"Decision expected"}</span><span class="date">${fmt(p.expected)}</span>${p.confidence==="thirdparty"?'<span class="flag">unconfirmed</span>':""}`}
-    return `<div class="cell">${lbl}${h}</div>`;
+    const lbl=`<span class="lbl">${esc(a)}</span>`;
+    if(!recs.length)return `<div class="cell none">${lbl}<span aria-label="No record">—</span></div>`;
+    const ap=recs.filter(r=>r.status==="Approved").sort((x,y)=>x.decision.localeCompare(y.decision))[0];
+    const rc=recs.filter(r=>r.status==="Recommended").sort((x,y)=>x.opinion.localeCompare(y.opinion))[0];
+    const pend=recs.filter(r=>r.status==="Under review");
+    if(ap){const extra=pend.length?'<span class="flag">+ new use pending</span>':"";return `<div class="cell ok">${lbl}<span class="st">Approved</span><span class="date">${fmt(ap.decision)}</span>${extra}</div>`}
+    if(rc)return `<div class="cell rec">${lbl}<span class="st">Recommended</span><span class="date">${fmt(rc.opinion)}</span>${rc.confidence==="thirdparty"?'<span class="flag">unconfirmed</span>':""}</div>`;
+    const p=pend.sort((x,y)=>(x.expected||x.submitted||"").localeCompare(y.expected||y.submitted||""))[0];
+    const when=p.expected?`<span class="date">due ${fmt(p.expected)}</span>`:(p.submitted?`<span class="date">filed ${fmt(p.submitted)}</span>`:"");
+    return `<div class="cell wait">${lbl}<span class="st">Under review</span>${when}${p.confidence==="thirdparty"?'<span class="flag">unconfirmed</span>':""}</div>`;
   }
 
   function detail(d){
-    const recs=[...d.records].sort((a,b)=>COUNTRIES.indexOf(a.country)-COUNTRIES.indexOf(b.country)||(a.decision||a.expected).localeCompare(b.decision||b.expected));
-    const body=recs.map(r=>`<dl class="rec">
-      <dt>Regulator</dt><dd>${esc(NAMES[r.country])}</dd>
-      <dt>Status</dt><dd>${esc(r.status)}${r.decision?` · approved ${fmt(r.decision)}`:""}${r.expected?` · target date ${fmt(r.expected)}`:""}</dd>
-      <dt>Submitted</dt><dd>${r.submitted?fmt(r.submitted):'<span class="dash">Not published</span>'}</dd>
+    const order=COLS.map(c=>c[0]);
+    const recs=[...d.records].sort((a,b)=>order.indexOf(a.country)-order.indexOf(b.country)||(evDate(a)||a.expected||a.submitted||"").localeCompare(evDate(b)||b.expected||b.submitted||""));
+    const name=k=>(DATA.countries&&DATA.countries[k])||k;
+    const body=recs.map(r=>{
+      let st=esc(r.status);
+      if(r.decision)st+=` · approved ${fmt(r.decision)}`;
+      if(r.opinion)st+=` · CHMP opinion ${fmt(r.opinion)}`;
+      if(r.expected)st+=` · target date ${fmt(r.expected)}`;
+      return `<dl class="rec-card">
+      <dt>Regulator</dt><dd>${esc(name(r.country))}</dd>
+      <dt>Status</dt><dd>${st}</dd>
+      <dt>Submitted</dt><dd>${r.submitted?fmt(r.submitted)+(r.country==="CA"?" (accepted into review)":""):'<span class="dash">Not published</span>'}</dd>
       <dt>Application</dt><dd>${esc(r.type)}</dd>
       <dt>Indication</dt><dd>${r.indication?esc(r.indication):'<span class="dash">Not stated in source</span>'}</dd>
-      <dt>Source</dt><dd><a href="${esc(r.source)}" target="_blank" rel="noopener">${esc(r.sourceName)}</a> · <span class="conf ${esc(r.confidence)}">${CONF[r.confidence]}</span> · checked ${fmt(r.checked)}</dd>
-    </dl>`).join("");
-    const term=encodeURIComponent(d.inn.replace(/\s*\(.*\)\s*/,""));
+      <dt>Source</dt><dd><a href="${esc(r.source)}" target="_blank" rel="noopener">${esc(r.sourceName)}</a> · <span class="conf ${esc(r.confidence)}">${CONF[r.confidence]||esc(r.confidence)}</span> · checked ${fmt(r.checked)}</dd>
+    </dl>`}).join("");
+    const firsts=recs.filter(r=>r.status==="Approved"&&r.decision).sort((a,b)=>a.decision.localeCompare(b.decision));
     let lag="";
-    const us=recs.find(r=>r.country==="US"&&r.decision),sg=recs.find(r=>r.country==="SG"&&r.decision);
-    if(us&&sg){const days=Math.round((new Date(sg.decision)-new Date(us.decision))/864e5);lag=`<span>Singapore approval came <b>${Math.abs(days)} days ${days>=0?"after":"before"}</b> the US.</span>`}
+    if(firsts.length>1){const f=firsts[0];lag=`<span>First approval: <b>${esc(COLS.find(c=>c[0]===f.country)?.[1]||f.country)}</b>, ${fmt(f.decision)}.</span>`}
+    const term=encodeURIComponent(d.inn.replace(/\s*\(.*?\)\s*/g," ").trim());
     return `<div class="detail">${body}<div class="links">${lag}<a href="https://clinicaltrials.gov/search?intr=${term}" target="_blank" rel="noopener">Clinical trials on ClinicalTrials.gov</a><a href="https://trialsearch.who.int/?SearchAll=${term}" target="_blank" rel="noopener">WHO trial registry search</a></div></div>`;
   }
 
@@ -217,14 +248,14 @@ a{color:var(--accent)}
     $("rows").innerHTML=shown.length?shown.map(d=>{const open=state.open.has(d.id);
       return `<div class="row${open?" open":""}" data-id="${esc(d.id)}">
         <button type="button" class="row-main" aria-expanded="${open}">
-          <div class="drug"><div><div class="inn">${esc(disp(d.inn))}</div><div class="brand">${esc([d.brands.join(", "),d.sponsors.join(", ")].filter(Boolean).join(" · "))}</div></div></div>
-          ${COUNTRIES.map(k=>cell(d,k)).join("")}
+          <div class="drug"><div class="inn">${esc(disp(d.inn))}</div><div class="brand">${esc([d.brands.join(", "),d.sponsors.slice(0,3).join(", ")].filter(Boolean).join(" · "))}</div></div>
+          ${COLS.map(c=>cell(d,c)).join("")}
           <span class="chev" aria-hidden="true">›</span>
         </button>${open?detail(d):""}</div>`}).join(""):`<div class="empty">No drugs match. Try a shorter search or clear a filter.</div>`;
     $("more").hidden=list.length<=state.limit;
   }
 
-  $("rows").addEventListener("click",e=>{const b=e.target.closest(".row-main");if(!b)return;const id=b.parentElement.dataset.id;state.open.has(id)?state.open.delete(id):state.open.add(id);render()});
+  $("rows").addEventListener("click",e=>{if(e.target.closest("a"))return;const b=e.target.closest(".row-main");if(!b)return;const id=b.parentElement.dataset.id;state.open.has(id)?state.open.delete(id):state.open.add(id);render()});
   $("more-btn").onclick=()=>{state.limit+=40;render()};
   let t;$("q").addEventListener("input",e=>{clearTimeout(t);t=setTimeout(()=>{state.q=e.target.value;state.limit=40;render()},120)});
   $("sort").onchange=e=>{state.sort=e.target.value;render()};
@@ -233,8 +264,10 @@ a{color:var(--accent)}
   fetch("data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(d=>{
     DATA=d;d.drugs.forEach(x=>x._hay=hay(x));
     const recs=d.drugs.flatMap(x=>x.records);
-    $("stats").innerHTML=`<span><b>${d.drugs.length}</b> drugs</span><span><b>${recs.filter(r=>r.status==="Approved").length}</b> approvals</span><span><b>${recs.filter(r=>r.status!=="Approved").length}</b> pending decisions</span><span>Updated <b>${fmt(d.updated)}</b></span>`;
-    if(d.notes&&d.notes.AU)$("au-note").textContent="Australia: "+d.notes.AU;
+    const live=new Set(recs.map(r=>r.country));
+    $("stats").innerHTML=`<span><b>${d.drugs.length}</b> drugs</span><span><b>${live.size}</b> regulators</span><span><b>${recs.filter(r=>r.status==="Approved").length}</b> approvals</span><span><b>${recs.filter(r=>r.status==="Recommended").length}</b> EU recommendations</span><span><b>${recs.filter(r=>r.status==="Under review").length}</b> under review</span><span>Updated <b>${fmt(d.updated)}</b></span>`;
+    const cov=d.coverage||{};
+    $("cov").innerHTML=Object.keys(d.countries).map(k=>`<div class="${live.has(k)?"":"off"}"><b>${esc(d.countries[k])}</b>${esc(cov[k]||"")}</div>`).join("");
     render();
   }).catch(()=>{$("rows").innerHTML='<div class="empty">The register could not be loaded. Refresh the page to try again.</div>'});
 })();
