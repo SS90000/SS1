@@ -1,0 +1,5 @@
+FAIL https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html: The read operation timed out
+FAIL https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-completed.html/1000: The read operation timed out
+FAIL https://www.canada.ca/en/health-canada/services/drug-health-product-review-approval/submissions-under-review/new-drug-submissions-under-review.html: The read operation timed out
+OK     68115 raw/in/index.html <- https://cdsco.gov.in/opencms/opencms/en/Approval_new/Approved-New-Drugs/
+OK    269840 raw/in/SLA-List-6.pdf <- https://cdsco.gov.in/opencms/export/sites/CDSCO_WEB/Pdf-documents/SLA-List-6.pdf
