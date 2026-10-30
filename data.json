@@ -554,11 +554,11 @@
      "decision": null,
      "expected": "2026-11-27",
      "type": "NDA · PDUFA target date",
-     "indication": "Limb-girdle muscular dystrophy",
-     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/november",
-     "sourceName": "Third-party PDUFA calendar (Assyro)",
-     "confidence": "thirdparty",
-     "checked": "2026-10-29"
+     "indication": "Limb-girdle muscular dystrophy type 2I/R9",
+     "source": "https://www.biospace.com/press-releases/bridgebio-announces-fda-acceptance-and-priority-review-of-nda-for-bbp-418-for-lgmd2i-r9",
+     "sourceName": "BridgeBio press release (2026-05-27)",
+     "confidence": "company",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -4662,10 +4662,10 @@
      "expected": "2026-11-30",
      "type": "BLA · PDUFA target date",
      "indication": null,
-     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/november",
-     "sourceName": "Third-party PDUFA calendar (Assyro)",
-     "confidence": "thirdparty",
-     "checked": "2026-10-29"
+     "source": "https://www.biospace.com/press-releases/vertex-announces-us-fda-acceptance-of-biologics-license-application-for-accelerated-approval-of-povetacicept-in-iga-nephropathy",
+     "sourceName": "Vertex press release (2026-06-02)",
+     "confidence": "company",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -5253,10 +5253,10 @@
      "expected": "2026-11-27",
      "type": "NDA · PDUFA target date",
      "indication": "Primary biliary cholangitis",
-     "source": "https://www.assyro.com/tools/pdufa-calendar/2026/november",
-     "sourceName": "Third-party PDUFA calendar (Assyro)",
-     "confidence": "thirdparty",
-     "checked": "2026-10-29"
+     "source": "https://www.biospace.com/press-releases/zydus-therapeutics-new-drug-application-nda-for-saroglitazar-to-treat-primary-biliary-cholangitis-pbc-granted-priority-review-by-the-us-fda",
+     "sourceName": "Zydus Therapeutics press release (2026-05-28)",
+     "confidence": "company",
+     "checked": "2026-10-30"
     }
    ]
   },
