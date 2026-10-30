@@ -17,12 +17,18 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 75
     steps:
       - uses: actions/checkout@v6
 
       - name: Keep a copy of the current data
         run: cp data.json /tmp/data.before.json
+
+      - name: Download the regulators' files (EU, UK, Taiwan, Brazil, Japan, Switzerland, India)
+        continue-on-error: true      # one regulator's site being down must not stop the rest
+        run: |
+          pip install --quiet pdfplumber openpyxl
+          python3 .github/collect.py
 
       - name: Prepare the Claude token (does not print it)
         env:
@@ -52,7 +58,7 @@ jobs:
           prompt: "Read .github/daily-update.md and carry out the daily update it describes, editing only data.json."
           claude_args: |
             --model sonnet
-            --max-turns 80
+            --max-turns 120
             --allowedTools "Read,Write,Edit,Glob,Grep,WebFetch,WebSearch,Bash(curl:*),Bash(python3:*),Bash(date:*),Bash(ls:*),Bash(cat:*)"
 
       - name: Validate data.json

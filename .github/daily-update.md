@@ -11,10 +11,11 @@ Rules that matter most:
 - Never delete drugs, records, fields or top-level keys. Only add records or change the
   specific fields described below.
 - Do not modify any file other than `data.json` (you may create scratch files under /tmp).
+- Keep the top-level `skipped` list; only append to it.
 - Get today's date with `date -u +%F`.
 
 ## Data model (keep exactly)
-Top level: {updated, countries, coverage, notes, drugs[]}. Each drug: {id, inn, brands[],
+Top level: {updated, countries, coverage, notes, drugs[], skipped[]}. Each drug: {id, inn, brands[],
 sponsors[], records[]}. `inn` is the lowercase active ingredient with any 4-letter FDA
 biologic suffix and any salt word (hydrochloride, sodium, calcium, phosphate, tosylate,
 mesylate, etc.) removed; one drug entry per inn; records from different regulators go under
@@ -49,8 +50,46 @@ d. Confirm up to 5 "thirdparty" records (any country): search for the company's 
 e. On Mondays only, add new US pending decisions for the next 60 days from company
    announcements (search e.g. "PDUFA target action date" plus the month). Third-party
    calendars may be used to find candidates, but mark those "thirdparty" unless confirmed per (d).
-f. Records for EU, UK, Canada, Australia, Switzerland, Japan, South Korea, China, Taiwan and Brazil were loaded from bulk files or saved pages; leave them as they are
-   unless (d) confirms one. Australia (tga.gov.au) and China (nmpa.gov.cn) block automated tools: do not access them.
+f. Regulator files downloaded for you. An earlier workflow step ran `.github/collect.py`, which
+   downloaded the regulators' own files into `sources/`. Read `sources/log.txt` first: a line
+   starting FAIL means that regulator could not be reached today; say so in your summary and
+   move on (do not try other routes to it).
+   `sources/proposals.json` lists records read directly from EMA's medicines spreadsheet (EU),
+   MHRA's fortnightly licence lists (UK), Taiwan FDA open data (TW) and ANVISA open data (BR).
+   Each item has action "add" (a new record) or "update" (fields to change on an existing EU
+   record, matched by its `source` URL), plus inn, brand, sponsor and a note.
+   For each "add":
+   - The drug must be new, not an old substance in a new form. EU items: add new active
+     substances, including biosimilars only if the drug they copy is already in data.json; skip
+     hybrid/new-formulation applications of old substances. UK, TW and BR items only appear
+     when the drug is already tracked as new elsewhere; skip one if a quick search shows that
+     country first approved the substance before this year (the file then shows a new
+     formulation or a transferred licence, not the first approval).
+   - If you add it: put the record under the drug with that inn (create the drug if missing,
+     id = inn with non-alphanumerics replaced by "-"), add brand and sponsor if not listed.
+     Keep the record's fields exactly as given; you may set `indication` only from the
+     regulator's own page.
+   - If you skip it: append {"country", "inn", "reason"} to the top-level `skipped` list so it
+     is not proposed again.
+   For each "update": change only the fields given on the EU record with the same `source`.
+g. Pages for you to read in `sources/pages/` (skip any that is missing):
+   - Japan: `jp-pmda-new-drugs.html` (PMDA list of approved new drugs, links to the latest
+     list) and `jp-kegg-new-approvals.html`. Add approvals dated this year that are not yet in
+     data.json as country "JP", regulator "MHLW / PMDA", type "New drug approval · new active
+     ingredient". Prefer PMDA (confidence "regulator"); KEGG-only items get confidence
+     "database" and source https://www.kegg.jp/kegg/drug/br08328.html.
+   - Switzerland: `ch-swissmedic-new-medicines.html` (Swissmedic "new medicines with new
+     active substances"). Add rows authorised this year not yet in data.json as country "CH",
+     regulator "Swissmedic", confidence "regulator".
+   - India: `in-cdsco-new-drugs-<year>-*.pdf` (CDSCO list of new drugs approved this year).
+     Add rows not yet in data.json as country "IN", regulator "CDSCO", status "Approved",
+     type "CDSCO new drug approval · India's 'new drug' includes drugs new to India",
+     confidence "regulator", source = the CDSCO list page
+     https://cdsco.gov.in/opencms/opencms/en/Approval_new/Approved-New-Drugs/.
+h. Canada, Korea, Australia and China: leave their records as they are unless (d) confirms
+   one. Canada (canada.ca) and Korea (nedrug.mfds.go.kr) do not answer automated requests from
+   this machine, and Australia (tga.gov.au) and China (nmpa.gov.cn) block automated tools: do not
+   access them. They are updated by hand from pages Salish Seven saves.
 
 ## Verify, then save
 - For every record you added or changed today, re-read its source a second time with a

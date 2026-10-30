@@ -11697,6 +11697,28 @@
   "KR": "Every prescription product approved in 2026 that MFDS flags as a new drug (신약), from MFDS's public drug database (to 30 Oct 2026). One entry per active ingredient, using the earliest approval.",
   "TW": "2026 Taiwan FDA drug licences (open data) for drugs tracked elsewhere, plus selected new active substances. Licence dates; not a complete list of Taiwan new medicines.",
   "BR": "2026 ANVISA registrations (open data) for drugs tracked elsewhere, plus selected new active substances. Dates are when the registration process was completed; not a complete list of Brazil new medicines.",
-  "IN": "Not yet loaded: CDSCO's 2026 list was last updated 12 March 2026 and has three entries; India's 'new drug' category also covers drugs new to India rather than new worldwide."
- }
+  "IN": "Column added; records will be loaded in the next major update. India's CDSCO publishes a 'List of New Drugs approved' PDF each year (the 2026 list was last updated 12 March 2026). India's 'new drug' category includes drugs that are new to India even if approved elsewhere years earlier, so an Indian date is often not a first-in-world approval."
+ },
+ "skipped": [
+  {
+   "country": "EU",
+   "inn": "temozolomide",
+   "reason": "old substance in a new formulation or hybrid application, not a new medicine"
+  },
+  {
+   "country": "EU",
+   "inn": "colchicine",
+   "reason": "old substance in a new formulation or hybrid application, not a new medicine"
+  },
+  {
+   "country": "EU",
+   "inn": "liraglutide",
+   "reason": "old substance in a new formulation or hybrid application, not a new medicine"
+  },
+  {
+   "country": "EU",
+   "inn": "furosemide",
+   "reason": "old substance in a new formulation or hybrid application, not a new medicine"
+  }
+ ]
 }
