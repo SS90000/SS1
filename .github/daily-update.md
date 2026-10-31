@@ -20,7 +20,7 @@ sponsors[], records[]}. `inn` is the lowercase active ingredient with any 4-lett
 biologic suffix and any salt word (hydrochloride, sodium, calcium, phosphate, tosylate,
 mesylate, etc.) removed; one drug entry per inn; records from different regulators go under
 the same drug. New drug `id` = inn with non-alphanumerics replaced by "-".
-Each record: {country "US"|"EU"|"UK"|"CA"|"CH"|"JP"|"TW"|"SG"|"BR"|"AU"|"CN"|"KR"|"IN", regulator,
+Each record: {country "US"|"EU"|"UK"|"CA"|"CH"|"JP"|"TW"|"SG"|"BR"|"AU"|"CN"|"KR"|"IN"|"IL"|"SA"|"NZ", regulator,
 status "Approved"|"Recommended"|"Under review", submitted (ISO date, "YYYY-MM", or null),
 decision (ISO approval date or null), opinion (ISO date of an EU CHMP opinion or null),
 expected (ISO target date or null), type, indication (string or null), source (URL),
@@ -86,7 +86,17 @@ g. Pages for you to read in `sources/pages/` (skip any that is missing):
      type "CDSCO new drug approval · India's 'new drug' includes drugs new to India",
      confidence "regulator", source = the CDSCO list page
      https://cdsco.gov.in/opencms/opencms/en/Approval_new/Approved-New-Drugs/.
-h. Canada, Korea, Australia and China: leave their records as they are unless (d) confirms
+h. Saudi Arabia: read https://sfda.gov.sa/en/scientific_news (first two pages) with WebFetch.
+   For each news item dated this year that announces the registration or approval of a medicine
+   not yet in data.json for "SA", add a record: country "SA", regulator "SFDA (Saudi Food and
+   Drug Authority)", status "Approved", decision = the news date, type = "Registration announced
+   by SFDA" plus any wording the item uses such as "first regulatory authority globally" or
+   "conditional approval", followed by " · date is the SFDA announcement date", indication from
+   the item, source = the news item URL, confidence "regulator". Skip designations, clinical
+   trial approvals and suspensions. If the site cannot be reached, say so and move on.
+i. Israel (gov.il) and New Zealand (gazette.govt.nz): updated by hand from a browser session,
+   because these sites refuse automated requests. Do not access them.
+j. Canada, Korea, Australia and China: leave their records as they are unless (d) confirms
    one. Canada (canada.ca) and Korea (nedrug.mfds.go.kr) do not answer automated requests from
    this machine, and Australia (tga.gov.au) and China (nmpa.gov.cn) block automated tools: do not
    access them. They are updated by hand from pages Salish Seven saves.

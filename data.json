@@ -13,7 +13,10 @@
   "AU": "Australia · TGA",
   "CN": "China · NMPA",
   "KR": "South Korea · MFDS",
-  "IN": "India · CDSCO"
+  "IN": "India · CDSCO",
+  "IL": "Israel · Ministry of Health",
+  "SA": "Saudi Arabia · SFDA",
+  "NZ": "New Zealand · Medsafe"
  },
  "notes": {},
  "drugs": [
@@ -753,6 +756,21 @@
      "sourceName": "Health Canada Submissions Under Review: completed",
      "confidence": "regulator",
      "checked": "2026-10-30"
+    },
+    {
+     "country": "IL",
+     "regulator": "Ministry of Health (Pharmaceutical Division)",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-05",
+     "opinion": null,
+     "expected": null,
+     "type": "Registered in the Israeli Drug Registry (registration no. 181-90-38544-99) · listed in the Ministry's new registrations for April–May 2026; the Ministry publishes months, not exact dates",
+     "indication": "Proteinuria reduction in adults with primary IgA nephropathy at risk of progression",
+     "source": "https://www.gov.il/he/departments/dynamiccollectors/new-israeli-drugs",
+     "sourceName": "Israel Ministry of Health: new drugs registered in the Israeli Drug Registry – April–May 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -861,6 +879,21 @@
      "sourceName": "TGA: Prescription medicines registrations (filtered: 2026, NCE/NBE, new combination; last updated 25 Sep 2026)",
      "confidence": "regulator",
      "checked": "2026-10-30"
+    },
+    {
+     "country": "IL",
+     "regulator": "Ministry of Health (Pharmaceutical Division)",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08",
+     "opinion": null,
+     "expected": null,
+     "type": "Registered in the Israeli Drug Registry (registration no. 182-63-38467-00) · listed in the Ministry's new registrations for August 2026; the Ministry publishes months, not exact dates",
+     "indication": "Chronic graft-versus-host disease after failure of at least two prior lines of systemic therapy",
+     "source": "https://www.gov.il/he/departments/dynamiccollectors/new-israeli-drugs",
+     "sourceName": "Israel Ministry of Health: new drugs registered in the Israeli Drug Registry – August 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -900,6 +933,21 @@
      "indication": null,
      "source": "https://www.tga.gov.au/resources/prescription-medicines-under-evaluation",
      "sourceName": "TGA: Prescription medicines under evaluation (filtered: 2026, types A and B; last updated 21 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "IL",
+     "regulator": "Ministry of Health (Pharmaceutical Division)",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-06",
+     "opinion": null,
+     "expected": null,
+     "type": "Registered in the Israeli Drug Registry (registration no. 182-30-38522-99) · listed in the Ministry's new registrations for June 2026; the Ministry publishes months, not exact dates",
+     "indication": "Complicated intra-abdominal infection, hospital-acquired pneumonia, complicated urinary tract infection, and aerobic Gram-negative infections with limited options",
+     "source": "https://www.gov.il/he/departments/dynamiccollectors/new-israeli-drugs",
+     "sourceName": "Israel Ministry of Health: new drugs registered in the Israeli Drug Registry – June 2026",
      "confidence": "regulator",
      "checked": "2026-10-30"
     }
@@ -1527,6 +1575,21 @@
      "sourceName": "Health Canada Submissions Under Review: completed",
      "confidence": "regulator",
      "checked": "2026-10-30"
+    },
+    {
+     "country": "SA",
+     "regulator": "SFDA (Saudi Food and Drug Authority)",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-05-15",
+     "opinion": null,
+     "expected": null,
+     "type": "Registration announced by SFDA · Breakthrough Medicine Program · date is the SFDA announcement date",
+     "indication": "HR-positive, HER2-negative advanced or metastatic breast cancer with an ESR1 mutation emerging during first-line hormonal therapy, with a CDK4/6 inhibitor",
+     "source": "https://sfda.gov.sa/en/news/19055",
+     "sourceName": "SFDA news: registration of Etcamah (camizestrant)",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -1975,6 +2038,21 @@
      "sourceName": "NMPA 创新药品名录: 国家药监局批准克莱罗韦单抗注射液上市",
      "confidence": "regulator",
      "checked": "2026-10-30"
+    },
+    {
+     "country": "IL",
+     "regulator": "Ministry of Health (Pharmaceutical Division)",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-03",
+     "opinion": null,
+     "expected": null,
+     "type": "Registered in the Israeli Drug Registry (registration no. 181-70-38505-00) · listed in the Ministry's new registrations for February–March 2026; the Ministry publishes months, not exact dates",
+     "indication": "Prevention of RSV lower respiratory tract disease in neonates and infants in their first RSV season",
+     "source": "https://www.gov.il/he/departments/dynamiccollectors/new-israeli-drugs",
+     "sourceName": "Israel Ministry of Health: new drugs registered in the Israeli Drug Registry – February–March 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -2297,6 +2375,21 @@
      "confidence": "regulator",
      "submitted": null,
      "expected": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "SA",
+     "regulator": "SFDA (Saudi Food and Drug Authority)",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09-14",
+     "opinion": null,
+     "expected": null,
+     "type": "Registration announced by SFDA · SFDA states it is the first regulator worldwide to approve it · Breakthrough Medicines Program · date is the SFDA announcement date",
+     "indication": "Routine prophylaxis of bleeding in haemophilia A, with or without factor VIII inhibitors",
+     "source": "https://sfda.gov.sa/en/news/19488",
+     "sourceName": "SFDA news: registration of Frehemgo (denecimig)",
+     "confidence": "regulator",
      "checked": "2026-10-30"
     }
    ]
@@ -3040,6 +3133,31 @@
    ]
   },
   {
+   "id": "elafibranor",
+   "inn": "elafibranor",
+   "brands": [
+    "Iqirvo"
+   ],
+   "sponsors": [],
+   "records": [
+    {
+     "country": "SA",
+     "regulator": "SFDA (Saudi Food and Drug Authority)",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-06-29",
+     "opinion": null,
+     "expected": null,
+     "type": "Registration announced by SFDA · date is the SFDA announcement date",
+     "indication": "Primary biliary cholangitis with inadequate response or intolerance to ursodeoxycholic acid",
+     "source": "https://sfda.gov.sa/en/news/19090",
+     "sourceName": "SFDA news: registration of Iqirvo (elafibranor)",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    }
+   ]
+  },
+  {
    "id": "enlicitide-decanoate",
    "inn": "enlicitide decanoate",
    "brands": [
@@ -3749,6 +3867,21 @@
      "expected": null,
      "opinion": null,
      "checked": "2026-10-30"
+    },
+    {
+     "country": "NZ",
+     "regulator": "Medsafe (Minister of Health consent)",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-03-10",
+     "opinion": null,
+     "expected": null,
+     "type": "Consent to distribute a new medicine (Medicines Act section 20) · date the consent was signed; published in the NZ Gazette 12 March 2026",
+     "indication": null,
+     "source": "https://gazette.govt.nz/notice/id/2026-sl1330",
+     "sourceName": "NZ Gazette 2026-sl1330: Consent to the Distribution of New Medicines (Andembry, sponsor CSL Behring (NZ) Limited)",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -4295,6 +4428,21 @@
      "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准盐酸艾泊度胺胶囊上市",
      "confidence": "regulator",
      "checked": "2026-10-30"
+    },
+    {
+     "country": "SA",
+     "regulator": "SFDA (Saudi Food and Drug Authority)",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08-11",
+     "opinion": null,
+     "expected": null,
+     "type": "Registration announced by SFDA · SFDA states it is the first regulator worldwide to approve it · Breakthrough Medicines Program · date is the SFDA announcement date",
+     "indication": "Relapsed or refractory multiple myeloma, with daratumumab and dexamethasone",
+     "source": "https://sfda.gov.sa/en/news/19261",
+     "sourceName": "SFDA news: registration of Zenbexus (iberdomide)",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -4667,6 +4815,21 @@
      "submitted": null,
      "expected": null,
      "opinion": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "NZ",
+     "regulator": "Medsafe (Minister of Health consent)",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09-22",
+     "opinion": null,
+     "expected": null,
+     "type": "Consent to distribute a new medicine (Medicines Act section 20) · date the consent was signed; published in the NZ Gazette 24 September 2026",
+     "indication": null,
+     "source": "https://gazette.govt.nz/notice/id/2026-sl5469",
+     "sourceName": "NZ Gazette 2026-sl5469: Consent to the Distribution of New Medicines (Itovebi, sponsor Roche Products (NZ) Limited)",
+     "confidence": "regulator",
      "checked": "2026-10-30"
     }
    ]
@@ -5053,6 +5216,21 @@
      "sourceName": "HSA Listing of approvals",
      "confidence": "regulator",
      "checked": "2026-10-29"
+    },
+    {
+     "country": "SA",
+     "regulator": "SFDA (Saudi Food and Drug Authority)",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-02",
+     "opinion": null,
+     "expected": null,
+     "type": "New registration (Biological) · SFDA's approvals list gives the month only",
+     "indication": null,
+     "source": "https://sfda.gov.sa/en/new-sfda-drug-approvals",
+     "sourceName": "SFDA: new drug approvals list",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -6470,6 +6648,21 @@
      "expected": null,
      "opinion": null,
      "checked": "2026-10-30"
+    },
+    {
+     "country": "SA",
+     "regulator": "SFDA (Saudi Food and Drug Authority)",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-10-03",
+     "opinion": null,
+     "expected": null,
+     "type": "Registration announced by SFDA · orphan drug designation · date is the SFDA announcement date",
+     "indication": "Idiopathic pulmonary fibrosis",
+     "source": "https://sfda.gov.sa/en/news/19685",
+     "sourceName": "SFDA news: registration of Jascayd (nerandomilast)",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -6596,6 +6789,21 @@
      "sourceName": "TGA: Prescription medicines under evaluation (filtered: 2026, types A and B; last updated 21 Sep 2026)",
      "confidence": "regulator",
      "checked": "2026-10-30"
+    },
+    {
+     "country": "IL",
+     "regulator": "Ministry of Health (Pharmaceutical Division)",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09",
+     "opinion": null,
+     "expected": null,
+     "type": "Registered in the Israeli Drug Registry (registration no. 182-70-38760-99) · listed in the Ministry's new registrations for September 2026; the Ministry publishes months, not exact dates",
+     "indication": "Progressing desmoid tumours in adults who need systemic treatment",
+     "source": "https://www.gov.il/he/departments/dynamiccollectors/new-israeli-drugs",
+     "sourceName": "Israel Ministry of Health: new drugs registered in the Israeli Drug Registry – September 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -6647,6 +6855,21 @@
      "confidence": "regulator",
      "submitted": null,
      "expected": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "SA",
+     "regulator": "SFDA (Saudi Food and Drug Authority)",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-01-16",
+     "opinion": null,
+     "expected": null,
+     "type": "Conditional approval announced by SFDA · SFDA says it is the first regulator to grant conditional approval for the lung cancer use · date is the SFDA announcement date",
+     "indication": "Metastatic NSCLC progressing after standard of care (with immunotherapy); BCG-unresponsive non-muscle-invasive bladder cancer with carcinoma in situ (with BCG)",
+     "source": "https://sfda.gov.sa/en/news/18788",
+     "sourceName": "SFDA news: registration of Anktiva (nogapendekin alfa inbakicept)",
+     "confidence": "regulator",
      "checked": "2026-10-30"
     }
    ]
@@ -6985,6 +7208,21 @@
      "indication": null,
      "source": "https://www.tga.gov.au/resources/prescription-medicines-under-evaluation",
      "sourceName": "TGA: Prescription medicines under evaluation (filtered: 2026, types A and B; last updated 21 Sep 2026)",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "SA",
+     "regulator": "SFDA (Saudi Food and Drug Authority)",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08-02",
+     "opinion": null,
+     "expected": null,
+     "type": "Registration announced by SFDA · date is the SFDA announcement date",
+     "indication": "Weight management in adults with obesity, or overweight with at least one weight-related condition",
+     "source": "https://sfda.gov.sa/en/news/19225",
+     "sourceName": "SFDA news: registration of Foundayo (orforglipron)",
      "confidence": "regulator",
      "checked": "2026-10-30"
     }
@@ -8250,6 +8488,21 @@
      "opinion": null,
      "indication": null,
      "checked": "2026-10-30"
+    },
+    {
+     "country": "IL",
+     "regulator": "Ministry of Health (Pharmaceutical Division)",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09",
+     "opinion": null,
+     "expected": null,
+     "type": "Registered in the Israeli Drug Registry (registration no. 182-83-38492-00) · listed in the Ministry's new registrations for September 2026; the Ministry publishes months, not exact dates",
+     "indication": "Metastatic or recurrent locally advanced Merkel cell carcinoma",
+     "source": "https://www.gov.il/he/departments/dynamiccollectors/new-israeli-drugs",
+     "sourceName": "Israel Ministry of Health: new drugs registered in the Israeli Drug Registry – September 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -8469,6 +8722,21 @@
      "submitted": null,
      "expected": null,
      "opinion": null,
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "SA",
+     "regulator": "SFDA (Saudi Food and Drug Authority)",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-01",
+     "opinion": null,
+     "expected": null,
+     "type": "New registration (Biological Drug) · SFDA's approvals list gives the month only",
+     "indication": null,
+     "source": "https://sfda.gov.sa/en/new-sfda-drug-approvals",
+     "sourceName": "SFDA: new drug approvals list",
+     "confidence": "regulator",
      "checked": "2026-10-30"
     }
    ]
@@ -8943,6 +9211,21 @@
      "expected": null,
      "opinion": null,
      "checked": "2026-10-30"
+    },
+    {
+     "country": "IL",
+     "regulator": "Ministry of Health (Pharmaceutical Division)",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-03",
+     "opinion": null,
+     "expected": null,
+     "type": "Registered in the Israeli Drug Registry (registration no. 181-73-38525-99) · listed in the Ministry's new registrations for February–March 2026; the Ministry publishes months, not exact dates",
+     "indication": "Hyperphenylalaninemia in adult and paediatric patients with phenylketonuria (PKU)",
+     "source": "https://www.gov.il/he/departments/dynamiccollectors/new-israeli-drugs",
+     "sourceName": "Israel Ministry of Health: new drugs registered in the Israeli Drug Registry – February–March 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -9057,6 +9340,21 @@
      "indication": null,
      "source": "https://www.nmpa.gov.cn/zhuanti/cxylqx/cxypxx/index.html",
      "sourceName": "NMPA 创新药品名录: 国家药监局附条件批准塞伐艾替尼片上市",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
+    },
+    {
+     "country": "IL",
+     "regulator": "Ministry of Health (Pharmaceutical Division)",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-08",
+     "opinion": null,
+     "expected": null,
+     "type": "Registered in the Israeli Drug Registry (registration no. 182-62-38449-99) · listed in the Ministry's new registrations for August 2026; the Ministry publishes months, not exact dates",
+     "indication": "Locally advanced or metastatic non-squamous NSCLC with HER2 (ERBB2) TKD activating mutations, after prior systemic therapy",
+     "source": "https://www.gov.il/he/departments/dynamiccollectors/new-israeli-drugs",
+     "sourceName": "Israel Ministry of Health: new drugs registered in the Israeli Drug Registry – August 2026",
      "confidence": "regulator",
      "checked": "2026-10-30"
     }
@@ -10725,6 +11023,21 @@
      "sourceName": "TGA: Prescription medicines under evaluation (filtered: 2026, types A and B; last updated 21 Sep 2026)",
      "confidence": "regulator",
      "checked": "2026-10-30"
+    },
+    {
+     "country": "IL",
+     "regulator": "Ministry of Health (Pharmaceutical Division)",
+     "status": "Approved",
+     "submitted": null,
+     "decision": "2026-09",
+     "opinion": null,
+     "expected": null,
+     "type": "Registered in the Israeli Drug Registry (registration no. 182-82-38576-99) · listed in the Ministry's new registrations for September 2026; the Ministry publishes months, not exact dates",
+     "indication": "Unresectable or metastatic non-squamous NSCLC with HER2 (ERBB2) tyrosine kinase domain activating mutations, after prior systemic therapy",
+     "source": "https://www.gov.il/he/departments/dynamiccollectors/new-israeli-drugs",
+     "sourceName": "Israel Ministry of Health: new drugs registered in the Israeli Drug Registry – September 2026",
+     "confidence": "regulator",
+     "checked": "2026-10-30"
     }
    ]
   },
@@ -11697,7 +12010,10 @@
   "KR": "Every prescription product approved in 2026 that MFDS flags as a new drug (신약), from MFDS's public drug database (to 30 Oct 2026). One entry per active ingredient, using the earliest approval.",
   "TW": "2026 Taiwan FDA drug licences (open data) for drugs tracked elsewhere, plus selected new active substances. Licence dates; not a complete list of Taiwan new medicines.",
   "BR": "2026 ANVISA registrations (open data) for drugs tracked elsewhere, plus selected new active substances. Dates are when the registration process was completed; not a complete list of Brazil new medicines.",
-  "IN": "Column added; records will be loaded in the next major update. India's CDSCO publishes a 'List of New Drugs approved' PDF each year (the 2026 list was last updated 12 March 2026). India's 'new drug' category includes drugs that are new to India even if approved elsewhere years earlier, so an Indian date is often not a first-in-world approval."
+  "IN": "Column added; records will be loaded in the next major update. India's CDSCO publishes a 'List of New Drugs approved' PDF each year (the 2026 list was last updated 12 March 2026). India's 'new drug' category includes drugs that are new to India even if approved elsewhere years earlier, so an Indian date is often not a first-in-world approval.",
+  "IL": "2026 new registrations from the Ministry of Health's monthly lists (February to September 2026), for drugs tracked elsewhere in this register. Generics, biosimilars, new strengths or forms and veterinary products are excluded. The Ministry publishes the month of registration, not the exact date.",
+  "SA": "2026 approvals of innovative medicines announced in SFDA's scientific news, plus matches from SFDA's new drug approvals list. That list was last filled in for February 2026, and it labels drugs as 'new' when they are new to Saudi Arabia, so most of its entries are not new worldwide. News dates are announcement dates.",
+  "NZ": "2026 consents to distribute new medicines published in the NZ Gazette (72 notices to 29 October 2026), for drugs tracked elsewhere in this register. New Zealand's 'new medicine' consents mostly cover generics, biosimilars and new presentations, so only a few are new active substances. Dates are when the consent was signed."
  },
  "skipped": [
   {

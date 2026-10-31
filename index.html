@@ -70,6 +70,7 @@ select{font:inherit;font-size:13px;padding:5px 8px;border-radius:8px;border:1px 
 .cell.rec{background:var(--rec-bg);color:var(--rec)}
 .cell.wait{background:var(--wait-bg);color:var(--wait)}
 .cell.none{color:var(--none);border:1px dashed var(--line)}
+.cell.other{gap:2px}.cell.other .o-item{font-size:11px;line-height:1.3}.cell.other .o-item .date{font-size:11px}
 .flag{font-size:10.5px;color:var(--warn)}
 .chev{color:var(--muted);transition:transform .15s}
 .row.open .chev{transform:rotate(90deg)}
@@ -179,6 +180,9 @@ html.embedded .home{display:none}
 <script>
 (function(){
   const COLS=[["US","FDA","United States"],["EU","EMA","European Union"],["UK","MHRA","United Kingdom"],["CA","Health Canada","Canada"],["AU","TGA","Australia"],["CH","Swissmedic","Switzerland"],["JP","PMDA","Japan"],["KR","MFDS","South Korea"],["CN","NMPA","China"],["TW","TFDA","Taiwan"],["SG","HSA","Singapore"],["BR","ANVISA","Brazil"],["IN","CDSCO","India"]];
+  // Smaller regulators share one "Other" column; each still has its own filter chip and its own entries in the detail view.
+  const MORE=[["IL","MoH","Israel"],["SA","SFDA","Saudi Arabia"],["NZ","Medsafe","New Zealand"]];
+  const ALL=[...COLS,...MORE];
   const CONF={regulator:"Regulator-published",company:"Company-reported",database:"Curated database",thirdparty:"Unconfirmed"};
   const MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
   const state={q:"",countries:new Set(),status:"all",sort:"recent",limit:40,open:new Set()};
@@ -189,12 +193,12 @@ html.embedded .home{display:none}
   const disp=s=>s.replace(/\b([a-z]{1,5}-?\d[\w-]*)/g,m=>m.toUpperCase());
   const evDate=r=>r.decision||r.opinion||"";
 
-  document.documentElement.style.setProperty("--n",COLS.length);
-  $("head").innerHTML=`<div>Drug</div>${COLS.map(([,a,c])=>`<div class="rg">${esc(a)}<small>${esc(c)}</small></div>`).join("")}<div></div>`;
+  document.documentElement.style.setProperty("--n",COLS.length+1);
+  $("head").innerHTML=`<div>Drug</div>${COLS.map(([,a,c])=>`<div class="rg">${esc(a)}<small>${esc(c)}</small></div>`).join("")}<div class="rg">Other<small>${MORE.map(m=>m[2]).join(", ")}</small></div><div></div>`;
 
   function chips(){
     const c=$("f-country");
-    COLS.forEach(([k,a])=>{const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=a;b.setAttribute("aria-pressed","false");
+    ALL.forEach(([k,a,n])=>{const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=MORE.some(m=>m[0]===k)?`${a} (${n})`:a;b.setAttribute("aria-pressed","false");
       b.onclick=()=>{state.countries.has(k)?state.countries.delete(k):state.countries.add(k);b.setAttribute("aria-pressed",state.countries.has(k));state.limit=40;render()};c.appendChild(b)});
     const s=$("f-status");
     [["all","All"],["Approved","Approved"],["Recommended","Recommended"],["Under review","Under review"]].forEach(([v,l])=>{const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=l;b.dataset.v=v;b.setAttribute("aria-pressed",v==="all");
@@ -233,8 +237,17 @@ html.embedded .home{display:none}
     return `<div class="cell wait">${lbl}<span class="st">Under review</span>${when}${p.confidence==="thirdparty"?'<span class="flag">unconfirmed</span>':""}</div>`;
   }
 
+  function other(d){
+    const lbl=`<span class="lbl">Other: ${esc(MORE.map(m=>m[2]).join(", "))}</span>`;
+    const items=MORE.map(([k,a])=>{const recs=d.records.filter(r=>r.country===k);if(!recs.length)return "";
+      const ap=recs.filter(r=>r.status==="Approved").sort((x,y)=>x.decision.localeCompare(y.decision))[0];
+      return ap?`<span class="o-item"><b>${esc(a)}</b> <span class="date">${fmt(ap.decision)}</span></span>`:`<span class="o-item"><b>${esc(a)}</b> under review</span>`}).filter(Boolean);
+    if(!items.length)return `<div class="cell none">${lbl}<span aria-label="No record">—</span></div>`;
+    return `<div class="cell ok other">${lbl}${items.join("")}</div>`;
+  }
+
   function detail(d){
-    const order=COLS.map(c=>c[0]);
+    const order=ALL.map(c=>c[0]);
     const recs=[...d.records].sort((a,b)=>order.indexOf(a.country)-order.indexOf(b.country)||(evDate(a)||a.expected||a.submitted||"").localeCompare(evDate(b)||b.expected||b.submitted||""));
     const name=k=>(DATA.countries&&DATA.countries[k])||k;
     const body=recs.map(r=>{
@@ -252,7 +265,7 @@ html.embedded .home{display:none}
     </dl>`}).join("");
     const firsts=recs.filter(r=>r.status==="Approved"&&r.decision).sort((a,b)=>a.decision.localeCompare(b.decision));
     let lag="";
-    if(firsts.length>1){const f=firsts[0];lag=`<span>First approval: <b>${esc(COLS.find(c=>c[0]===f.country)?.[1]||f.country)}</b>, ${fmt(f.decision)}.</span>`}
+    if(firsts.length>1){const f=firsts[0];lag=`<span>First approval: <b>${esc(ALL.find(c=>c[0]===f.country)?.[1]||f.country)}</b>, ${fmt(f.decision)}.</span>`}
     const term=encodeURIComponent(d.inn.replace(/\s*\(.*?\)\s*/g," ").trim());
     return `<div class="detail">${body}<div class="links">${lag}<a href="https://clinicaltrials.gov/search?intr=${term}" target="_blank" rel="noopener">Clinical trials on ClinicalTrials.gov</a><a href="https://trialsearch.who.int/?SearchAll=${term}" target="_blank" rel="noopener">WHO trial registry search</a></div></div>`;
   }
@@ -265,7 +278,7 @@ html.embedded .home{display:none}
       return `<div class="row${open?" open":""}" data-id="${esc(d.id)}">
         <button type="button" class="row-main" aria-expanded="${open}">
           <div class="drug"><div class="inn">${esc(disp(d.inn))}</div><div class="brand">${esc([d.brands.join(", "),d.sponsors.slice(0,3).join(", ")].filter(Boolean).join(" · "))}</div></div>
-          ${COLS.map(c=>cell(d,c)).join("")}
+          ${COLS.map(c=>cell(d,c)).join("")}${other(d)}
           <span class="chev" aria-hidden="true">›</span>
         </button>${open?detail(d):""}</div>`}).join(""):`<div class="empty">No drugs match. Try a shorter search or clear a filter.</div>`;
     $("more").hidden=list.length<=state.limit;
